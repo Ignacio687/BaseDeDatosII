@@ -1,0 +1,12 @@
+{
+    "name": "Pocion de fuerza mediana",
+    "peso": 0.02,
+    "valor": 60,
+    "descripcion": "Esta bebida revitalizante mediana aun huele al trol cuyo sudor le confirio sus propiedades magicas.",
+    "efectos":[
+        {
+            "Fuerza": 3
+        }
+    ],
+    "Duracion": 3
+}

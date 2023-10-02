@@ -1,0 +1,24 @@
+{
+    "nombre": "Bestia",
+    "recompensa_xp": 1000,
+    "recompensa_oro": 150,
+    "recomensa_obj": [
+        {
+            "_id": ObjectId("5f96c4a7149db3505412a90f")
+        }
+    ],
+    "etapas": [
+        {
+            "nombre": "Escapa de la isla.",
+            "descripcion": "La llave nos permitio entrar en Fuerte del Jubilo. Quiza al otro lado este lalibertad."
+        },
+        {
+            "nombre": "Usa la llave para escapar.",
+            "descripcion": "En la arena, un amigo de la infancia de Bestia le entrego una llave de Fuerte del Jbilo; pero ¿de que puerta sera?"
+        },
+        {
+            "nombre": "Huye de los maestres.",
+            "descripcion": "Bestia lleva documentos que avisan de algo denominado 'operacion Ruina'. En ella podria estar implicado Lohar, un delincuente de Maderiva. Bestia, un enano experimentado y capitan de barco, se unio a mi."
+        }
+    ]
+}

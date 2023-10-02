@@ -1,0 +1,21 @@
+{
+    "nombre": "A por Todas",
+    "dano-min": 10,
+    "dano-max": 15,
+    "puntos_de_accion": 3,
+    "alcance": 2.5,
+    "recarga": 1,
+    "efectos": [
+        {
+            "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+        }
+    ],
+    "requerimiento": [
+        {
+            "tipo": "Arma cuerpo a cuerpo"
+        },
+        {
+            "Cazador": 1
+        }
+    ]
+}

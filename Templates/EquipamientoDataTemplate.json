@@ -1,0 +1,32 @@
+{
+    "nombre": "Yelmo del Tirano",
+    "tipo": "Casco",
+    "nivel": 7,
+    "peso": 2.5,
+    "valor": 790,
+    "rareza": "Unico",
+    "armadura fisica": 13,
+    "armadura_magica": 3,
+    "descripcion": "El yelmo del ultimo rey hechicero de la Fuente es temible e imponente. Ya no pesa sobre el ningun antiguo mal y no supone una amenaza directa para su portador. Aunque quien sabe lo que podrian llegar a hacerte quienes se ofendan por tu eleccion de vestuario...",
+    "efectos":[
+        {
+            "fuerza": 1
+        },
+        {
+            "liderazgo": 1
+        },
+        {
+            "velocidad": -1
+        }
+    ],
+    "requerimientos": [
+        {
+            "fuerza": 12
+        }
+    ],
+    "habilidad": [
+        {
+            "_id": ObjectId("5f96c4a7149db3505412a90f")
+        }
+    ]
+}

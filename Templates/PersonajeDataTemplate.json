@@ -1,0 +1,174 @@
+{
+  "nombre": "Tomi",
+  "nivel": 10,
+  "puntos_vida": 310,
+  "puntos_accion": 5,
+  "atributos":
+    {
+      "fuerza": 22,
+      "pericia": 11,
+      "inteligencia": 10,
+      "constitucion": 17,
+      "memoria": 12,
+      "ingenio": 12,
+      "armadura_fisica": 99,
+      "armadura_magica": 55,
+      "movimiento": 5,
+      "iniciativa": 14,
+      "res-fuego": 0,
+      "res-agua": 0,
+      "res-tierra": 5,
+      "res-aire": 10,
+      "res-veneno": 0
+    },
+  "aptitudes": 
+    {
+    "aeroteurgo": 0,
+    "canalla": 0,
+    "cazador": 0,
+    "contienda": 2,
+    "geomante": 0,
+    "hidrosofista": 0,
+    "invocacion": 5,
+    "necromante": 0,
+    "piroquinectico": 0,
+    "polimorfismo": 3
+    },
+  "habilidades": [
+    {
+      "_id": ObjectId("5f96c4a7149db3505412a90f")
+    },
+    {
+      "_id": ObjectId("5f96c4a7149db3505412a90f")
+    }
+  ],
+  "equipo": [
+    {
+      "nombre": "Yelmo del Tirano",
+      "tipo": "Casco",
+      "nivel": 7,
+      "peso": 2.5,
+      "valor": 790,
+      "rareza": "Unico",
+      "armadura fisica": 13,
+      "armadura_magica": 3,
+      "descripcion": "El yelmo del ultimo rey hechicero de la Fuente es temible e imponente. Ya no pesa sobre el ningun antiguo mal y no supone una amenaza directa para su portador. Aunque quien sabe lo que podrian llegar a hacerte quienes se ofendan por tu eleccion de vestuario...",
+      "efectos":[
+          {
+              "fuerza": 1
+          },
+          {
+              "liderazgo": 1
+          },
+          {
+              "velocidad": -1
+          }
+      ],
+      "requerimientos": [
+          {
+              "fuerza": 12
+          }
+      ],
+      "habilidad": [
+          {
+              "_id": ObjectId("5f96c4a7149db3505412a90f")
+          }
+      ]
+    },
+    {
+      "nombre": "Martillo de Guerra",
+      "arma": "Maza a dos manos",
+      "tipo": "Arma cuerpo a cuerpo",
+      "dano-min": 25,
+      "dano-max": 27,
+      "critico": 165,
+      "puntos_de_accion": 2,
+      "nivel": 8,
+      "peso": 6,
+      "valor": 170,
+      "rareza": "Poco comun",
+      "alcance": 1.5,
+      "efecto": [
+          {
+              "pg": 34
+          }
+      ],
+      "requerimiento": [
+          {
+              "fuerza": 12
+          }
+      ],
+      "habilidad": [
+          {
+              "_id": ObjectId("4_p0r-T0d45")
+          }
+      ],
+      "descripcion": "A juzgar por la cantidad de sangre reseca que subre la empunadura, parece que esta arma ha visto mas de un combate en un pasado no muy lejano."
+    },
+    {
+      "nombre": "Talisman del Cazador",
+      "tipo": "Amuleto",
+      "nivel": 6,
+      "peso": 0.07,
+      "valor": 647,
+      "rareza": "Raro",
+      "armadura fisica": 0,
+      "armadura_magica": 14,
+      "descripcion": "",
+      "efectos":[
+          {
+              "pericia": 1
+          },
+          {
+              "liderazgo": 1
+          }
+      ],
+      "requerimientos": [
+      ],
+      "habilidad": [
+      ]
+    }
+  ],
+  "inventario": [
+    {
+      "_id": ObjectId("5f96c4a7149db3505412a90f"),
+      "quantity": 5
+    },
+    {
+      "nombre": "Espada de hierro",
+      "arma": "Espada",
+      "tipo": "Arma cuerpo a cuerpo",
+      "dano-min": 22,
+      "dano-max": 25,
+      "critico": 150,
+      "puntos_de_accion": 2,
+      "nivel": 7,
+      "peso": 4,
+      "valor": 120,
+      "rareza": "Comun",
+      "alcance": 1,
+      "efecto": [
+          {
+              "inicitiva": 34
+          }
+      ],
+      "requerimiento": [
+          {
+              "fuerza": 7
+          }
+      ],
+      "habilidad": [
+          {
+              "_id": ObjectId("4_p0r-T0d45")
+          }
+      ],
+      "descripcion": "Muy afilada, maldecida por el antiguo rey del Cordoba"
+    }
+  ],
+  "misiones": [
+    {
+      "_id": ObjectId("5f96c4a7149db3505412a91f"),
+      "estado": "En progreso"
+    }
+  ]
+}

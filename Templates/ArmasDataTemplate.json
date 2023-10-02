@@ -1,0 +1,30 @@
+{
+    "nombre": "Martillo de Guerra",
+    "arma": "Maza a dos manos",
+    "tipo": "Arma cuerpo a cuerpo",
+    "dano-min": 25,
+    "dano-max": 27,
+    "critico": 165,
+    "puntos_de_accion": 2,
+    "nivel": 8,
+    "peso": 6,
+    "valor": 170,
+    "rareza": "Poco comun",
+    "alcance": 1.5,
+    "efecto": [
+        {
+            "pg": 34
+        }
+    ],
+    "requerimiento": [
+        {
+            "fuerza": 12
+        }
+    ],
+    "habilidad": [
+        {
+            "_id": ObjectId("4_p0r-T0d45")
+        }
+    ],
+    "descripcion": "A juzgar por la cantidad de sangre reseca que subre la empunadura, parece que esta arma ha visto mas de un combate en un pasado no muy lejano."
+}
