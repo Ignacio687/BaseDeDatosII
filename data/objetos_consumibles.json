@@ -1,0 +1,2088 @@
+[
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "raro pocion de resistencia",
+        "peso": 0.23,
+        "valor": 69,
+        "descripcion": "Este/a pocion de resistencia fue conseguido tras derramar mucha sangre y es un objeto maldido.",
+        "efectos": [
+            {
+                "Constitucion": 12
+            },
+            {
+                "Voluntad": 1
+            },
+            {
+                "Percepcion": 14
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "caotico piedra preciosa",
+        "peso": 1.74,
+        "valor": 58,
+        "descripcion": "Este/a piedra preciosa fue conseguido tras derramar mucha sangre y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Resistencia": 13
+            },
+            {
+                "Percepcion": 8
+            },
+            {
+                "Resistencia": 7
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "encantado pocion de veneno",
+        "peso": 0.38,
+        "valor": 94,
+        "descripcion": "Este/a pocion de veneno se uso en la guerra contra los elfos y es muy poderoso.",
+        "efectos": [
+            {
+                "Destreza": 1
+            },
+            {
+                "Carisma": 7
+            },
+            {
+                "Voluntad": 13
+            },
+            {
+                "Destreza": 15
+            },
+            {
+                "Carisma": 12
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de salud",
+        "nombre": "raro pocion de salud",
+        "peso": 0.91,
+        "valor": 31,
+        "descripcion": "Este/a pocion de salud lo encontaste en el suelo y es misterioso.",
+        "efectos": [
+            {
+                "Destreza": 9
+            },
+            {
+                "Resistencia": 6
+            },
+            {
+                "Suerte": 10
+            },
+            {
+                "Sabiduria": 8
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "oscuro pergamino",
+        "peso": 1.28,
+        "valor": 54,
+        "descripcion": "Este/a pergamino lo encontaste en el suelo y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Percepcion": 13
+            },
+            {
+                "Resistencia": 12
+            },
+            {
+                "Voluntad": 11
+            },
+            {
+                "Suerte": 6
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "maldito pocion de mana",
+        "peso": 1.06,
+        "valor": 29,
+        "descripcion": "Este/a pocion de mana viene de un reino muy lejano y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Percepcion": 5
+            },
+            {
+                "Agilidad": 4
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "unico bomba molotov",
+        "peso": 1.37,
+        "valor": 46,
+        "descripcion": "Este/a bomba molotov pertenece a una dinastia perdida y es misterioso.",
+        "efectos": [
+            {
+                "Inteligencia": 15
+            },
+            {
+                "Constitucion": 8
+            },
+            {
+                "Constitucion": 6
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "unico bomba molotov",
+        "peso": 1.34,
+        "valor": 48,
+        "descripcion": "Este/a bomba molotov pertenece a una dinastia perdida y es misterioso.",
+        "efectos": [
+            {
+                "Suerte": 7
+            },
+            {
+                "Carisma": 7
+            },
+            {
+                "Inteligencia": 5
+            },
+            {
+                "Agilidad": 2
+            },
+            {
+                "Sabiduria": 4
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "unico pocion de veneno",
+        "peso": 1.48,
+        "valor": 63,
+        "descripcion": "Este/a pocion de veneno parece bastante normal y es muy poderoso.",
+        "efectos": [
+            {
+                "Inteligencia": 11
+            },
+            {
+                "Percepcion": 11
+            },
+            {
+                "Sabiduria": 1
+            },
+            {
+                "Constitucion": 11
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pan",
+        "nombre": "encantado pan",
+        "peso": 0.65,
+        "valor": 29,
+        "descripcion": "Este/a pan parece bastante normal y es un objeto maldido.",
+        "efectos": [
+            {
+                "Percepcion": 12
+            },
+            {
+                "Percepcion": 2
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de fuerza",
+        "nombre": "oscuro pocion de fuerza",
+        "peso": 0.45,
+        "valor": 82,
+        "descripcion": "Este/a pocion de fuerza se lo saco dios de dios sabe donde y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Destreza": 9
+            },
+            {
+                "Voluntad": 4
+            },
+            {
+                "Agilidad": 13
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "pocion",
+        "nombre": "comun pocion",
+        "peso": 0.39,
+        "valor": 14,
+        "descripcion": "Este/a pocion viene de un reino muy lejano y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Suerte": 12
+            },
+            {
+                "Destreza": 8
+            },
+            {
+                "Percepcion": 1
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "unico pocion de fuego",
+        "peso": 0.05,
+        "valor": 85,
+        "descripcion": "Este/a pocion de fuego se uso en la guerra contra los elfos y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Sabiduria": 5
+            },
+            {
+                "Constitucion": 4
+            },
+            {
+                "Inteligencia": 2
+            },
+            {
+                "Destreza": 2
+            },
+            {
+                "Voluntad": 8
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "incomun pocion de hielo",
+        "peso": 1.36,
+        "valor": 100,
+        "descripcion": "Este/a pocion de hielo viene de un reino muy lejano y es misterioso.",
+        "efectos": [
+            {
+                "Percepcion": 15
+            },
+            {
+                "Resistencia": 2
+            },
+            {
+                "Destreza": 15
+            },
+            {
+                "Destreza": 15
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "incomun bomba molotov",
+        "peso": 0.19,
+        "valor": 12,
+        "descripcion": "Este/a bomba molotov fue conseguido tras derramar mucha sangre y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Suerte": 2
+            },
+            {
+                "Agilidad": 2
+            },
+            {
+                "Suerte": 4
+            },
+            {
+                "Inteligencia": 8
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de fuerza",
+        "nombre": "divino pocion de fuerza",
+        "peso": 0.08,
+        "valor": 10,
+        "descripcion": "Este/a pocion de fuerza fue conseguido tras derramar mucha sangre y es misterioso.",
+        "efectos": [
+            {
+                "Suerte": 10
+            },
+            {
+                "Constitucion": 14
+            },
+            {
+                "Voluntad": 5
+            },
+            {
+                "Suerte": 3
+            },
+            {
+                "Inteligencia": 8
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "legendario elixir",
+        "peso": 1.16,
+        "valor": 100,
+        "descripcion": "Este/a elixir viene de un reino muy lejano y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Destreza": 15
+            },
+            {
+                "Suerte": 11
+            },
+            {
+                "Agilidad": 4
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "legendario elixir",
+        "peso": 0.71,
+        "valor": 50,
+        "descripcion": "Este/a elixir viene de un reino muy lejano y es muy poderoso.",
+        "efectos": [
+            {
+                "Carisma": 14
+            },
+            {
+                "Suerte": 7
+            },
+            {
+                "Suerte": 15
+            },
+            {
+                "Voluntad": 7
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "antiguo pocion de resistencia",
+        "peso": 0.34,
+        "valor": 46,
+        "descripcion": "Este/a pocion de resistencia viene de un reino muy lejano y es muy poderoso.",
+        "efectos": [
+            {
+                "Agilidad": 13
+            },
+            {
+                "Percepcion": 11
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "unico pergamino",
+        "peso": 0.67,
+        "valor": 35,
+        "descripcion": "Este/a pergamino se uso en la guerra contra los elfos y es muy poderoso.",
+        "efectos": [
+            {
+                "Voluntad": 11
+            },
+            {
+                "Agilidad": 11
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "magico pocion de hielo",
+        "peso": 1.62,
+        "valor": 91,
+        "descripcion": "Este/a pocion de hielo se uso en la guerra contra los elfos y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Suerte": 2
+            },
+            {
+                "Suerte": 8
+            },
+            {
+                "Constitucion": 7
+            },
+            {
+                "Sabiduria": 7
+            },
+            {
+                "Agilidad": 5
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "magico pocion de resistencia",
+        "peso": 1.77,
+        "valor": 30,
+        "descripcion": "Este/a pocion de resistencia pertenece a una dinastia perdida y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Carisma": 6
+            },
+            {
+                "Agilidad": 15
+            },
+            {
+                "Voluntad": 1
+            },
+            {
+                "Sabiduria": 7
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "misterioso pocion de fuego",
+        "peso": 0.65,
+        "valor": 68,
+        "descripcion": "Este/a pocion de fuego pertenece a una dinastia perdida y es un objeto maldido.",
+        "efectos": [
+            {
+                "Constitucion": 5
+            },
+            {
+                "Carisma": 14
+            },
+            {
+                "Constitucion": 3
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "magico pocion de fuego",
+        "peso": 0.41,
+        "valor": 22,
+        "descripcion": "Este/a pocion de fuego lo encontaste en el suelo y es muy poderoso.",
+        "efectos": [
+            {
+                "Inteligencia": 9
+            },
+            {
+                "Suerte": 3
+            },
+            {
+                "Percepcion": 4
+            },
+            {
+                "Carisma": 15
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "misterioso piedra preciosa",
+        "peso": 1.02,
+        "valor": 97,
+        "descripcion": "Este/a piedra preciosa parece bastante normal y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Constitucion": 13
+            },
+            {
+                "Percepcion": 9
+            },
+            {
+                "Resistencia": 13
+            },
+            {
+                "Destreza": 10
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "oscuro pocion de fuego",
+        "peso": 0.65,
+        "valor": 69,
+        "descripcion": "Este/a pocion de fuego se uso en la guerra contra los elfos y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Voluntad": 3
+            },
+            {
+                "Destreza": 1
+            },
+            {
+                "Inteligencia": 12
+            },
+            {
+                "Inteligencia": 10
+            },
+            {
+                "Sabiduria": 15
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "poderoso pocion de resistencia",
+        "peso": 1.09,
+        "valor": 34,
+        "descripcion": "Este/a pocion de resistencia se uso en la guerra contra los elfos y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Agilidad": 5
+            },
+            {
+                "Destreza": 13
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pan",
+        "nombre": "divino pan",
+        "peso": 1.88,
+        "valor": 98,
+        "descripcion": "Este/a pan viene de un reino muy lejano y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Constitucion": 11
+            },
+            {
+                "Sabiduria": 7
+            },
+            {
+                "Resistencia": 3
+            },
+            {
+                "Inteligencia": 3
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "comun bomba molotov",
+        "peso": 0.12,
+        "valor": 91,
+        "descripcion": "Este/a bomba molotov parece bastante normal y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Destreza": 13
+            },
+            {
+                "Voluntad": 8
+            },
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Agilidad": 14
+            },
+            {
+                "Resistencia": 13
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "encantado pocion de regeneracion",
+        "peso": 1.14,
+        "valor": 35,
+        "descripcion": "Este/a pocion de regeneracion se lo saco dios de dios sabe donde y es muy poderoso.",
+        "efectos": [
+            {
+                "Constitucion": 14
+            },
+            {
+                "Destreza": 9
+            },
+            {
+                "Suerte": 1
+            },
+            {
+                "Destreza": 7
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion",
+        "nombre": "divino pocion",
+        "peso": 1.47,
+        "valor": 17,
+        "descripcion": "Este/a pocion se uso en la guerra contra los elfos y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Inteligencia": 7
+            },
+            {
+                "Resistencia": 3
+            },
+            {
+                "Resistencia": 15
+            },
+            {
+                "Percepcion": 14
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "legendario pocion de fuego",
+        "peso": 0.84,
+        "valor": 51,
+        "descripcion": "Este/a pocion de fuego pertenece a una dinastia perdida y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Constitucion": 10
+            },
+            {
+                "Voluntad": 4
+            },
+            {
+                "Destreza": 6
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "antiguo pocion de mana",
+        "peso": 0.37,
+        "valor": 66,
+        "descripcion": "Este/a pocion de mana tiene propiedades magicas y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Resistencia": 9
+            },
+            {
+                "Agilidad": 10
+            },
+            {
+                "Resistencia": 1
+            },
+            {
+                "Carisma": 11
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "poderoso piedra preciosa",
+        "peso": 1.98,
+        "valor": 82,
+        "descripcion": "Este/a piedra preciosa se uso en la guerra contra los elfos y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Destreza": 13
+            },
+            {
+                "Percepcion": 10
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "divino pocion de velocidad",
+        "peso": 1.29,
+        "valor": 17,
+        "descripcion": "Este/a pocion de velocidad tiene propiedades magicas y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Constitucion": 15
+            },
+            {
+                "Constitucion": 3
+            },
+            {
+                "Destreza": 4
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "maldito pocion de velocidad",
+        "peso": 0.21,
+        "valor": 83,
+        "descripcion": "Este/a pocion de velocidad fue conseguido tras derramar mucha sangre y es un objeto maldido.",
+        "efectos": [
+            {
+                "Resistencia": 9
+            },
+            {
+                "Constitucion": 13
+            },
+            {
+                "Destreza": 6
+            },
+            {
+                "Suerte": 11
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "maldito pocion de regeneracion",
+        "peso": 0.81,
+        "valor": 54,
+        "descripcion": "Este/a pocion de regeneracion se lo saco dios de dios sabe donde y es un objeto maldido.",
+        "efectos": [
+            {
+                "Suerte": 10
+            },
+            {
+                "Inteligencia": 8
+            },
+            {
+                "Sabiduria": 14
+            },
+            {
+                "Carisma": 3
+            },
+            {
+                "Sabiduria": 8
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "maldito piedra preciosa",
+        "peso": 1.18,
+        "valor": 50,
+        "descripcion": "Este/a piedra preciosa se uso en la guerra contra los elfos y es misterioso.",
+        "efectos": [
+            {
+                "Suerte": 14
+            },
+            {
+                "Voluntad": 12
+            },
+            {
+                "Percepcion": 10
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "unico piedra preciosa",
+        "peso": 1.12,
+        "valor": 87,
+        "descripcion": "Este/a piedra preciosa se uso en la guerra contra los elfos y es muy poderoso.",
+        "efectos": [
+            {
+                "Sabiduria": 15
+            },
+            {
+                "Voluntad": 13
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "misterioso pocion de velocidad",
+        "peso": 1.15,
+        "valor": 10,
+        "descripcion": "Este/a pocion de velocidad lo encontaste en el suelo y es muy poderoso.",
+        "efectos": [
+            {
+                "Sabiduria": 14
+            },
+            {
+                "Constitucion": 12
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "maldito pocion de velocidad",
+        "peso": 0.25,
+        "valor": 79,
+        "descripcion": "Este/a pocion de velocidad se uso en la guerra contra los elfos y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Destreza": 6
+            },
+            {
+                "Destreza": 5
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "unico pergamino",
+        "peso": 0.98,
+        "valor": 24,
+        "descripcion": "Este/a pergamino fue conseguido tras derramar mucha sangre y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Constitucion": 12
+            },
+            {
+                "Inteligencia": 8
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "legendario bomba molotov",
+        "peso": 0.22,
+        "valor": 44,
+        "descripcion": "Este/a bomba molotov parece bastante normal y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Suerte": 1
+            },
+            {
+                "Inteligencia": 14
+            },
+            {
+                "Constitucion": 3
+            },
+            {
+                "Constitucion": 14
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "magico pocion de regeneracion",
+        "peso": 1.18,
+        "valor": 96,
+        "descripcion": "Este/a pocion de regeneracion se lo saco dios de dios sabe donde y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Voluntad": 9
+            },
+            {
+                "Suerte": 1
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de salud",
+        "nombre": "caotico pocion de salud",
+        "peso": 1.02,
+        "valor": 66,
+        "descripcion": "Este/a pocion de salud lo encontaste en el suelo y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Destreza": 1
+            },
+            {
+                "Constitucion": 13
+            },
+            {
+                "Suerte": 2
+            },
+            {
+                "Carisma": 11
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "encantado piedra preciosa",
+        "peso": 1.49,
+        "valor": 71,
+        "descripcion": "Este/a piedra preciosa se lo saco dios de dios sabe donde y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Constitucion": 7
+            },
+            {
+                "Percepcion": 12
+            },
+            {
+                "Percepcion": 4
+            },
+            {
+                "Inteligencia": 12
+            },
+            {
+                "Destreza": 1
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "maldito pocion de veneno",
+        "peso": 0.56,
+        "valor": 87,
+        "descripcion": "Este/a pocion de veneno se uso en la guerra contra los elfos y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Constitucion": 11
+            },
+            {
+                "Carisma": 11
+            },
+            {
+                "Carisma": 2
+            },
+            {
+                "Inteligencia": 15
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "unico pocion de regeneracion",
+        "peso": 0.18,
+        "valor": 84,
+        "descripcion": "Este/a pocion de regeneracion viene de un reino muy lejano y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Carisma": 3
+            },
+            {
+                "Sabiduria": 7
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "misterioso piedra preciosa",
+        "peso": 0.98,
+        "valor": 64,
+        "descripcion": "Este/a piedra preciosa lo encontaste en el suelo y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Resistencia": 14
+            },
+            {
+                "Carisma": 3
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "caotico piedra preciosa",
+        "peso": 1.72,
+        "valor": 22,
+        "descripcion": "Este/a piedra preciosa lo encontaste en el suelo y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Sabiduria": 12
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de curacion",
+        "nombre": "poderoso pocion de curacion",
+        "peso": 0.83,
+        "valor": 57,
+        "descripcion": "Este/a pocion de curacion parece bastante normal y es misterioso.",
+        "efectos": [
+            {
+                "Destreza": 9
+            },
+            {
+                "Resistencia": 9
+            },
+            {
+                "Resistencia": 6
+            },
+            {
+                "Agilidad": 12
+            },
+            {
+                "Carisma": 3
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "resplandeciente pocion de regeneracion",
+        "peso": 1.59,
+        "valor": 67,
+        "descripcion": "Este/a pocion de regeneracion se uso en la guerra contra los elfos y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Suerte": 6
+            },
+            {
+                "Destreza": 8
+            },
+            {
+                "Suerte": 2
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "divino elixir",
+        "peso": 1.79,
+        "valor": 79,
+        "descripcion": "Este/a elixir fue conseguido tras derramar mucha sangre y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Sabiduria": 6
+            },
+            {
+                "Sabiduria": 5
+            },
+            {
+                "Sabiduria": 6
+            },
+            {
+                "Inteligencia": 13
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "raro bomba molotov",
+        "peso": 0.45,
+        "valor": 90,
+        "descripcion": "Este/a bomba molotov viene de un reino muy lejano y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Agilidad": 6
+            },
+            {
+                "Carisma": 7
+            },
+            {
+                "Voluntad": 14
+            },
+            {
+                "Resistencia": 3
+            },
+            {
+                "Suerte": 2
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "poderoso pocion de velocidad",
+        "peso": 1.63,
+        "valor": 73,
+        "descripcion": "Este/a pocion de velocidad se lo saco dios de dios sabe donde y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Agilidad": 15
+            },
+            {
+                "Carisma": 13
+            },
+            {
+                "Suerte": 11
+            },
+            {
+                "Destreza": 4
+            },
+            {
+                "Voluntad": 2
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "maldito piedra preciosa",
+        "peso": 1.26,
+        "valor": 26,
+        "descripcion": "Este/a piedra preciosa parece bastante normal y es un objeto maldido.",
+        "efectos": [
+            {
+                "Voluntad": 9
+            },
+            {
+                "Destreza": 15
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "resplandeciente pocion de fuego",
+        "peso": 1.73,
+        "valor": 32,
+        "descripcion": "Este/a pocion de fuego parece bastante normal y es misterioso.",
+        "efectos": [
+            {
+                "Constitucion": 6
+            },
+            {
+                "Voluntad": 8
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "comun pocion de fuego",
+        "peso": 0.29,
+        "valor": 93,
+        "descripcion": "Este/a pocion de fuego tiene propiedades magicas y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Destreza": 8
+            },
+            {
+                "Resistencia": 4
+            },
+            {
+                "Carisma": 1
+            },
+            {
+                "Inteligencia": 10
+            },
+            {
+                "Destreza": 2
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "epico pocion de hielo",
+        "peso": 0.42,
+        "valor": 82,
+        "descripcion": "Este/a pocion de hielo se lo saco dios de dios sabe donde y es un objeto maldido.",
+        "efectos": [
+            {
+                "Agilidad": 7
+            },
+            {
+                "Resistencia": 14
+            },
+            {
+                "Destreza": 7
+            },
+            {
+                "Inteligencia": 7
+            },
+            {
+                "Destreza": 12
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "encantado pocion de resistencia",
+        "peso": 1.72,
+        "valor": 91,
+        "descripcion": "Este/a pocion de resistencia fue conseguido tras derramar mucha sangre y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Agilidad": 7
+            },
+            {
+                "Destreza": 9
+            },
+            {
+                "Constitucion": 5
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pan",
+        "nombre": "epico pan",
+        "peso": 1.42,
+        "valor": 77,
+        "descripcion": "Este/a pan se lo saco dios de dios sabe donde y es muy poderoso.",
+        "efectos": [
+            {
+                "Suerte": 7
+            },
+            {
+                "Percepcion": 13
+            },
+            {
+                "Agilidad": 9
+            },
+            {
+                "Sabiduria": 12
+            },
+            {
+                "Inteligencia": 12
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "encantado piedra preciosa",
+        "peso": 1.3,
+        "valor": 72,
+        "descripcion": "Este/a piedra preciosa parece bastante normal y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Carisma": 4
+            },
+            {
+                "Suerte": 9
+            },
+            {
+                "Destreza": 10
+            },
+            {
+                "Suerte": 12
+            },
+            {
+                "Sabiduria": 8
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "oscuro pocion de mana",
+        "peso": 1.05,
+        "valor": 11,
+        "descripcion": "Este/a pocion de mana se lo saco dios de dios sabe donde y es muy poderoso.",
+        "efectos": [
+            {
+                "Constitucion": 15
+            },
+            {
+                "Inteligencia": 1
+            },
+            {
+                "Constitucion": 1
+            },
+            {
+                "Inteligencia": 14
+            }
+        ],
+        "duracion": 5
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "misterioso pergamino",
+        "peso": 0.94,
+        "valor": 99,
+        "descripcion": "Este/a pergamino fue conseguido tras derramar mucha sangre y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Constitucion": 11
+            },
+            {
+                "Inteligencia": 1
+            },
+            {
+                "Destreza": 2
+            },
+            {
+                "Carisma": 15
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de electricidad",
+        "nombre": "epico pocion de electricidad",
+        "peso": 1.68,
+        "valor": 29,
+        "descripcion": "Este/a pocion de electricidad se uso en la guerra contra los elfos y es un objeto maldido.",
+        "efectos": [
+            {
+                "Voluntad": 12
+            },
+            {
+                "Carisma": 8
+            },
+            {
+                "Carisma": 12
+            },
+            {
+                "Suerte": 15
+            },
+            {
+                "Resistencia": 13
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "poderoso pocion de fuego",
+        "peso": 0.23,
+        "valor": 97,
+        "descripcion": "Este/a pocion de fuego se lo saco dios de dios sabe donde y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Resistencia": 11
+            },
+            {
+                "Resistencia": 14
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "unico pocion de hielo",
+        "peso": 0.59,
+        "valor": 10,
+        "descripcion": "Este/a pocion de hielo tiene propiedades magicas y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Percepcion": 7
+            },
+            {
+                "Sabiduria": 13
+            },
+            {
+                "Sabiduria": 6
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "resplandeciente pocion de hielo",
+        "peso": 1.43,
+        "valor": 89,
+        "descripcion": "Este/a pocion de hielo lo encontaste en el suelo y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Destreza": 15
+            },
+            {
+                "Agilidad": 1
+            },
+            {
+                "Suerte": 3
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de curacion",
+        "nombre": "maldito pocion de curacion",
+        "peso": 0.85,
+        "valor": 70,
+        "descripcion": "Este/a pocion de curacion tiene propiedades magicas y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Inteligencia": 1
+            },
+            {
+                "Percepcion": 4
+            },
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Agilidad": 13
+            },
+            {
+                "Percepcion": 13
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "legendario pocion de mana",
+        "peso": 1.6,
+        "valor": 74,
+        "descripcion": "Este/a pocion de mana fue conseguido tras derramar mucha sangre y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Voluntad": 4
+            },
+            {
+                "Suerte": 3
+            },
+            {
+                "Agilidad": 9
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "misterioso pocion de regeneracion",
+        "peso": 1.27,
+        "valor": 38,
+        "descripcion": "Este/a pocion de regeneracion tiene propiedades magicas y es muy poderoso.",
+        "efectos": [
+            {
+                "Constitucion": 9
+            },
+            {
+                "Carisma": 1
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de fuerza",
+        "nombre": "epico pocion de fuerza",
+        "peso": 0.9,
+        "valor": 50,
+        "descripcion": "Este/a pocion de fuerza se uso en la guerra contra los elfos y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Suerte": 2
+            },
+            {
+                "Suerte": 13
+            },
+            {
+                "Inteligencia": 14
+            },
+            {
+                "Voluntad": 9
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "encantado pocion de veneno",
+        "peso": 0.41,
+        "valor": 26,
+        "descripcion": "Este/a pocion de veneno se uso en la guerra contra los elfos y es muy poderoso.",
+        "efectos": [
+            {
+                "Percepcion": 10
+            },
+            {
+                "Sabiduria": 8
+            },
+            {
+                "Percepcion": 14
+            },
+            {
+                "Carisma": 1
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "misterioso pocion de veneno",
+        "peso": 1.59,
+        "valor": 99,
+        "descripcion": "Este/a pocion de veneno lo encontaste en el suelo y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Inteligencia": 11
+            },
+            {
+                "Suerte": 12
+            }
+        ],
+        "duracion": 9
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "legendario elixir",
+        "peso": 0.19,
+        "valor": 57,
+        "descripcion": "Este/a elixir se lo saco dios de dios sabe donde y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Voluntad": 9
+            },
+            {
+                "Resistencia": 11
+            },
+            {
+                "Agilidad": 12
+            },
+            {
+                "Voluntad": 6
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "maldito pocion de hielo",
+        "peso": 1.85,
+        "valor": 37,
+        "descripcion": "Este/a pocion de hielo pertenece a una dinastia perdida y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Destreza": 5
+            },
+            {
+                "Constitucion": 5
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "magico pocion de mana",
+        "peso": 1.78,
+        "valor": 25,
+        "descripcion": "Este/a pocion de mana pertenece a una dinastia perdida y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Destreza": 12
+            },
+            {
+                "Percepcion": 11
+            },
+            {
+                "Voluntad": 11
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "caotico pergamino",
+        "peso": 1.71,
+        "valor": 47,
+        "descripcion": "Este/a pergamino pertenece a una dinastia perdida y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Destreza": 15
+            },
+            {
+                "Resistencia": 2
+            },
+            {
+                "Voluntad": 7
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "piedra preciosa",
+        "nombre": "maldito piedra preciosa",
+        "peso": 0.67,
+        "valor": 59,
+        "descripcion": "Este/a piedra preciosa viene de un reino muy lejano y es un objeto maldido.",
+        "efectos": [
+            {
+                "Suerte": 7
+            },
+            {
+                "Agilidad": 9
+            },
+            {
+                "Percepcion": 3
+            },
+            {
+                "Percepcion": 4
+            },
+            {
+                "Resistencia": 14
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de resistencia",
+        "nombre": "poderoso pocion de resistencia",
+        "peso": 0.53,
+        "valor": 75,
+        "descripcion": "Este/a pocion de resistencia viene de un reino muy lejano y es un objeto maldido.",
+        "efectos": [
+            {
+                "Carisma": 5
+            },
+            {
+                "Resistencia": 9
+            },
+            {
+                "Destreza": 4
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "misterioso pocion de velocidad",
+        "peso": 0.78,
+        "valor": 46,
+        "descripcion": "Este/a pocion de velocidad viene de un reino muy lejano y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Voluntad": 14
+            },
+            {
+                "Agilidad": 6
+            },
+            {
+                "Destreza": 8
+            },
+            {
+                "Resistencia": 2
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "bomba molotov",
+        "nombre": "maldito bomba molotov",
+        "peso": 0.16,
+        "valor": 66,
+        "descripcion": "Este/a bomba molotov fue conseguido tras derramar mucha sangre y es muy poderoso.",
+        "efectos": [
+            {
+                "Inteligencia": 14
+            },
+            {
+                "Voluntad": 2
+            },
+            {
+                "Constitucion": 15
+            },
+            {
+                "Inteligencia": 12
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "incomun pergamino",
+        "peso": 0.68,
+        "valor": 74,
+        "descripcion": "Este/a pergamino tiene propiedades magicas y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Sabiduria": 11
+            },
+            {
+                "Carisma": 7
+            },
+            {
+                "Resistencia": 6
+            },
+            {
+                "Percepcion": 1
+            },
+            {
+                "Resistencia": 8
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de hielo",
+        "nombre": "antiguo pocion de hielo",
+        "peso": 0.31,
+        "valor": 75,
+        "descripcion": "Este/a pocion de hielo lo encontaste en el suelo y es muy poderoso.",
+        "efectos": [
+            {
+                "Agilidad": 12
+            },
+            {
+                "Resistencia": 7
+            },
+            {
+                "Inteligencia": 9
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "encantado pocion de velocidad",
+        "peso": 0.47,
+        "valor": 99,
+        "descripcion": "Este/a pocion de velocidad viene de un reino muy lejano y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Voluntad": 8
+            },
+            {
+                "Sabiduria": 1
+            },
+            {
+                "Sabiduria": 6
+            }
+        ],
+        "duracion": 1
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "poderoso pocion de mana",
+        "peso": 0.47,
+        "valor": 56,
+        "descripcion": "Este/a pocion de mana fue conseguido tras derramar mucha sangre y es muy poderoso.",
+        "efectos": [
+            {
+                "Sabiduria": 6
+            },
+            {
+                "Inteligencia": 10
+            },
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Voluntad": 6
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "divino pocion de mana",
+        "peso": 1.77,
+        "valor": 48,
+        "descripcion": "Este/a pocion de mana lo encontaste en el suelo y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Sabiduria": 13
+            },
+            {
+                "Agilidad": 8
+            },
+            {
+                "Voluntad": 11
+            },
+            {
+                "Percepcion": 4
+            }
+        ],
+        "duracion": 7
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "magico elixir",
+        "peso": 1.54,
+        "valor": 86,
+        "descripcion": "Este/a elixir tiene propiedades magicas y es antiguo, de una era olvidada.",
+        "efectos": [
+            {
+                "Sabiduria": 10
+            },
+            {
+                "Suerte": 15
+            },
+            {
+                "Agilidad": 10
+            },
+            {
+                "Voluntad": 15
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de regeneracion",
+        "nombre": "caotico pocion de regeneracion",
+        "peso": 0.37,
+        "valor": 68,
+        "descripcion": "Este/a pocion de regeneracion viene de un reino muy lejano y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Resistencia": 1
+            },
+            {
+                "Agilidad": 15
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "magico elixir",
+        "peso": 1.23,
+        "valor": 33,
+        "descripcion": "Este/a elixir se lo saco dios de dios sabe donde y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Inteligencia": 9
+            },
+            {
+                "Suerte": 4
+            },
+            {
+                "Destreza": 7
+            },
+            {
+                "Agilidad": 11
+            },
+            {
+                "Suerte": 6
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "epico pocion de velocidad",
+        "peso": 0.1,
+        "valor": 24,
+        "descripcion": "Este/a pocion de velocidad lo encontaste en el suelo y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Voluntad": 9
+            },
+            {
+                "Voluntad": 6
+            },
+            {
+                "Suerte": 5
+            },
+            {
+                "Carisma": 14
+            },
+            {
+                "Constitucion": 5
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de electricidad",
+        "nombre": "misterioso pocion de electricidad",
+        "peso": 1.82,
+        "valor": 77,
+        "descripcion": "Este/a pocion de electricidad fue conseguido tras derramar mucha sangre y es esencial para la supervicenai de los 7 reinos.",
+        "efectos": [
+            {
+                "Carisma": 5
+            },
+            {
+                "Resistencia": 14
+            },
+            {
+                "Voluntad": 9
+            },
+            {
+                "Inteligencia": 8
+            },
+            {
+                "Destreza": 6
+            }
+        ],
+        "duracion": 2
+    },
+    {
+        "tipo": "pocion de fuego",
+        "nombre": "antiguo pocion de fuego",
+        "peso": 1.98,
+        "valor": 50,
+        "descripcion": "Este/a pocion de fuego parece bastante normal y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Sabiduria": 12
+            },
+            {
+                "Constitucion": 15
+            },
+            {
+                "Percepcion": 1
+            },
+            {
+                "Percepcion": 7
+            },
+            {
+                "Voluntad": 8
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de veneno",
+        "nombre": "poderoso pocion de veneno",
+        "peso": 1.21,
+        "valor": 36,
+        "descripcion": "Este/a pocion de veneno tiene propiedades magicas y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Sabiduria": 6
+            },
+            {
+                "Destreza": 10
+            },
+            {
+                "Voluntad": 9
+            },
+            {
+                "Inteligencia": 6
+            }
+        ],
+        "duracion": 4
+    },
+    {
+        "tipo": "pocion de velocidad",
+        "nombre": "epico pocion de velocidad",
+        "peso": 0.49,
+        "valor": 55,
+        "descripcion": "Este/a pocion de velocidad se uso en la guerra contra los elfos y es misterioso.",
+        "efectos": [
+            {
+                "Inteligencia": 13
+            },
+            {
+                "Constitucion": 5
+            },
+            {
+                "Constitucion": 5
+            },
+            {
+                "Agilidad": 15
+            },
+            {
+                "Agilidad": 12
+            }
+        ],
+        "duracion": 6
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "caotico pocion de mana",
+        "peso": 0.69,
+        "valor": 55,
+        "descripcion": "Este/a pocion de mana se uso en la guerra contra los elfos y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Voluntad": 3
+            },
+            {
+                "Suerte": 6
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "elixir",
+        "nombre": "caotico elixir",
+        "peso": 1.81,
+        "valor": 86,
+        "descripcion": "Este/a elixir fue conseguido tras derramar mucha sangre y es mortal, en las manos adecuadas.",
+        "efectos": [
+            {
+                "Agilidad": 11
+            },
+            {
+                "Resistencia": 1
+            },
+            {
+                "Percepcion": 8
+            },
+            {
+                "Constitucion": 10
+            },
+            {
+                "Carisma": 11
+            }
+        ],
+        "duracion": 10
+    },
+    {
+        "tipo": "pergamino",
+        "nombre": "antiguo pergamino",
+        "peso": 0.31,
+        "valor": 63,
+        "descripcion": "Este/a pergamino parece bastante normal y es un invento de la iglesia catolica.",
+        "efectos": [
+            {
+                "Destreza": 5
+            },
+            {
+                "Constitucion": 11
+            },
+            {
+                "Voluntad": 8
+            },
+            {
+                "Resistencia": 4
+            }
+        ],
+        "duracion": 8
+    },
+    {
+        "tipo": "pocion de mana",
+        "nombre": "unico pocion de mana",
+        "peso": 1.85,
+        "valor": 96,
+        "descripcion": "Este/a pocion de mana se lo saco dios de dios sabe donde y es misterioso.",
+        "efectos": [
+            {
+                "Constitucion": 5
+            },
+            {
+                "Inteligencia": 7
+            }
+        ],
+        "duracion": 3
+    },
+    {
+        "tipo": "pan",
+        "nombre": "epico pan",
+        "peso": 1.92,
+        "valor": 82,
+        "descripcion": "Este/a pan fue conseguido tras derramar mucha sangre y es misterioso.",
+        "efectos": [
+            {
+                "Carisma": 3
+            },
+            {
+                "Sabiduria": 9
+            },
+            {
+                "Inteligencia": 8
+            },
+            {
+                "Sabiduria": 3
+            },
+            {
+                "Constitucion": 9
+            }
+        ],
+        "duracion": 1
+    }
+]
