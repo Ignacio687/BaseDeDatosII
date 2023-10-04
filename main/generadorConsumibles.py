@@ -15,14 +15,13 @@ def generar_objeto_consumible():
     peso = round(random.uniform(0.01, 2), 2) 
     valor = random.randint(10, 100) 
     descripcion = f"Este/a {tipo} {random.choice([ 'tiene propiedades magicas', 'viene de un reino muy lejano', 'pertenece a una dinastia perdida', 'lo encontaste en el suelo', 'se uso en la guerra contra los elfos', 'fue conseguido tras derramar mucha sangre', 'se lo saco dios de dios sabe donde', 'parece bastante normal'])} y es {random.choice(['muy poderoso', 'antiguo, de una era olvidada', 'misterioso', 'un invento de la iglesia catolica', 'un objeto maldido', 'esencial para la supervicenai de los 7 reinos', 'mortal, en las manos adecuadas'])}." 
-    atributos = ["Agilidad"]#, "Inteligencia", "Resistencia", "Suerte", "Carisma", "Sabiduria", "Destreza", "Constitucion", "Percepcion", "Voluntad"]
+    atributos = ["Agilidad", "Inteligencia", "Resistencia", "Suerte", "Carisma", "Sabiduria", "Destreza", "Constitucion", "Percepcion", "Voluntad"]
     efectos = []
     for index in range(1, random.randint(3,6)):
         efecto = random.choice(atributos)
-        if efecto not in [key.keys()[0] for key in efectos]:
+        if efecto not in [list(efecto.keys())[0] for efecto in efectos]:
             efectos.append({efecto: random.randint(1, 15)})
     duracion = random.randint(1, 10)  # Duración aleatoria entre 1 y 10
-
 
 
     # num_efectos_adicionales = random.randint(1, 9)  # Hasta 9 efectos adicionales
@@ -43,7 +42,7 @@ def generar_objeto_consumible():
         "duracion": duracion
     }
     return objeto_consumible
-objetos_consumibles = [generar_objeto_consumible() for _ in range(100)]
+objetos_consumibles = [generar_objeto_consumible() for _ in range(10000)]
 
 objetos_consumibles_json = json.dumps(objetos_consumibles, indent=4)
 
