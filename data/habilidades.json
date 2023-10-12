@@ -1,0 +1,212 @@
+[
+    {
+        "nombre": "Varita de Fuego",
+        "dano-min": 34,
+        "dano-max": 6,
+        "puntos_de_accion": 5,
+        "alcance": 1.87,
+        "recarga": 1.0,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arma de fuego"
+            },
+            {
+                "Mago": 4
+            }
+        ]
+    },
+    {
+        "nombre": "Baston del Sabio",
+        "dano-min": 39,
+        "dano-max": 6,
+        "puntos_de_accion": 5,
+        "alcance": 6.43,
+        "recarga": 0.69,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arco y flecha"
+            },
+            {
+                "Guerrero": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Baston del Sabio",
+        "dano-min": 10,
+        "dano-max": 7,
+        "puntos_de_accion": 3,
+        "alcance": 6.23,
+        "recarga": 0.95,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Varita magica"
+            },
+            {
+                "Mago": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Hacha del Guerrero",
+        "dano-min": 27,
+        "dano-max": 12,
+        "puntos_de_accion": 2,
+        "alcance": 4.04,
+        "recarga": 0.86,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arma de fuego"
+            },
+            {
+                "Asesino": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Espada del Destino",
+        "dano-min": 39,
+        "dano-max": 12,
+        "puntos_de_accion": 3,
+        "alcance": 3.09,
+        "recarga": 0.51,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arma cuerpo a cuerpo"
+            },
+            {
+                "Sanador": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Espada del Destino",
+        "dano-min": 30,
+        "dano-max": 45,
+        "puntos_de_accion": 2,
+        "alcance": 3.82,
+        "recarga": 0.93,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arma de fuego"
+            },
+            {
+                "Sanador": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Espada del Destino",
+        "dano-min": 12,
+        "dano-max": 35,
+        "puntos_de_accion": 2,
+        "alcance": 9.74,
+        "recarga": 0.86,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Varita magica"
+            },
+            {
+                "Guerrero": 5
+            }
+        ]
+    },
+    {
+        "nombre": "Baston del Sabio",
+        "dano-min": 31,
+        "dano-max": 28,
+        "puntos_de_accion": 2,
+        "alcance": 8.98,
+        "recarga": 0.55,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arma de fuego"
+            },
+            {
+                "Guerrero": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Varita de Fuego",
+        "dano-min": 38,
+        "dano-max": 25,
+        "puntos_de_accion": 2,
+        "alcance": 6.25,
+        "recarga": 0.98,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Varita magica"
+            },
+            {
+                "Mago": 4
+            }
+        ]
+    },
+    {
+        "nombre": "Baston del Sabio",
+        "dano-min": 23,
+        "dano-max": 25,
+        "puntos_de_accion": 2,
+        "alcance": 5.54,
+        "recarga": 0.66,
+        "efectos": [
+            {
+                "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
+            }
+        ],
+        "requerimiento": [
+            {
+                "tipo": "Arco y flecha"
+            },
+            {
+                "Asesino": 1
+            }
+        ]
+    }
+]
