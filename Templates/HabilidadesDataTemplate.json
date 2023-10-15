@@ -5,11 +5,8 @@
     "puntos_de_accion": 3,
     "alcance": 2.5,
     "recarga": 1,
-    "efectos": [
-        {
-            "info": "El dano se basa en tu ataque basico y ora recibe una bonificacion de Fuerza."
-        }
-    ],
+    "detalle": "Realiza un ataque brutal que inflinge 61-66 dano fisico",
+    "efectos": "El dano se basa en tu ataque basico y recibe una bonificacion de Fuerza.",
     "requerimiento": [
         {
             "tipo": "Arma cuerpo a cuerpo"
