@@ -2,7 +2,7 @@
     "nombre": "Bestia",
     "recompensa_xp": 1000,
     "recompensa_oro": 150,
-    "recomensa_obj": [
+    "recompensa_obj": [
         {
             "_id": ObjectId("5f96c4a7149db3505412a90f")
         }

@@ -51,11 +51,30 @@ coleccion = db.Objetos_Clave  # Reemplaza "tu_coleccion" con el nombre de tu col
 
 def generar_registro(key,element):
     return {
-    "nombre": key,
-    "descripcion": element,
-    "peso": round(random.uniform(0.01, 2), 2) ,
-    "valor": random.randint(10, 1000) 
-    }
+    "nombre": "Bestia",
+    "recompensa_xp": 1000,
+    "recompensa_oro": 150,
+    "recompensa_obj": [
+        {
+            "_id": ObjectId("5f96c4a7149db3505412a90f")
+        }
+    ],
+    "etapas": [
+        {
+            "nombre": "Escapa de la isla.",
+            "descripcion": "La llave nos permitio entrar en Fuerte del Jubilo. Quiza al otro lado este lalibertad."
+        },
+        {
+            "nombre": "Usa la llave para escapar.",
+            "descripcion": "En la arena, un amigo de la infancia de Bestia le entrego una llave de Fuerte del Jbilo; pero ¿de que puerta sera?"
+        },
+        {
+            "nombre": "Huye de los maestres.",
+            "descripcion": "Bestia lleva documentos que avisan de algo denominado 'operacion Ruina'. En ella podria estar implicado Lohar, un delincuente de Maderiva. Bestia, un enano experimentado y capitan de barco, se unio a mi."
+        }
+    ]
+}
+
 
 registros = [generar_registro(key,element) for key,element in objetos_clave.items()]
 registros_json = json.dumps(registros, indent=4)
