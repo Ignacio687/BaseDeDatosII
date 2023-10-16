@@ -19,7 +19,7 @@
             "velocidad": -1
         }
     ],
-    "requerimientos": [
+    "requerimiento": [
         {
             "fuerza": 12
         }

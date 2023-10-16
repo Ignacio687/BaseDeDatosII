@@ -1,8 +1,7 @@
-from pymongo import MongoClient
-import random,json
+import random, json
 from bson import ObjectId
 from typing import Any
-from . import GeneratorABC
+from . import GeneratorABC, EquipmentGenerator
 
 class MisionesGenerator(GeneratorABC):
     def __init__(self) -> None:
@@ -152,17 +151,27 @@ class MisionesGenerator(GeneratorABC):
             objectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
         return objectsIDs
 
-    def generateJsonObj(self, nombre:str, objectsIDs: list) -> dict[str, Any]:
+    def generateJsonObj(self, nombre:str, objectsIDs: list, data_Base) -> dict[str, Any]:
+        equipmentGenerator = EquipmentGenerator()
         etapas_unicas = random.sample(self.etapas_de_mision, 6)
         etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
-        recompensas_unicas = random.sample(objectsIDs, 10)
-        recompensas = [{"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)} for counter in range(0, random.randint(1, 10))]
+        recompensas_unicas = random.sample(objectsIDs, 15)
+        recompensas = []
+        for counter in range(0, 15):
+            optionPick = random.randint(0, 2)
+            if optionPick == 0:
+                recompensas.append({"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)})
+            elif optionPick == 1:
+                recompensas.append(equipmentGenerator.generateEquipmentJsonObj(data_Base))
+            else:
+                recompensas.append(equipmentGenerator.generateWeaponJsonObj(data_Base))
+        
         return {
-        "nombre": nombre,
-        "recompensa_xp": random.randint(50, 5201),
-        "recompensa_oro": random.randint(10, 1201),
-        "recompensa_obj": recompensas,
-        "etapas": etapas
+            "nombre": nombre,
+            "recompensa_xp": random.randint(50, 5201),
+            "recompensa_oro": random.randint(10, 1201),
+            "recompensa_obj": recompensas,
+            "etapas": etapas
         }
 
     def generateJsonFile(self, registros: dict[str, Any], name:str) -> None:
@@ -178,7 +187,7 @@ class MisionesGenerator(GeneratorABC):
 
     def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
-        registros = [self.generateJsonObj(nombre, objectsIDs) for nombre in self.nombres_de_misiones]
+        registros = [self.generateJsonObj(nombre, objectsIDs, data_base) for nombre in self.nombres_de_misiones]
         self.generateJsonFile(registros, name)
         return registros
     

@@ -1,7 +1,6 @@
 import random
 from . import GeneratorABC
 from typing import Any
-from pymongo import MongoClient
 
 class SkillsGenerator(GeneratorABC):
     def __init__(self) -> None:
