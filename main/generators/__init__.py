@@ -1,0 +1,1 @@
+from .generador_habilidades import SkillsGenerator
