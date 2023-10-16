@@ -2,156 +2,12 @@
     {
         "nombre": "Cazador",
         "dano-min": 9,
-        "dano-max": 25,
-        "puntos_de_accion": 4,
-        "alcance": 1,
+        "dano-max": 17,
+        "puntos_de_accion": 1,
+        "alcance": 2,
         "recarga": 3,
         "detalle": "Obten mas carne y piel de animales que cazes.",
-        "efecto": "Las dagas arrojadizas infligen dano critico a los enemigos desprevenidos.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Cuerpo a Cuerpo"
-            },
-            {
-                "Necromante": 11
-            }
-        ]
-    },
-    {
-        "nombre": "Medico",
-        "dano-min": 6,
-        "dano-max": 16,
-        "puntos_de_accion": 5,
-        "alcance": 1,
-        "recarga": 3,
-        "detalle": "Curas a otros mas eficientemente y te curas a ti mismo mas rapidamente.",
-        "efecto": "Los guerreros berserker ganan un 20% de dano adicional cuando estan heridos.",
-        "requerimiento": [
-            {
-                "tipo": "A distancia"
-            },
-            {
-                "Necromante": 6
-            }
-        ]
-    },
-    {
-        "nombre": "Atleta",
-        "dano-min": 6,
-        "dano-max": 19,
-        "puntos_de_accion": 5,
-        "alcance": 4,
-        "recarga": 5,
-        "detalle": "Corres mas rapido y gastas menos resistencia al correr.",
-        "efecto": "Tus hechizos de fuego queman a los enemigos durante 3 segundos.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Piroquinetico": 4
-            }
-        ]
-    },
-    {
-        "nombre": "Montanero",
-        "dano-min": 10,
-        "dano-max": 22,
-        "puntos_de_accion": 4,
-        "alcance": 3,
-        "recarga": 1,
-        "detalle": "Escalas mas rapido y consumes menos resistencia al escalar.",
-        "efecto": "Las varitas de curacion restauran tu salud gradualmente.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Contienda": 2
-            }
-        ]
-    },
-    {
-        "nombre": "Nutricionista",
-        "dano-min": 7,
-        "dano-max": 18,
-        "puntos_de_accion": 1,
-        "alcance": 4,
-        "recarga": 4,
-        "detalle": "Obten mas beneficios al comer y beber.",
-        "efecto": "Tu escudo magico te protege de los hechizos de hielo.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Cuerpo a Cuerpo"
-            },
-            {
-                "Contienda": 6
-            }
-        ]
-    },
-    {
-        "nombre": "Bien Nutrido",
-        "dano-min": 9,
-        "dano-max": 19,
-        "puntos_de_accion": 2,
-        "alcance": 5,
-        "recarga": 2,
-        "detalle": "Aumenta la duracion de los beneficios de la comida y bebida que consumes.",
-        "efecto": "Tu armadura de placas refleja el 25% del dano recibido de vuelta al atacante.",
-        "requerimiento": [
-            {
-                "tipo": "A una mano"
-            },
-            {
-                "Cazador": 10
-            }
-        ]
-    },
-    {
-        "nombre": "Busqueda Rapida",
-        "dano-min": 8,
-        "dano-max": 16,
-        "puntos_de_accion": 2,
-        "alcance": 2,
-        "recarga": 1,
-        "detalle": "Buscas mas rapido en los contenedores y recipientes.",
-        "efecto": "Las espadas runicas son efectivas contra criaturas demoniacas.",
-        "requerimiento": [
-            {
-                "tipo": "A una mano"
-            },
-            {
-                "Necromante": 11
-            }
-        ]
-    },
-    {
-        "nombre": "Negociante",
-        "dano-min": 10,
-        "dano-max": 19,
-        "puntos_de_accion": 2,
-        "alcance": 3,
-        "recarga": 3,
-        "detalle": "Consigues mejores precios al comprar y vender en las tiendas de los comerciantes.",
-        "efecto": "Las varitas de curacion restauran tu salud gradualmente.",
-        "requerimiento": [
-            {
-                "tipo": "A distancia"
-            },
-            {
-                "Piroquinetico": 6
-            }
-        ]
-    },
-    {
-        "nombre": "Ingeniero",
-        "dano-min": 10,
-        "dano-max": 15,
-        "puntos_de_accion": 5,
-        "alcance": 2,
-        "recarga": 3,
-        "detalle": "Desbloquea la capacidad de crear objetos avanzados.",
-        "efecto": "El veneno infligido a los enemigos drena su vida durante el tiempo.",
+        "efecto": "Las pociones de resistencia mejoran temporalmente tus defensas.",
         "requerimiento": [
             {
                 "tipo": "A dos manos"
@@ -162,35 +18,215 @@
         ]
     },
     {
-        "nombre": "Piromano",
-        "dano-min": 8,
-        "dano-max": 22,
-        "puntos_de_accion": 4,
+        "nombre": "Medico",
+        "dano-min": 6,
+        "dano-max": 17,
+        "puntos_de_accion": 5,
         "alcance": 1,
+        "recarga": 2,
+        "detalle": "Curas a otros mas eficientemente y te curas a ti mismo mas rapidamente.",
+        "efecto": "Los ataques cuerpo a cuerpo infligen un 5% de dano adicional.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
+            },
+            {
+                "Canalla": 5
+            }
+        ]
+    },
+    {
+        "nombre": "Atleta",
+        "dano-min": 8,
+        "dano-max": 18,
+        "puntos_de_accion": 4,
+        "alcance": 2,
         "recarga": 3,
-        "detalle": "Haz mas dano con armas y trampas que infligen fuego.",
-        "efecto": "Tu escudo magico te protege de los hechizos de hielo.",
+        "detalle": "Corres mas rapido y gastas menos resistencia al correr.",
+        "efecto": "Las armaduras encantadas te hacen inmune a los efectos de paralisis.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Cuerpo a Cuerpo"
+            },
+            {
+                "Piroquinetico": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Montanero",
+        "dano-min": 5,
+        "dano-max": 20,
+        "puntos_de_accion": 5,
+        "alcance": 1,
+        "recarga": 4,
+        "detalle": "Escalas mas rapido y consumes menos resistencia al escalar.",
+        "efecto": "Las dagas gemelas otorgan un 15% de probabilidad de esquivar los ataques enemigos.",
         "requerimiento": [
             {
                 "tipo": "A dos manos"
             },
             {
-                "Polimorfismo": 4
+                "Polimorfismo": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Nutricionista",
+        "dano-min": 10,
+        "dano-max": 25,
+        "puntos_de_accion": 5,
+        "alcance": 5,
+        "recarga": 4,
+        "detalle": "Obten mas beneficios al comer y beber.",
+        "efecto": "Los orbes de control permiten dominar a las bestias salvajes.",
+        "requerimiento": [
+            {
+                "tipo": "A una mano"
+            },
+            {
+                "Aeroteurgo": 6
+            }
+        ]
+    },
+    {
+        "nombre": "Bien Nutrido",
+        "dano-min": 10,
+        "dano-max": 24,
+        "puntos_de_accion": 4,
+        "alcance": 4,
+        "recarga": 5,
+        "detalle": "Aumenta la duracion de los beneficios de la comida y bebida que consumes.",
+        "efecto": "El anillo de la vida te otorga resistencia a la muerte una vez al dia.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Necromante": 10
+            }
+        ]
+    },
+    {
+        "nombre": "Busqueda Rapida",
+        "dano-min": 8,
+        "dano-max": 23,
+        "puntos_de_accion": 5,
+        "alcance": 5,
+        "recarga": 3,
+        "detalle": "Buscas mas rapido en los contenedores y recipientes.",
+        "efecto": "Incrementa tu velocidad de movimiento en un 10% al equipar botas magicas.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Magica"
+            },
+            {
+                "Geomante": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Negociante",
+        "dano-min": 5,
+        "dano-max": 18,
+        "puntos_de_accion": 3,
+        "alcance": 2,
+        "recarga": 1,
+        "detalle": "Consigues mejores precios al comprar y vender en las tiendas de los comerciantes.",
+        "efecto": "Los ataques criticos infligen un estado de aturdimiento en los enemigos.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Cuerpo a Cuerpo"
+            },
+            {
+                "Cazador": 8
+            }
+        ]
+    },
+    {
+        "nombre": "Ingeniero",
+        "dano-min": 8,
+        "dano-max": 16,
+        "puntos_de_accion": 5,
+        "alcance": 1,
+        "recarga": 5,
+        "detalle": "Desbloquea la capacidad de crear objetos avanzados.",
+        "efecto": "Recibes un 10% mas de oro al derrotar monstruos.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Cuerpo a Cuerpo"
+            },
+            {
+                "Necromante": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Piromano",
+        "dano-min": 6,
+        "dano-max": 20,
+        "puntos_de_accion": 4,
+        "alcance": 5,
+        "recarga": 2,
+        "detalle": "Haz mas dano con armas y trampas que infligen fuego.",
+        "efecto": "Ganas un 5% de resistencia a los ataques magicos gracias a tu amuleto encantado.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Magica"
+            },
+            {
+                "Canalla": 8
             }
         ]
     },
     {
         "nombre": "Minero",
-        "dano-min": 9,
-        "dano-max": 16,
-        "puntos_de_accion": 2,
-        "alcance": 2,
-        "recarga": 3,
+        "dano-min": 8,
+        "dano-max": 22,
+        "puntos_de_accion": 3,
+        "alcance": 1,
+        "recarga": 5,
         "detalle": "Obten mas recursos al extraer minerales y rocas.",
-        "efecto": "Las joyas magicas aumentan tu mana maximo en un 15%.",
+        "efecto": "El anillo de invisibilidad te hace invisible a los enemigos mientras estas quieto.",
         "requerimiento": [
             {
-                "tipo": "A dos manos"
+                "tipo": "A distancia"
+            },
+            {
+                "Hidrosofista": 6
+            }
+        ]
+    },
+    {
+        "nombre": "Trabajo en Equipo",
+        "dano-min": 5,
+        "dano-max": 16,
+        "puntos_de_accion": 5,
+        "alcance": 2,
+        "recarga": 1,
+        "detalle": "Obten mas experiencia cuando estas en un grupo con otros jugadores.",
+        "efecto": "El dano se basa en tu ataque basico y recibe una bonificacion de Fuerza.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Cuerpo a Cuerpo"
+            },
+            {
+                "Hidrosofista": 10
+            }
+        ]
+    },
+    {
+        "nombre": "Fuerza de Voluntad",
+        "dano-min": 5,
+        "dano-max": 21,
+        "puntos_de_accion": 3,
+        "alcance": 1,
+        "recarga": 2,
+        "detalle": "Recibes menos penalizaciones por tener hambre o sed.",
+        "efecto": "Las espadas runicas son efectivas contra criaturas demoniacas.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
             },
             {
                 "Invocacion": 8
@@ -198,305 +234,17 @@
         ]
     },
     {
-        "nombre": "Trabajo en Equipo",
-        "dano-min": 9,
-        "dano-max": 25,
-        "puntos_de_accion": 4,
-        "alcance": 2,
-        "recarga": 4,
-        "detalle": "Obten mas experiencia cuando estas en un grupo con otros jugadores.",
-        "efecto": "Las capas de sombra te vuelven invisible en la oscuridad.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Contienda": 7
-            }
-        ]
-    },
-    {
-        "nombre": "Fuerza de Voluntad",
-        "dano-min": 5,
-        "dano-max": 16,
-        "puntos_de_accion": 2,
-        "alcance": 2,
-        "recarga": 1,
-        "detalle": "Recibes menos penalizaciones por tener hambre o sed.",
-        "efecto": "El escudo de la justicia protege contra los ataques malditos.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Necromante": 6
-            }
-        ]
-    },
-    {
         "nombre": "Sexo Tecnico",
-        "dano-min": 8,
-        "dano-max": 15,
-        "puntos_de_accion": 2,
-        "alcance": 1,
-        "recarga": 2,
-        "detalle": "Recibes menos penalizaciones por morir y pierdes menos experiencia al morir.",
-        "efecto": "Los ataques criticos infligen un estado de aturdimiento en los enemigos.",
-        "requerimiento": [
-            {
-                "tipo": "A distancia"
-            },
-            {
-                "Geomante": 5
-            }
-        ]
-    },
-    {
-        "nombre": "Constructor",
         "dano-min": 10,
-        "dano-max": 25,
-        "puntos_de_accion": 5,
-        "alcance": 5,
-        "recarga": 3,
-        "detalle": "Gastas menos recursos al construir y reparar objetos.",
-        "efecto": "Los elixires de velocidad aumentan temporalmente tu velocidad de ataque.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Aeroteurgo": 4
-            }
-        ]
-    },
-    {
-        "nombre": "Agricultor",
-        "dano-min": 7,
-        "dano-max": 17,
-        "puntos_de_accion": 3,
-        "alcance": 1,
-        "recarga": 5,
-        "detalle": "Cultivas plantas mas rapido y obtienes mas recursos de las cosechas.",
-        "efecto": "El anillo de la vida te otorga resistencia a la muerte una vez al dia.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Canalla": 4
-            }
-        ]
-    },
-    {
-        "nombre": "Reciclaje",
-        "dano-min": 9,
-        "dano-max": 20,
-        "puntos_de_accion": 3,
-        "alcance": 5,
-        "recarga": 2,
-        "detalle": "Obten mas materiales al desmontar objetos.",
-        "efecto": "Incrementa tu velocidad de movimiento en un 10% al equipar botas magicas.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Hidrosofista": 3
-            }
-        ]
-    },
-    {
-        "nombre": "Rapido y Furioso",
-        "dano-min": 6,
-        "dano-max": 16,
-        "puntos_de_accion": 5,
-        "alcance": 1,
-        "recarga": 2,
-        "detalle": "Haz mas dano con armas cuerpo a cuerpo.",
-        "efecto": "Las ballestas magicas disparan flechas magicas a los enemigos.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Cuerpo a Cuerpo"
-            },
-            {
-                "Polimorfismo": 5
-            }
-        ]
-    },
-    {
-        "nombre": "Resistente a las Enfermedades",
-        "dano-min": 7,
-        "dano-max": 22,
-        "puntos_de_accion": 4,
-        "alcance": 5,
-        "recarga": 3,
-        "detalle": "Tienes menos probabilidad de contraer enfermedades.",
-        "efecto": "Tu escudo magico te protege de los hechizos de hielo.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Necromante": 6
-            }
-        ]
-    },
-    {
-        "nombre": "Maestro de las Sombras",
-        "dano-min": 7,
-        "dano-max": 19,
-        "puntos_de_accion": 2,
-        "alcance": 1,
-        "recarga": 5,
-        "detalle": "Te vuelves invisible en la oscuridad.",
-        "efecto": "Recibes un 10% mas de oro al derrotar monstruos.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Polimorfismo": 2
-            }
-        ]
-    },
-    {
-        "nombre": "Control Mental",
-        "dano-min": 9,
-        "dano-max": 21,
-        "puntos_de_accion": 4,
-        "alcance": 3,
-        "recarga": 3,
-        "detalle": "Puedes persuadir a otros personajes y criaturas para que hagan lo que quieras.",
-        "efecto": "Los elixires de velocidad aumentan temporalmente tu velocidad de ataque.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Hidrosofista": 2
-            }
-        ]
-    },
-    {
-        "nombre": "Teletransporte",
-        "dano-min": 9,
-        "dano-max": 19,
-        "puntos_de_accion": 2,
-        "alcance": 2,
-        "recarga": 4,
-        "detalle": "Puedes teletransportarte a lugares que has visitado previamente.",
-        "efecto": "Las ballestas magicas disparan flechas magicas a los enemigos.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Invocacion": 11
-            }
-        ]
-    },
-    {
-        "nombre": "Vision Nocturna",
-        "dano-min": 7,
-        "dano-max": 25,
-        "puntos_de_accion": 1,
-        "alcance": 4,
-        "recarga": 3,
-        "detalle": "Puedes ver claramente en la oscuridad.",
-        "efecto": "Las dagas gemelas otorgan un 15% de probabilidad de esquivar los ataques enemigos.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Piroquinetico": 9
-            }
-        ]
-    },
-    {
-        "nombre": "Inteligencia Artificial",
-        "dano-min": 5,
-        "dano-max": 18,
-        "puntos_de_accion": 5,
-        "alcance": 3,
-        "recarga": 2,
-        "detalle": "Aumenta tu inteligencia artificial, permitiendote aprender y adaptarte mas rapido.",
-        "efecto": "Los golpes criticos causan el doble de dano.",
-        "requerimiento": [
-            {
-                "tipo": "A dos manos"
-            },
-            {
-                "Geomante": 9
-            }
-        ]
-    },
-    {
-        "nombre": "Manipulador del Tiempo",
-        "dano-min": 6,
-        "dano-max": 22,
-        "puntos_de_accion": 2,
-        "alcance": 1,
-        "recarga": 3,
-        "detalle": "Puedes ralentizar o acelerar el tiempo a tu alrededor.",
-        "efecto": "Las dagas arrojadizas infligen dano critico a los enemigos desprevenidos.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Cuerpo a Cuerpo"
-            },
-            {
-                "Geomante": 2
-            }
-        ]
-    },
-    {
-        "nombre": "Control de Elementos",
-        "dano-min": 9,
-        "dano-max": 17,
-        "puntos_de_accion": 4,
-        "alcance": 2,
-        "recarga": 1,
-        "detalle": "Puedes controlar el fuego, agua, tierra y aire a tu voluntad.",
-        "efecto": "Las joyas de la suerte aumentan las probabilidades de encontrar tesoros.",
-        "requerimiento": [
-            {
-                "tipo": "Arma Magica"
-            },
-            {
-                "Hidrosofista": 5
-            }
-        ]
-    },
-    {
-        "nombre": "Vuelo",
-        "dano-min": 7,
         "dano-max": 23,
-        "puntos_de_accion": 2,
+        "puntos_de_accion": 3,
         "alcance": 2,
         "recarga": 5,
-        "detalle": "Puedes volar en el aire como un pajaro o un superheroe.",
-        "efecto": "Las flechas envenenadas causan dano a lo largo del tiempo.",
+        "detalle": "Recibes menos penalizaciones por morir y pierdes menos experiencia al morir.",
+        "efecto": "La armadura pesada reduce el dano recibido de los ataques fisicos en un 20%.",
         "requerimiento": [
             {
-                "tipo": "A una mano"
-            },
-            {
-                "Canalla": 8
-            }
-        ]
-    },
-    {
-        "nombre": "Sanador",
-        "dano-min": 10,
-        "dano-max": 25,
-        "puntos_de_accion": 1,
-        "alcance": 4,
-        "recarga": 5,
-        "detalle": "Puedes curar las heridas de otros y mejorar su salud.",
-        "efecto": "El casco de los sabios mejora tus habilidades de adivinacion.",
-        "requerimiento": [
-            {
-                "tipo": "A una mano"
+                "tipo": "Arma Magica"
             },
             {
                 "Canalla": 11
@@ -504,71 +252,251 @@
         ]
     },
     {
-        "nombre": "Control de Bestias",
-        "dano-min": 7,
-        "dano-max": 24,
-        "puntos_de_accion": 5,
-        "alcance": 2,
-        "recarga": 5,
-        "detalle": "Puedes comunicarte y controlar animales y bestias.",
-        "efecto": "Las flechas envenenadas causan dano a lo largo del tiempo.",
+        "nombre": "Constructor",
+        "dano-min": 5,
+        "dano-max": 21,
+        "puntos_de_accion": 1,
+        "alcance": 5,
+        "recarga": 4,
+        "detalle": "Gastas menos recursos al construir y reparar objetos.",
+        "efecto": "Los guerreros berserker ganan un 20% de dano adicional cuando estan heridos.",
         "requerimiento": [
             {
                 "tipo": "A dos manos"
             },
             {
-                "Invocacion": 2
+                "Contienda": 11
             }
         ]
     },
     {
-        "nombre": "Inmortalidad",
-        "dano-min": 7,
+        "nombre": "Agricultor",
+        "dano-min": 5,
+        "dano-max": 25,
+        "puntos_de_accion": 3,
+        "alcance": 2,
+        "recarga": 3,
+        "detalle": "Cultivas plantas mas rapido y obtienes mas recursos de las cosechas.",
+        "efecto": "Tus hechizos de fuego queman a los enemigos durante 3 segundos.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Necromante": 11
+            }
+        ]
+    },
+    {
+        "nombre": "Reciclaje",
+        "dano-min": 10,
         "dano-max": 16,
         "puntos_de_accion": 4,
-        "alcance": 3,
-        "recarga": 2,
-        "detalle": "Eres inmune a la muerte y al envejecimiento.",
-        "efecto": "Incrementa tu velocidad de movimiento en un 10% al equipar botas magicas.",
+        "alcance": 5,
+        "recarga": 3,
+        "detalle": "Obten mas materiales al desmontar objetos.",
+        "efecto": "Ganas un 5% de resistencia a los ataques magicos gracias a tu amuleto encantado.",
         "requerimiento": [
             {
                 "tipo": "A dos manos"
             },
             {
-                "Cazador": 3
+                "Geomante": 1
             }
         ]
     },
     {
-        "nombre": "Control de Energia",
+        "nombre": "Rapido y Furioso",
         "dano-min": 10,
-        "dano-max": 19,
-        "puntos_de_accion": 4,
-        "alcance": 1,
-        "recarga": 1,
-        "detalle": "Puedes manipular y utilizar diversas formas de energia.",
-        "efecto": "Los ataques criticos infligen un estado de aturdimiento en los enemigos.",
+        "dano-max": 21,
+        "puntos_de_accion": 2,
+        "alcance": 5,
+        "recarga": 2,
+        "detalle": "Haz mas dano con armas cuerpo a cuerpo.",
+        "efecto": "El veneno infligido a los enemigos drena su vida durante el tiempo.",
         "requerimiento": [
             {
                 "tipo": "Arma Magica"
             },
             {
-                "Canalla": 6
+                "Polimorfismo": 3
             }
         ]
     },
     {
-        "nombre": "Telepatia",
-        "dano-min": 7,
-        "dano-max": 20,
-        "puntos_de_accion": 1,
+        "nombre": "Resistente a las Enfermedades",
+        "dano-min": 10,
+        "dano-max": 16,
+        "puntos_de_accion": 5,
         "alcance": 2,
         "recarga": 1,
-        "detalle": "Puedes leer mentes y comunicarte telepaticamente con otros.",
-        "efecto": "Los ataques cuerpo a cuerpo infligen un 5% de dano adicional.",
+        "detalle": "Tienes menos probabilidad de contraer enfermedades.",
+        "efecto": "El escudo de la justicia protege contra los ataques malditos.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Magica"
+            },
+            {
+                "Necromante": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Maestro de las Sombras",
+        "dano-min": 6,
+        "dano-max": 23,
+        "puntos_de_accion": 3,
+        "alcance": 4,
+        "recarga": 5,
+        "detalle": "Te vuelves invisible en la oscuridad.",
+        "efecto": "Los tatuajes runicos mejoran tus habilidades magicas.",
+        "requerimiento": [
+            {
+                "tipo": "A una mano"
+            },
+            {
+                "Necromante": 5
+            }
+        ]
+    },
+    {
+        "nombre": "Control Mental",
+        "dano-min": 10,
+        "dano-max": 24,
+        "puntos_de_accion": 2,
+        "alcance": 2,
+        "recarga": 2,
+        "detalle": "Puedes persuadir a otros personajes y criaturas para que hagan lo que quieras.",
+        "efecto": "Los ataques criticos infligen un estado de aturdimiento en los enemigos.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
+            },
+            {
+                "Contienda": 8
+            }
+        ]
+    },
+    {
+        "nombre": "Teletransporte",
+        "dano-min": 5,
+        "dano-max": 15,
+        "puntos_de_accion": 1,
+        "alcance": 2,
+        "recarga": 2,
+        "detalle": "Puedes teletransportarte a lugares que has visitado previamente.",
+        "efecto": "Las armaduras encantadas te hacen inmune a los efectos de paralisis.",
         "requerimiento": [
             {
                 "tipo": "Arma Cuerpo a Cuerpo"
+            },
+            {
+                "Cazador": 8
+            }
+        ]
+    },
+    {
+        "nombre": "Vision Nocturna",
+        "dano-min": 10,
+        "dano-max": 17,
+        "puntos_de_accion": 3,
+        "alcance": 4,
+        "recarga": 5,
+        "detalle": "Puedes ver claramente en la oscuridad.",
+        "efecto": "Las varitas de curacion restauran tu salud gradualmente.",
+        "requerimiento": [
+            {
+                "tipo": "A una mano"
+            },
+            {
+                "Geomante": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Inteligencia Artificial",
+        "dano-min": 7,
+        "dano-max": 21,
+        "puntos_de_accion": 2,
+        "alcance": 4,
+        "recarga": 1,
+        "detalle": "Aumenta tu inteligencia artificial, permitiendote aprender y adaptarte mas rapido.",
+        "efecto": "El escudo de la justicia protege contra los ataques malditos.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
+            },
+            {
+                "Aeroteurgo": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Manipulador del Tiempo",
+        "dano-min": 5,
+        "dano-max": 22,
+        "puntos_de_accion": 1,
+        "alcance": 2,
+        "recarga": 2,
+        "detalle": "Puedes ralentizar o acelerar el tiempo a tu alrededor.",
+        "efecto": "El dano se basa en tu ataque basico y recibe una bonificacion de Fuerza.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Geomante": 7
+            }
+        ]
+    },
+    {
+        "nombre": "Control de Elementos",
+        "dano-min": 5,
+        "dano-max": 24,
+        "puntos_de_accion": 1,
+        "alcance": 5,
+        "recarga": 5,
+        "detalle": "Puedes controlar el fuego, agua, tierra y aire a tu voluntad.",
+        "efecto": "Las capas de sombra te vuelven invisible en la oscuridad.",
+        "requerimiento": [
+            {
+                "tipo": "A una mano"
+            },
+            {
+                "Necromante": 10
+            }
+        ]
+    },
+    {
+        "nombre": "Vuelo",
+        "dano-min": 5,
+        "dano-max": 17,
+        "puntos_de_accion": 2,
+        "alcance": 4,
+        "recarga": 1,
+        "detalle": "Puedes volar en el aire como un pajaro o un superheroe.",
+        "efecto": "Las capas de sombra te vuelven invisible en la oscuridad.",
+        "requerimiento": [
+            {
+                "tipo": "Arma Magica"
+            },
+            {
+                "Invocacion": 10
+            }
+        ]
+    },
+    {
+        "nombre": "Sanador",
+        "dano-min": 7,
+        "dano-max": 21,
+        "puntos_de_accion": 4,
+        "alcance": 4,
+        "recarga": 2,
+        "detalle": "Puedes curar las heridas de otros y mejorar su salud.",
+        "efecto": "Los ataques cuerpo a cuerpo infligen un 5% de dano adicional.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
             },
             {
                 "Necromante": 8
@@ -576,38 +504,110 @@
         ]
     },
     {
-        "nombre": "Maestro de Disfraz",
-        "dano-min": 10,
-        "dano-max": 23,
-        "puntos_de_accion": 1,
+        "nombre": "Control de Bestias",
+        "dano-min": 6,
+        "dano-max": 16,
+        "puntos_de_accion": 4,
         "alcance": 1,
-        "recarga": 5,
-        "detalle": "Puedes cambiar tu apariencia y adoptar la forma de cualquier persona u objeto.",
-        "efecto": "El veneno infligido a los enemigos drena su vida durante el tiempo.",
-        "requerimiento": [
-            {
-                "tipo": "A distancia"
-            },
-            {
-                "Piroquinetico": 8
-            }
-        ]
-    },
-    {
-        "nombre": "Absorcion de Dano",
-        "dano-min": 9,
-        "dano-max": 24,
-        "puntos_de_accion": 1,
-        "alcance": 1,
-        "recarga": 3,
-        "detalle": "Puedes absorber y reflejar el dano que otros te infligen.",
-        "efecto": "Los pergaminos de teleportacion te permiten moverte instantaneamente a ciudades conocidas.",
+        "recarga": 1,
+        "detalle": "Puedes comunicarte y controlar animales y bestias.",
+        "efecto": "Los guerreros berserker ganan un 20% de dano adicional cuando estan heridos.",
         "requerimiento": [
             {
                 "tipo": "A una mano"
             },
             {
-                "Canalla": 8
+                "Polimorfismo": 9
+            }
+        ]
+    },
+    {
+        "nombre": "Inmortalidad",
+        "dano-min": 10,
+        "dano-max": 15,
+        "puntos_de_accion": 4,
+        "alcance": 5,
+        "recarga": 4,
+        "detalle": "Eres inmune a la muerte y al envejecimiento.",
+        "efecto": "Tu escudo magico te protege de los hechizos de hielo.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Piroquinetico": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Control de Energia",
+        "dano-min": 10,
+        "dano-max": 15,
+        "puntos_de_accion": 4,
+        "alcance": 4,
+        "recarga": 1,
+        "detalle": "Puedes manipular y utilizar diversas formas de energia.",
+        "efecto": "El casco de los sabios mejora tus habilidades de adivinacion.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
+            },
+            {
+                "Contienda": 7
+            }
+        ]
+    },
+    {
+        "nombre": "Telepatia",
+        "dano-min": 5,
+        "dano-max": 23,
+        "puntos_de_accion": 5,
+        "alcance": 3,
+        "recarga": 4,
+        "detalle": "Puedes leer mentes y comunicarte telepaticamente con otros.",
+        "efecto": "Los craneos malditos reducen la resistencia magica de los enemigos en un 15%.",
+        "requerimiento": [
+            {
+                "tipo": "A distancia"
+            },
+            {
+                "Polimorfismo": 7
+            }
+        ]
+    },
+    {
+        "nombre": "Maestro de Disfraz",
+        "dano-min": 9,
+        "dano-max": 25,
+        "puntos_de_accion": 3,
+        "alcance": 1,
+        "recarga": 3,
+        "detalle": "Puedes cambiar tu apariencia y adoptar la forma de cualquier persona u objeto.",
+        "efecto": "Incrementa tu velocidad de movimiento en un 10% al equipar botas magicas.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Canalla": 9
+            }
+        ]
+    },
+    {
+        "nombre": "Absorcion de Dano",
+        "dano-min": 7,
+        "dano-max": 19,
+        "puntos_de_accion": 3,
+        "alcance": 4,
+        "recarga": 5,
+        "detalle": "Puedes absorber y reflejar el dano que otros te infligen.",
+        "efecto": "La regeneracion de salud aumenta en un 2% por cada punto de inteligencia.",
+        "requerimiento": [
+            {
+                "tipo": "A dos manos"
+            },
+            {
+                "Necromante": 7
             }
         ]
     }

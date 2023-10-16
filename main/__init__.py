@@ -1,1 +1,1 @@
-from .generators import SkillsGenerator
+from .generators import SkillsGenerator, KeyObjectsGenerator, ConsumiblesGenerator, MisionesGenerator

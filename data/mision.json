@@ -1,0 +1,2866 @@
+[
+    {
+        "nombre": "La busqueda del artefacto perdido",
+        "recompensa_xp": 4918,
+        "recompensa_oro": 650,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621539",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae73deb600c2db621604",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae73deb600c2db6215f6",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae73deb600c2db6215f8",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6214e2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621552",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae73deb600c2db621608",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db62153d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            }
+        ]
+    },
+    {
+        "nombre": "La maldicion de la cripta ancestral",
+        "recompensa_xp": 1539,
+        "recompensa_oro": 1154,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621523",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6215e1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db621574",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db62155b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae73deb600c2db6215ee",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 12
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            }
+        ]
+    },
+    {
+        "nombre": "El secreto de la esmeralda dragon",
+        "recompensa_xp": 2562,
+        "recompensa_oro": 279,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215a1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6215a2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6215bc",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6215bb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621571",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae71deb600c2db6215ba",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db621584",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6215d9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza del lobo solitario",
+        "recompensa_xp": 1379,
+        "recompensa_oro": 1022,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215ef",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db62150b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La venganza de la bruja malvada",
+                "descripcion": "Una bruja malvada ha lanzado una maldicion sobre un pueblo. Encontremos a la bruja y pongamos fin a su maleficio."
+            }
+        ]
+    },
+    {
+        "nombre": "La invasion de los orcos feroces",
+        "recompensa_xp": 2603,
+        "recompensa_oro": 139,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621599",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            }
+        ]
+    },
+    {
+        "nombre": "El rescate de la princesa cautiva",
+        "recompensa_xp": 2259,
+        "recompensa_oro": 105,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215f8",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae73deb600c2db6215ee",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db6214fb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621563",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6215a9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621526",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            }
+        ]
+    },
+    {
+        "nombre": "La busqueda del Libro de las Sombras",
+        "recompensa_xp": 3610,
+        "recompensa_oro": 183,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db621604",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae73deb600c2db6215f5",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            }
+        ]
+    },
+    {
+        "nombre": "El enigma de la estatua llameante",
+        "recompensa_xp": 2389,
+        "recompensa_oro": 444,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215e5",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621514",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db621560",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza de la bruja malvada",
+                "descripcion": "Una bruja malvada ha lanzado una maldicion sobre un pueblo. Encontremos a la bruja y pongamos fin a su maleficio."
+            },
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            },
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            }
+        ]
+    },
+    {
+        "nombre": "La conspiracion en la corte real",
+        "recompensa_xp": 2019,
+        "recompensa_oro": 794,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621518",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            }
+        ]
+    },
+    {
+        "nombre": "El robo del diamante del desierto",
+        "recompensa_xp": 4586,
+        "recompensa_oro": 176,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62157b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db6215aa",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db621576",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db6214fc",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6215b6",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621547",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215d0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza del caballero caido",
+        "recompensa_xp": 589,
+        "recompensa_oro": 776,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215af",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215cc",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621510",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db62159c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db621539",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "Rastrea las pistas del ladron maestro.",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            }
+        ]
+    },
+    {
+        "nombre": "La persecucion del ladron maestro",
+        "recompensa_xp": 2033,
+        "recompensa_oro": 208,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214cd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6214e1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae73deb600c2db6215f4",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae73deb600c2db6215fc",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae71deb600c2db621513",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae71deb600c2db62156e",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db62150c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6215cd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db62152a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621571",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            }
+        ]
+    },
+    {
+        "nombre": "La maldicion del bosque oscuro",
+        "recompensa_xp": 1688,
+        "recompensa_oro": 954,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62152c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            }
+        ]
+    },
+    {
+        "nombre": "La leyenda de la espada legendaria",
+        "recompensa_xp": 4365,
+        "recompensa_oro": 851,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62158e",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db621525",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db62156a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae73deb600c2db6215e5",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae73deb600c2db6215fe",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215ae",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db621566",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db621540",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "Rastrea las pistas del ladron maestro.",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            }
+        ]
+    },
+    {
+        "nombre": "La incursion en el templo prohibido",
+        "recompensa_xp": 895,
+        "recompensa_oro": 983,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214c3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db621578",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db6214c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621575",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae71deb600c2db6215ba",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db6215d0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621516",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db62154f",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae73deb600c2db6215e4",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621595",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            }
+        ]
+    },
+    {
+        "nombre": "El enigma de la piedra lunar",
+        "recompensa_xp": 2149,
+        "recompensa_oro": 756,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215e3",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6215d4",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6214c8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db621509",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6215c5",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "La venganza del caballero caido",
+                "descripcion": "Un caballero noble fue traicionado y exiliado. Descubramos la verdad detras de la traicion y su venganza."
+            }
+        ]
+    },
+    {
+        "nombre": "La defensa del reino enano",
+        "recompensa_xp": 3964,
+        "recompensa_oro": 593,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214f7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db6215be",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215cb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db6215c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db621576",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "La venganza del caballero caido",
+                "descripcion": "Un caballero noble fue traicionado y exiliado. Descubramos la verdad detras de la traicion y su venganza."
+            }
+        ]
+    },
+    {
+        "nombre": "La traicion en la hermandad de los magos",
+        "recompensa_xp": 5123,
+        "recompensa_oro": 254,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214ce",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae73deb600c2db621605",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db62150c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db62152b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La profecia olvidada",
+                "descripcion": "Una leyenda habla de un antiguo pergamino que contiene una profecia olvidada. Debemos encontrarlo para descubrir su significado."
+            }
+        ]
+    },
+    {
+        "nombre": "La amenaza de los no-muertos",
+        "recompensa_xp": 285,
+        "recompensa_oro": 487,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621594",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6214fc",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6215bb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db621525",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db6215c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae71deb600c2db6214f8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db621535",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae73deb600c2db6215eb",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            }
+        ]
+    },
+    {
+        "nombre": "La reliquia de los antiguos",
+        "recompensa_xp": 668,
+        "recompensa_oro": 435,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62156d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6215cf",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6214c5",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae73deb600c2db6215e7",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            }
+        ]
+    },
+    {
+        "nombre": "El dilema de las dos lunas",
+        "recompensa_xp": 656,
+        "recompensa_oro": 1056,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62157e",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db621512",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6215b6",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6214c9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db62156b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db621534",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6215c2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            }
+        ]
+    },
+    {
+        "nombre": "El rescate de la aldea perdida",
+        "recompensa_xp": 3334,
+        "recompensa_oro": 749,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62152a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db621567",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db62153d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6214c6",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db621521",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db6215b8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db621525",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            }
+        ]
+    },
+    {
+        "nombre": "El misterio del barco fantasma",
+        "recompensa_xp": 4862,
+        "recompensa_oro": 79,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62151a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db62157f",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621542",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "La profecia olvidada",
+                "descripcion": "Una leyenda habla de un antiguo pergamino que contiene una profecia olvidada. Debemos encontrarlo para descubrir su significado."
+            },
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            }
+        ]
+    },
+    {
+        "nombre": "La busqueda del corazon de la selva",
+        "recompensa_xp": 4639,
+        "recompensa_oro": 688,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215b3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae73deb600c2db6215f4",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 8
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza del corsario",
+        "recompensa_xp": 4088,
+        "recompensa_oro": 730,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215cd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db6214c3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db621560",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621510",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db621502",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6215db",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6214e2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db621523",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db6214d3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6215b3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del caballero caido",
+                "descripcion": "Un caballero noble fue traicionado y exiliado. Descubramos la verdad detras de la traicion y su venganza."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            },
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            },
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            }
+        ]
+    },
+    {
+        "nombre": "La profecia de los dioses antiguos",
+        "recompensa_xp": 2091,
+        "recompensa_oro": 1031,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215b3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db621521",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            }
+        ]
+    },
+    {
+        "nombre": "El enigma de la estrella fugaz",
+        "recompensa_xp": 4022,
+        "recompensa_oro": 346,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215f8",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6214d7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db621518",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            },
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            },
+            {
+                "nombre": "Rastrea las pistas del ladron maestro.",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza del pirata legendario",
+        "recompensa_xp": 282,
+        "recompensa_oro": 1131,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db6215e5",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6214ff",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae73deb600c2db6215eb",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae73deb600c2db6215e2",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6214c8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6214ce",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db62158b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db6215a0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza de la bruja malvada",
+                "descripcion": "Una bruja malvada ha lanzado una maldicion sobre un pueblo. Encontremos a la bruja y pongamos fin a su maleficio."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            }
+        ]
+    },
+    {
+        "nombre": "La conspiracion de los asesinos",
+        "recompensa_xp": 3313,
+        "recompensa_oro": 1166,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214cf",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db6214c2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6215c1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6215a3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db6214e8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db62153d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La venganza del lobo solitario",
+                "descripcion": "Un lobo solitario busca vengar la muerte de su manada a manos de cazadores despiadados. Ayudemoslo en su busqueda de justicia."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            }
+        ]
+    },
+    {
+        "nombre": "La busqueda del tesoro maldito",
+        "recompensa_xp": 3132,
+        "recompensa_oro": 361,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621582",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae73deb600c2db6215fc",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6214e1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db62154d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621509",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db6214ed",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621532",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6215df",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            }
+        ]
+    },
+    {
+        "nombre": "La maldicion del faro embrujado",
+        "recompensa_xp": 2953,
+        "recompensa_oro": 909,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62158d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215a3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db62158c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621574",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            },
+            {
+                "nombre": "La venganza de la bruja malvada",
+                "descripcion": "Una bruja malvada ha lanzado una maldicion sobre un pueblo. Encontremos a la bruja y pongamos fin a su maleficio."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            }
+        ]
+    },
+    {
+        "nombre": "La amenaza del dragon de hielo",
+        "recompensa_xp": 2359,
+        "recompensa_oro": 514,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621597",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6215c9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db62152e",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6215b1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            },
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            }
+        ]
+    },
+    {
+        "nombre": "La defensa de la torre de cristal",
+        "recompensa_xp": 2688,
+        "recompensa_oro": 1070,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621513",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6215ba",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215d2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            },
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            }
+        ]
+    },
+    {
+        "nombre": "El desafio de los elementos",
+        "recompensa_xp": 2789,
+        "recompensa_oro": 583,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215c1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db62156e",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db621598",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            }
+        ]
+    },
+    {
+        "nombre": "La traicion en la hermandad oscura",
+        "recompensa_xp": 4424,
+        "recompensa_oro": 247,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214d2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215cb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db62151f",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db621511",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db6214cb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6215e0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            }
+        ]
+    },
+    {
+        "nombre": "La incursion en la fortaleza perdida",
+        "recompensa_xp": 5076,
+        "recompensa_oro": 490,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db621606",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6215c5",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 12
+            },
+            {
+                "_id": "652dae71deb600c2db621548",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db621511",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db62150b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db6215af",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621539",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db6215a1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db621506",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6214f4",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            },
+            {
+                "nombre": "El rescate de los prisioneros de guerra",
+                "descripcion": "Los prisioneros de guerra necesitan ser rescatados de un campo de batalla. Infiltremos y liberemoslos."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            }
+        ]
+    },
+    {
+        "nombre": "El enigma de la ciudad olvidada",
+        "recompensa_xp": 4645,
+        "recompensa_oro": 331,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62155a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6214e1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db6215ba",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db62152c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            },
+            {
+                "nombre": "Rastrea las pistas del ladron maestro.",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            }
+        ]
+    },
+    {
+        "nombre": "El robo del colgante real",
+        "recompensa_xp": 3069,
+        "recompensa_oro": 338,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214f2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La venganza de la bruja malvada",
+                "descripcion": "Una bruja malvada ha lanzado una maldicion sobre un pueblo. Encontremos a la bruja y pongamos fin a su maleficio."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            }
+        ]
+    },
+    {
+        "nombre": "La amenaza de los seres subterraneos",
+        "recompensa_xp": 4905,
+        "recompensa_oro": 411,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215df",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza del caballero renegado",
+        "recompensa_xp": 950,
+        "recompensa_oro": 621,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621562",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db6215c5",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db6214f8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae71deb600c2db6214cd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            },
+            {
+                "nombre": "La conspiracion en la corte real",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "La profecia olvidada",
+                "descripcion": "Una leyenda habla de un antiguo pergamino que contiene una profecia olvidada. Debemos encontrarlo para descubrir su significado."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            }
+        ]
+    },
+    {
+        "nombre": "El misterio de la estatua ancestral",
+        "recompensa_xp": 3070,
+        "recompensa_oro": 1102,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6214ca",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La profecia olvidada",
+                "descripcion": "Una leyenda habla de un antiguo pergamino que contiene una profecia olvidada. Debemos encontrarlo para descubrir su significado."
+            },
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            }
+        ]
+    },
+    {
+        "nombre": "La busqueda del libro de hechizos",
+        "recompensa_xp": 3543,
+        "recompensa_oro": 754,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215a2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6215e0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La venganza del caballero caido",
+                "descripcion": "Un caballero noble fue traicionado y exiliado. Descubramos la verdad detras de la traicion y su venganza."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            },
+            {
+                "nombre": "La venganza del corsario",
+                "descripcion": "Un corsario legendario busca vengarse de una traicion. Ayudemoslo a reunir su tripulacion y enfrentar a sus enemigos."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            },
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            }
+        ]
+    },
+    {
+        "nombre": "La maldicion de la mansion embrujada",
+        "recompensa_xp": 1711,
+        "recompensa_oro": 1131,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215b1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621587",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6215bc",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db62154b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db62150d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621573",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215dd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La defensa de la aldea elfica",
+                "descripcion": "Una aldea elfica esta bajo amenaza de un ejercito invasor. Ayudemos a los elfos a defender su hogar."
+            },
+            {
+                "nombre": "La busqueda del artefacto perdido",
+                "descripcion": "Un artefacto magico de gran poder se ha perdido. Deberemos encontrarlo antes de que caiga en manos equivocadas."
+            }
+        ]
+    },
+    {
+        "nombre": "La conspiracion en la corte de las sombras",
+        "recompensa_xp": 4081,
+        "recompensa_oro": 856,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215c6",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215a1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae71deb600c2db62157a",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6215c2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "_id": "652dae73deb600c2db6215fd",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 15
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El dilema de las dos lunas",
+                "descripcion": "Dos lunas llenas aparecen en el cielo, un evento raro que trae consigo desafios magicos. Enfrentemos las pruebas y descubramos su significado."
+            },
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            }
+        ]
+    },
+    {
+        "nombre": "La traicion en el gremio de ladrones",
+        "recompensa_xp": 5112,
+        "recompensa_oro": 209,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621595",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621527",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del faro embrujado",
+                "descripcion": "El faro en la costa esta embrujado por espiritus vengativos. Resolvamos la maldicion que acecha este lugar."
+            }
+        ]
+    },
+    {
+        "nombre": "La defensa de la aldea elfica",
+        "recompensa_xp": 836,
+        "recompensa_oro": 1073,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db621609",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 7
+            },
+            {
+                "_id": "652dae71deb600c2db6214fb",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db6215c3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621501",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6215c9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae73deb600c2db6215e2",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae73deb600c2db6215f0",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 6
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "La busqueda del libro de hechizos",
+                "descripcion": "Un libro de hechizos magicos ha desaparecido y podria caer en manos equivocadas. Encontremos el libro antes de que sea demasiado tarde."
+            }
+        ]
+    },
+    {
+        "nombre": "El rescate de los prisioneros de guerra",
+        "recompensa_xp": 3227,
+        "recompensa_oro": 358,
+        "recompensa_obj": [
+            {
+                "_id": "652dae73deb600c2db621603",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db6214cd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae73deb600c2db6215fd",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dae73deb600c2db6215fa",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae73deb600c2db621604",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae71deb600c2db6215d1",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae73deb600c2db6215f7",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db621507",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dae73deb600c2db6215f6",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 10
+            },
+            {
+                "_id": "652dae71deb600c2db621527",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El enigma de la estatua llameante",
+                "descripcion": "Una estatua en el centro de la ciudad arde en llamas eternas. Descubramos el secreto detras de esta misteriosa estatua."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            }
+        ]
+    },
+    {
+        "nombre": "La venganza de la bruja malvada",
+        "recompensa_xp": 1131,
+        "recompensa_oro": 320,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db621561",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6215bd",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db621526",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 8
+            },
+            {
+                "_id": "652dae71deb600c2db6215a9",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae71deb600c2db6214e5",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "_id": "652dae71deb600c2db6214ed",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "_id": "652dae71deb600c2db6215c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            }
+        ]
+    },
+    {
+        "nombre": "La persecucion del artefacto antiguo",
+        "recompensa_xp": 2043,
+        "recompensa_oro": 757,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db62156d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621534",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dae71deb600c2db621552",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "La maldicion del bosque oscuro",
+                "descripcion": "Personas han desaparecido misteriosamente en el bosque oscuro. Investiguemos la causa de estas desapariciones."
+            },
+            {
+                "nombre": "Descubre indicios de la conspiracion.",
+                "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
+            },
+            {
+                "nombre": "El rescate de la princesa cautiva",
+                "descripcion": "La princesa del reino ha sido secuestrada por un malvado hechicero. Debemos rescatarla y devolverla a salvo."
+            },
+            {
+                "nombre": "La busqueda del tesoro maldito",
+                "descripcion": "Un antiguo tesoro maldito esta enterrado en una isla remota. Encontremos el tesoro y deshagamonos de su maldicion."
+            },
+            {
+                "nombre": "La conspiracion en la corte de las sombras",
+                "descripcion": "La corte de las sombras oculta oscuros secretos y complots. Infiltremos la corte y expongamos la conspiracion."
+            },
+            {
+                "nombre": "La persecucion del ladron maestro",
+                "descripcion": "Un ladron maestro ha robado tesoros invaluables. Rastreemoslo y recuperemos lo que ha robado."
+            }
+        ]
+    },
+    {
+        "nombre": "El enigma de la gema perdida",
+        "recompensa_xp": 5090,
+        "recompensa_oro": 724,
+        "recompensa_obj": [
+            {
+                "_id": "652dae71deb600c2db6215c7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "_id": "652dae73deb600c2db6215ef",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 11
+            },
+            {
+                "_id": "652dae71deb600c2db621543",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dae71deb600c2db621585",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "_id": "652dae71deb600c2db621582",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dae73deb600c2db6215f0",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 2
+            }
+        ],
+        "etapas": [
+            {
+                "nombre": "El robo del diamante del desierto",
+                "descripcion": "Un diamante raro y precioso ha sido robado del desierto. Sigamos las pistas y recuperemos esta valiosa gema."
+            }
+        ]
+    }
+]

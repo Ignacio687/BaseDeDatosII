@@ -1,8 +1,9 @@
-import pymongo
+import random
+from . import GeneratorABC
+from typing import Any
 from pymongo import MongoClient
-import random,json
 
-class SkillsGenerator():
+class SkillsGenerator(GeneratorABC):
     def __init__(self) -> None:
         self.nombres = {
             "Cazador": "Obten mas carne y piel de animales que cazes.",
@@ -85,7 +86,7 @@ class SkillsGenerator():
         self.tipos_req_arma = ["A distancia","A dos manos","A una mano", "Arma Cuerpo a Cuerpo", "Arma Magica"]
 
 
-    def generateJsonObj(self, key, element):
+    def generateJsonObj(self, key:str, element: Any) -> dict[str, Any]:
         return {
             "nombre": key,
             "dano-min": random.randint(5, 10),
@@ -100,13 +101,8 @@ class SkillsGenerator():
                 {random.choice(self.tipos_req_habilidades): random.randint(1, 11)}
             ]
         }
-    
-    def generateJsonFile(self, registros, name:str):
-        registros_json = json.dumps(registros, indent=4)
-        with open(f'data/{name.lower()}.json', 'w') as archivo_json:
-            archivo_json.write(registros_json)
 
-    def generateData(self, name:str):
-        registros = [self.generateJsonObj(key,element) for key,element in self.nombres.items()]
+    def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
+        registros = [self.generateJsonObj(key, element) for key,element in self.nombres.items()]
         self.generateJsonFile(registros, name)
         return registros

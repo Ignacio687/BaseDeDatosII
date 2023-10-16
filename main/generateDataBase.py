@@ -1,7 +1,5 @@
-import pymongo, json
 from pymongo import MongoClient
-from bson import ObjectId
-from main import  SkillsGenerator
+from main import  SkillsGenerator, ConsumiblesGenerator, KeyObjectsGenerator, MisionesGenerator
 
 class DataBaseGenerator():
     def __init__(self,
@@ -22,18 +20,23 @@ class DataBaseGenerator():
     def setDBCollections(self, db_collections):
         self.db_collections = db_collections
 
-    def generateJsonData(self, collectionName:str):
-        if collectionName.lower() == 'habilidad':
-            skillsGenerator = SkillsGenerator()
-            return skillsGenerator.generateData(collectionName)
-        else: return [{}]
+    def generateJsonData(self, collectionName:str, data_base):
+        generators = {}
+        generatorsList = [("habilidad", SkillsGenerator), ("consumible", ConsumiblesGenerator), ("objeto_clave", KeyObjectsGenerator), ("mision", MisionesGenerator)]
+        for name, classVar in generatorsList:
+            instance = classVar()
+            generators[name] = instance
+        try:
+            return generators[collectionName.lower()].generateData(collectionName, data_base)
+        except KeyError:
+            return [{"ERROR": "No existe un generador para esta coleccion"}]
 
     def generateDB(self):
         cliente = MongoClient(self.db_host)
         cliente.drop_database(self.db_name)
         db = cliente[self.db_name]
         for collection in self.db_collections:
-            db[collection].insert_many(self.generateJsonData(collection))
+            db[collection].insert_many(self.generateJsonData(collection, db))
         cliente.close()
         print("Proceso Finalizado")
         

@@ -1,9 +1,12 @@
-import pymongo
 from pymongo import MongoClient
 import random,json
 from bson import ObjectId
+from typing import Any
+from . import GeneratorABC
 
-nombres_de_misiones = [
+class MisionesGenerator(GeneratorABC):
+    def __init__(self) -> None:
+        self.nombres_de_misiones = [
     "La busqueda del artefacto perdido",
     "La maldicion de la cripta ancestral",
     "El secreto de la esmeralda dragon",
@@ -56,7 +59,7 @@ nombres_de_misiones = [
     "El enigma de la gema perdida",
 ]
 
-etapas_de_mision = [
+        self.etapas_de_mision = [
     {
         "nombre": "Descubre indicios de la conspiracion.",
         "descripcion": "Indicios apuntan a una conspiracion en la corte real. Investiguemos para revelar la verdad detras de estos oscuros planes."
@@ -143,40 +146,39 @@ etapas_de_mision = [
     },
 ]
 
+    def getObjectsIds(self, data_base):
+        objectsIDs = []
+        for collection in ['Consumible', 'Objeto_Clave']:
+            objectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
+        return objectsIDs
 
-cliente = pymongo.MongoClient("mongodb+srv://Cluster18604:mati2002@cluster0.zale6eu.mongodb.net/")
-db = cliente.MMO_RPG  # Reemplaza "tu_base_de_datos" con el nombre de tu base de datos
-coleccion = db.Misiones  # Reemplaza "tu_coleccion" con el nombre de tu coleccion
+    def generateJsonObj(self, nombre:str, objectsIDs: list) -> dict[str, Any]:
+        etapas_unicas = random.sample(self.etapas_de_mision, 6)
+        etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
+        recompensas_unicas = random.sample(objectsIDs, 10)
+        recompensas = [{"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)} for counter in range(0, random.randint(1, 10))]
+        return {
+        "nombre": nombre,
+        "recompensa_xp": random.randint(50, 5201),
+        "recompensa_oro": random.randint(10, 1201),
+        "recompensa_obj": recompensas,
+        "etapas": etapas
+        }
 
-object_ids = [doc['_id'] for doc in db.Consumibles.find({}, projection=["_id"])]
-object_ids.extend([doc['_id'] for doc in db.Objetos_Clave.find({}, projection=["_id"])])
-
-def generar_registro(nombre):
-    etapas_unicas = random.sample(etapas_de_mision, 6)
-    etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
-    recompensas_unicas = random.sample(object_ids, 10)
-    recompensas = [{"_id": recompensas_unicas[counter], "cantidad": random.randint(1, 15)} for counter in range(0, random.randint(1, 10))]
-    return {
-    "nombre": nombre,
-    "recompensa_xp": random.randint(50, 5201),
-    "recompensa_oro": random.randint(10, 1201),
-    "recompensa_obj": recompensas,
-    "etapas": etapas
-}
+    def generateJsonFile(self, registros: dict[str, Any], name:str) -> None:
+        def convertir_object_id(obj):
+            if isinstance(obj, ObjectId):
+                return str(obj)
+            raise TypeError
+        
+        registros_json = json.dumps(registros, indent=4, default=convertir_object_id)
+        with open(f'data/{name.lower()}.json', 'w') as archivo_json:
+            archivo_json.write(registros_json)
 
 
-registros = [generar_registro(nombre) for nombre in nombres_de_misiones]
-
-# Convierte los ObjectIds a strings
-def convertir_object_id(obj):
-    if isinstance(obj, ObjectId):
-        return str(obj)
-    raise TypeError
-
-registros_json = json.dumps(registros, default=convertir_object_id, indent=4)
-
-with open('data/misiones.json', 'w') as archivo_json:
-    archivo_json.write(registros_json)
-
-if input("Confirmar?") == 'y':
-    coleccion.insert_many(registros)
+    def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
+        objectsIDs = self.getObjectsIds(data_base)
+        registros = [self.generateJsonObj(nombre, objectsIDs) for nombre in self.nombres_de_misiones]
+        self.generateJsonFile(registros, name)
+        return registros
+    
