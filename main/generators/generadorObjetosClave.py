@@ -58,5 +58,5 @@ class KeyObjectsGenerator(GeneratorABC):
 
     def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         registros = [self.generateJsonObj(key, element) for key,element in self.objetos_clave.items()]
-        self.generateJsonFile(registros, name)
+        #self.generateJsonFile(registros, name)
         return registros

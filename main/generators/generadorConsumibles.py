@@ -33,5 +33,5 @@ class ConsumiblesGenerator(GeneratorABC):
 
     def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         registros = [self.generateJsonObj(key, element) for key,element in product(self.tipos_objetos, self.adjetivos)]
-        self.generateJsonFile(registros, name)
+        #self.generateJsonFile(registros, name)
         return registros

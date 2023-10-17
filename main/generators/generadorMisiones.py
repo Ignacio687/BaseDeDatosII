@@ -188,6 +188,6 @@ class MisionesGenerator(GeneratorABC):
     def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
         registros = [self.generateJsonObj(nombre, objectsIDs, data_base) for nombre in self.nombres_de_misiones]
-        self.generateJsonFile(registros, name)
+        #self.generateJsonFile(registros, name)
         return registros
     

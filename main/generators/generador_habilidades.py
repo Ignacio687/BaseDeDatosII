@@ -103,5 +103,5 @@ class SkillsGenerator(GeneratorABC):
 
     def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         registros = [self.generateJsonObj(key, element) for key,element in self.nombres.items()]
-        self.generateJsonFile(registros, name)
+        #self.generateJsonFile(registros, name)
         return registros

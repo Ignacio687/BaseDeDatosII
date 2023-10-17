@@ -2,241 +2,241 @@
     {
         "nombre": "Llave del Templo Antiguo",
         "descripcion": "Una antigua llave de bronce que desbloquea la entrada al Templo Antiguo, repleto de tesoros perdidos.",
-        "peso": 1.11,
-        "valor": 631
+        "peso": 0.1,
+        "valor": 673
     },
     {
         "nombre": "Talisman del Destino",
         "descripcion": "Un talisman magico que otorga a su portador la capacidad de cambiar su destino una vez.",
-        "peso": 1.42,
-        "valor": 632
+        "peso": 0.33,
+        "valor": 570
     },
     {
         "nombre": "Perla de la Sabiduria",
         "descripcion": "Una hermosa perla que concede conocimiento y sabiduria a aquel que la posee.",
-        "peso": 0.58,
-        "valor": 704
+        "peso": 1.84,
+        "valor": 275
     },
     {
         "nombre": "Espada de los Caidos",
         "descripcion": "Una espada legendaria que fue usada por heroes caidos en batalla. Infunde miedo en los enemigos.",
-        "peso": 0.78,
-        "valor": 228
+        "peso": 1.85,
+        "valor": 175
     },
     {
         "nombre": "Espejo de la Verdad",
         "descripcion": "Un espejo magico que revela la verdad oculta y los enganos de aquellos que se reflejan en el.",
-        "peso": 0.1,
-        "valor": 255
+        "peso": 0.3,
+        "valor": 75
     },
     {
         "nombre": "Gema del Fuego Eterno",
         "descripcion": "Una gema ardiente que puede encender fuego eterno y controlarlo a voluntad.",
-        "peso": 1.92,
-        "valor": 272
+        "peso": 0.46,
+        "valor": 410
     },
     {
         "nombre": "Daga de las Sombras",
         "descripcion": "Una daga sigilosa que permite al portador desvanecerse en las sombras y atacar sin ser visto.",
-        "peso": 0.36,
-        "valor": 344
+        "peso": 0.7,
+        "valor": 735
     },
     {
         "nombre": "Cetro de la Reina de Hielo",
         "descripcion": "El cetro de la legendaria Reina de Hielo, capaz de congelar a sus enemigos con un solo toque.",
-        "peso": 1.96,
-        "valor": 525
+        "peso": 1.09,
+        "valor": 811
     },
     {
         "nombre": "Amuleto del Tiempo",
         "descripcion": "Un amuleto que concede al portador el control sobre el tiempo, permitiendole retroceder o avanzar en el tiempo.",
-        "peso": 0.45,
-        "valor": 741
+        "peso": 1.93,
+        "valor": 587
     },
     {
         "nombre": "Flor de la Eterna Primavera",
         "descripcion": "Una hermosa flor que florece en todas las estaciones y otorga vida eterna a su dueno.",
-        "peso": 0.67,
-        "valor": 259
+        "peso": 0.32,
+        "valor": 565
     },
     {
         "nombre": "Llave del Portal Interdimensional",
         "descripcion": "Una llave que puede abrir portales a dimensiones desconocidas y peligrosas.",
-        "peso": 0.41,
-        "valor": 720
+        "peso": 1.26,
+        "valor": 741
     },
     {
         "nombre": "Orbe de la Luna Celestial",
         "descripcion": "Un orbe que canaliza el poder de la luna para otorgar habilidades magicas a su portador.",
-        "peso": 1.14,
-        "valor": 843
+        "peso": 0.44,
+        "valor": 209
     },
     {
         "nombre": "Colmillo del Dragon",
         "descripcion": "Un colmillo afilado de un dragon antiguo que puede ser forjado en una espada legendaria.",
-        "peso": 0.26,
-        "valor": 534
+        "peso": 0.76,
+        "valor": 931
     },
     {
         "nombre": "Libro de Hechizos Antiguos",
         "descripcion": "Un antiguo libro lleno de hechizos olvidados que otorga conocimientos arcanos.",
-        "peso": 0.63,
-        "valor": 334
+        "peso": 0.68,
+        "valor": 537
     },
     {
         "nombre": "Bolsa de Monedas sin Fondo",
         "descripcion": "Una bolsa que siempre contiene monedas de oro, sin importar cuantas saques de ella.",
-        "peso": 1.52,
-        "valor": 605
+        "peso": 1.2,
+        "valor": 632
     },
     {
         "nombre": "Martillo de los Dioses",
         "descripcion": "Un martillo imbuido con el poder de los dioses, capaz de desatar la furia divina en la batalla.",
-        "peso": 1.8,
-        "valor": 29
+        "peso": 1.99,
+        "valor": 782
     },
     {
         "nombre": "Ojo del Oraculo",
         "descripcion": "Un ojo magico que permite al portador ver el futuro y obtener visiones de eventos por venir.",
-        "peso": 0.64,
-        "valor": 42
+        "peso": 0.2,
+        "valor": 447
     },
     {
         "nombre": "Anillo del Inmortal",
         "descripcion": "Un anillo que concede la inmortalidad a su portador, volviendolo inmune al paso del tiempo.",
-        "peso": 1.06,
-        "valor": 401
+        "peso": 0.83,
+        "valor": 513
     },
     {
         "nombre": "Calavera del Conquistador",
         "descripcion": "Una calavera tallada con runas que otorga el conocimiento de las estrategias de los conquistadores.",
-        "peso": 1.14,
-        "valor": 134
+        "peso": 1.03,
+        "valor": 895
     },
     {
         "nombre": "Llave del Abismo Oscuro",
         "descripcion": "Una llave que abre la puerta al Abismo Oscuro, un lugar lleno de peligros y tesoros inimaginables.",
-        "peso": 1.49,
-        "valor": 597
+        "peso": 0.2,
+        "valor": 364
     },
     {
         "nombre": "Corona del Rey Dragon",
         "descripcion": "Una corona adornada con gemas que simboliza el dominio sobre los dragones y sus poderes.",
-        "peso": 1.5,
-        "valor": 467
+        "peso": 0.79,
+        "valor": 28
     },
     {
         "nombre": "Lanza del Cazador de Dragones",
         "descripcion": "Una lanza magica forjada para cazar dragones y perforar sus escamas con facilidad.",
-        "peso": 0.39,
-        "valor": 212
+        "peso": 0.89,
+        "valor": 639
     },
     {
         "nombre": "Reloj de la Eternidad",
         "descripcion": "Un reloj que detiene el tiempo a voluntad y permite al portador moverse libremente en un mundo congelado.",
-        "peso": 0.42,
-        "valor": 903
+        "peso": 1.47,
+        "valor": 835
     },
     {
         "nombre": "Hoja de la Luna Plateada",
         "descripcion": "Una espada de plata que brilla con la luz de la luna y es efectiva contra criaturas de la noche.",
-        "peso": 1.64,
-        "valor": 934
+        "peso": 0.24,
+        "valor": 510
     },
     {
         "nombre": "Piedra del Portal Interplanar",
         "descripcion": "Una piedra que puede abrir portales a otros planos de existencia y conectar mundos diferentes.",
-        "peso": 0.58,
-        "valor": 291
+        "peso": 0.28,
+        "valor": 978
     },
     {
         "nombre": "Llave del Tesoro del Pirata",
         "descripcion": "Una llave que desbloquea el legendario tesoro escondido por un famoso pirata.",
-        "peso": 0.75,
-        "valor": 724
+        "peso": 1.58,
+        "valor": 19
     },
     {
         "nombre": "Pergamino del Sabio Anciano",
         "descripcion": "Un antiguo pergamino que contiene secretos perdidos y hechizos ancestrales.",
-        "peso": 1.5,
-        "valor": 148
+        "peso": 1.95,
+        "valor": 29
     },
     {
         "nombre": "Corazon de la Selva Eterna",
         "descripcion": "Una gema que alberga el espiritu de la selva y otorga control sobre la naturaleza.",
-        "peso": 0.35,
-        "valor": 141
+        "peso": 0.44,
+        "valor": 415
     },
     {
         "nombre": "Baston del Archimago",
         "descripcion": "Un baston que concentra el poder de un archimago y amplifica los hechizos del portador.",
-        "peso": 1.31,
-        "valor": 543
+        "peso": 1.88,
+        "valor": 850
     },
     {
         "nombre": "Ojo del Huracan",
         "descripcion": "Un ojo que permite al portador controlar el viento y desatar tormentas furiosas.",
-        "peso": 1.48,
-        "valor": 175
+        "peso": 0.6,
+        "valor": 454
     },
     {
         "nombre": "Gafas de la Vision Verdadera",
         "descripcion": "Un par de gafas magicas que revelan la verdad y las ilusiones ocultas.",
-        "peso": 0.63,
-        "valor": 531
+        "peso": 1.82,
+        "valor": 413
     },
     {
         "nombre": "Cetro del Faraon",
         "descripcion": "Un cetro imbuido con la autoridad del faraon, que permite controlar a las criaturas no muertas.",
-        "peso": 0.72,
-        "valor": 977
+        "peso": 0.03,
+        "valor": 40
     },
     {
         "nombre": "Cristal de los Suenos",
         "descripcion": "Un cristal que permite al portador entrar en los suenos de otros y explorar mundos oniricos.",
-        "peso": 1.34,
-        "valor": 459
+        "peso": 1.91,
+        "valor": 594
     },
     {
         "nombre": "Flauta del Chaman",
         "descripcion": "Una flauta magica que puede comunicarse con espiritus y bestias de la naturaleza.",
-        "peso": 1.83,
-        "valor": 906
+        "peso": 1.08,
+        "valor": 262
     },
     {
         "nombre": "Llave del Portal Estelar",
         "descripcion": "Una llave que abre puertas a mundos distantes y desconocidos en las estrellas.",
-        "peso": 1.74,
-        "valor": 433
+        "peso": 1.78,
+        "valor": 402
     },
     {
         "nombre": "Amuleto de la Lluvia de Estrellas",
         "descripcion": "Un amuleto que otorga el poder de convocar lluvias de estrellas y desear deseos.",
-        "peso": 0.72,
-        "valor": 363
+        "peso": 0.18,
+        "valor": 603
     },
     {
         "nombre": "Lanza de la Aurora",
         "descripcion": "Una lanza que irradia la luz de la aurora y puede purificar a las criaturas corruptas.",
-        "peso": 1.69,
-        "valor": 236
+        "peso": 1.63,
+        "valor": 820
     },
     {
         "nombre": "Piedra de la Sabiduria Antigua",
         "descripcion": "Una piedra que contiene la sabiduria de civilizaciones antiguas y otorga conocimiento.",
-        "peso": 1.19,
-        "valor": 631
+        "peso": 1.65,
+        "valor": 18
     },
     {
         "nombre": "Cetro de los Elementos",
         "descripcion": "Un cetro que permite al portador controlar los cuatro elementos: fuego, agua, tierra y aire.",
-        "peso": 1.44,
-        "valor": 589
+        "peso": 1.83,
+        "valor": 258
     },
     {
         "nombre": "Espejo de la Dualidad",
         "descripcion": "Un espejo que crea una copia exacta del portador para luchar a su lado en batalla.",
-        "peso": 0.05,
-        "valor": 192
+        "peso": 1.69,
+        "valor": 388
     }
 ]

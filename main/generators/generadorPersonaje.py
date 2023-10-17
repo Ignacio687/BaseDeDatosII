@@ -2,6 +2,7 @@ import random, json
 from bson import ObjectId
 from typing import Any
 from . import GeneratorABC, EquipmentGenerator
+import time
 
 class GeneratorPersonaje(GeneratorABC):
     def __init__(self) -> None:
@@ -128,11 +129,14 @@ class GeneratorPersonaje(GeneratorABC):
         habilidadesObjectsIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
         return (misionesObjectsIDs, inventarioObjectsIDs, habilidadesObjectsIDs)
 
-    def generateJsonObj(self, objectsIDs: list, data_base) -> dict[str, Any]:
+    def generateJsonObj(self, objectsIDs: list, data_base, counterName) -> dict[str, Any]:
+        inicio = time.time()
+        print(f"Generating  {counterName}")
         equipmentGenerator = EquipmentGenerator()
         inventario = []
-        inventario_unicas = random.sample(objectsIDs[1], 100)
-        for counter in range(0, random.randint(1, 100)):
+        inventario_unicas = random.sample(objectsIDs[1], 50)
+        inventarioIn = time.time()
+        for counter in range(0, random.randint(1, 50)):
             optionPick = random.randint(0, 2)
             if optionPick == 0:
                 inventario.append({"_id": inventario_unicas[counter][1], "collection": {"$ref": inventario_unicas[counter][0]}, "cantidad": random.randint(1, 30)})
@@ -140,10 +144,11 @@ class GeneratorPersonaje(GeneratorABC):
                 inventario.append(equipmentGenerator.generateEquipmentJsonObj(data_base))
             else:
                 inventario.append(equipmentGenerator.generateWeaponJsonObj(data_base))
-        
+        inventarioFinish = time.time()
+        tiempo_transcurrido_inventario = inventarioFinish - inventarioIn
         habilidades = [{"_id": objectsIDs[2][counter][1], "collection": {"$ref": objectsIDs[2][counter][0]}} for counter in range(0, random.randint(1, 20))]
         personajeObj = {
-            "nombre": random.choice(self.nombrePersonaje),
+            "nombre": f'{random.choice(self.nombrePersonaje)} {counterName}',
             "nivel": random.randint(1, 100),
             "oro": random.randint(10, 100)*10,
             "puntos_vida": random.randint(10, 80)*10,
@@ -187,7 +192,10 @@ class GeneratorPersonaje(GeneratorABC):
             "inventario": inventario,
             "misiones": [{"_id": objectsIDs[0][counter][1], "collection": {"$ref": objectsIDs[0][counter][0]}} for counter in range(0, random.randint(1, 10))]
         }
-        return personajeObj
+        fin = time.time()
+        tiempo_transcurrido_total = fin - inicio
+        print(f"Done  {counterName}")
+        return personajeObj, tiempo_transcurrido_total
 
     def generateJsonFile(self, registros: dict[str, Any], name:str) -> None:
         def convertir_object_id(obj):
@@ -199,8 +207,11 @@ class GeneratorPersonaje(GeneratorABC):
         with open(f'data/{name.lower()}.json', 'w') as archivo_json:
             archivo_json.write(registros_json)
 
-    def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
+    def generateData(self, name:str, data_base, cantObj: int=10) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
-        registros = [self.generateJsonObj(objectsIDs, data_base) for counter in range(0, 1000)]
-        self.generateJsonFile(registros, name)
-        return registros
+        #self.generateJsonFile(registros, name)
+        for counter in range(0, cantObj):
+            # pool = multiprocessing.Pool()
+            # totalTimeList = pool.imap_unordered(
+            yield self.generateJsonObj(objectsIDs, data_base, counter)
+        
