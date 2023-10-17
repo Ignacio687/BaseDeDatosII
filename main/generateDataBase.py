@@ -40,13 +40,13 @@ class DataBaseGenerator():
         for name, classVar in generatorsList:
             instance = classVar()
             generators[name] = instance
-        # try:
-        if collectionName.lower() in ["personaje", "mision"]:
-            return generators[collectionName.lower()].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
-        else:
-            return generators[collectionName.lower()].generateData(collectionName, data_base)
-        # except KeyError as e:
-        #     return [{"ERROR": "No existe un generador para esta coleccion"}]
+        try:
+            if collectionName.lower() in ["personaje", "mision"]:
+                return generators[collectionName.lower()].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
+            else:
+                return generators[collectionName.lower()].generateData(collectionName, data_base)
+        except KeyError as e:
+            return [{"ERROR": "No existe un generador para esta coleccion"}]
 
     def generateDB(self):
         cliente = MongoClient(self.db_host)
