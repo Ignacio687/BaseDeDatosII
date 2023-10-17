@@ -1,5 +1,6 @@
 from .generatorAbstractClass import GeneratorABC
 from .generadorEquipamiento_Armas import EquipmentGenerator
+from .generadorPersonaje import GeneratorPersonaje
 from .generador_habilidades import SkillsGenerator
 from .generadorObjetosClave import KeyObjectsGenerator
 from .generatorAbstractClass import GeneratorABC

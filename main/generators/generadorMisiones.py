@@ -151,20 +151,20 @@ class MisionesGenerator(GeneratorABC):
             objectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
         return objectsIDs
 
-    def generateJsonObj(self, nombre:str, objectsIDs: list, data_Base) -> dict[str, Any]:
+    def generateJsonObj(self, nombre:str, objectsIDs: list, data_base) -> dict[str, Any]:
         equipmentGenerator = EquipmentGenerator()
         etapas_unicas = random.sample(self.etapas_de_mision, 6)
         etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
         recompensas_unicas = random.sample(objectsIDs, 15)
         recompensas = []
-        for counter in range(0, 15):
+        for counter in range(0, random.randint(1, 15)):
             optionPick = random.randint(0, 2)
             if optionPick == 0:
                 recompensas.append({"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)})
             elif optionPick == 1:
-                recompensas.append(equipmentGenerator.generateEquipmentJsonObj(data_Base))
+                recompensas.append(equipmentGenerator.generateEquipmentJsonObj(data_base))
             else:
-                recompensas.append(equipmentGenerator.generateWeaponJsonObj(data_Base))
+                recompensas.append(equipmentGenerator.generateWeaponJsonObj(data_base))
         
         return {
             "nombre": nombre,

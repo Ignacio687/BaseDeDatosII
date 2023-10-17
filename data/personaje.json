@@ -1,0 +1,3922 @@
+[
+    {
+        "nombre": "DungeonCrawler",
+        "nivel": 86,
+        "puntos_vida": 330,
+        "puntos_accion": 2,
+        "atributos": {
+            "fuerza": 8,
+            "pericia": 63,
+            "inteligencia": 66,
+            "constitucion": 86,
+            "memoria": 93,
+            "ingenio": 16,
+            "armadura_fisica": 131,
+            "armadura_magica": 152,
+            "movimiento": 39,
+            "iniciativa": 9,
+            "res-fuego": 47,
+            "res-agua": 64,
+            "res-tierra": 45,
+            "res-aire": 52,
+            "res-veneno": 94
+        },
+        "aptitudes": {
+            "aeroteurgo": 1,
+            "canalla": 8,
+            "cazador": 20,
+            "contienda": 14,
+            "geomante": 19,
+            "hidrosofista": 17,
+            "invocacion": 3,
+            "necromante": 16,
+            "piroquinectico": 4,
+            "polimorfismo": 18
+        },
+        "habilidades": [
+            {
+                "_id": "652dc87611a1afa6a2b0448f",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04490",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04491",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            }
+        ],
+        "equipo": {
+            "armas": [
+                {
+                    "nombre": "Espada de la realeza",
+                    "arma": "Espada",
+                    "tipo": "A una mano",
+                    "dano-min": 31,
+                    "dano-max": 85,
+                    "critico": 203,
+                    "puntos_de_accion": 2,
+                    "nivel": 37,
+                    "peso": 8.79,
+                    "valor": 34415,
+                    "rareza": "Poco com\u00fan",
+                    "alcance": 0.9,
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 3
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 2
+                        },
+                        {
+                            "ingenio": 3
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "inteligencia": 8
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ],
+                    "descripcion": "Esta arma tiene una inscripci\u00f3n en una lengua desconocida que nadie parece poder leer."
+                },
+                {
+                    "nombre": "Lanza de la tormenta",
+                    "arma": "Lanza",
+                    "tipo": "Arma M\u00e1gica",
+                    "dano-min": 21,
+                    "dano-max": 114,
+                    "critico": 227,
+                    "puntos_de_accion": 2,
+                    "nivel": 39,
+                    "peso": 11.72,
+                    "valor": 15459,
+                    "rareza": "Poco com\u00fan",
+                    "alcance": 3.2,
+                    "efectos": [
+                        {
+                            "fuerza": 2
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 2
+                        },
+                        {
+                            "constituci\u00f3n": 1
+                        },
+                        {
+                            "memoria": 2
+                        },
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "constituci\u00f3n": 13
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ],
+                    "descripcion": "La empu\u00f1adura de esta arma est\u00e1 cubierta con escamas de drag\u00f3n."
+                }
+            ],
+            "equipamiento": [
+                {
+                    "nombre": "Botas de Caminante de la Monta\u00f1a",
+                    "tipo": "Botas",
+                    "nivel": 12,
+                    "peso": 6.58,
+                    "valor": 18740,
+                    "rareza": "M\u00edtica",
+                    "armadura fisica": 7,
+                    "armadura_magica": 43,
+                    "descripcion": "Las botas de caminante de la monta\u00f1a brindan estabilidad en terrenos accidentados y permiten escalar monta\u00f1as con facilidad.",
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 1
+                        },
+                        {
+                            "constituci\u00f3n": 1
+                        },
+                        {
+                            "memoria": 3
+                        },
+                        {
+                            "ingenio": 3
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "ingenio": 12
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Pechera de Placas de Drag\u00f3n",
+                    "tipo": "Pechera",
+                    "nivel": 43,
+                    "peso": 7.48,
+                    "valor": 2786,
+                    "rareza": "Com\u00fan",
+                    "armadura fisica": 50,
+                    "armadura_magica": 11,
+                    "descripcion": "Esta pechera de placas forjada a partir de escamas de drag\u00f3n es pr\u00e1cticamente impenetrable. Se rumorea que otorga al portador la resistencia de un drag\u00f3n.",
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 1
+                        },
+                        {
+                            "inteligencia": 2
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 3
+                        },
+                        {
+                            "ingenio": 3
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "ingenio": 5
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Pechera de Placas del H\u00e9roe",
+                    "tipo": "Pechera",
+                    "nivel": 36,
+                    "peso": 2.63,
+                    "valor": 15577,
+                    "rareza": "Inusual",
+                    "armadura fisica": 45,
+                    "armadura_magica": 35,
+                    "descripcion": "Esta pechera de placas ha sido usada por h\u00e9roes legendarios. Quienes la lleven inspirar\u00e1n coraje a sus aliados.",
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 1
+                        },
+                        {
+                            "inteligencia": 1
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 1
+                        },
+                        {
+                            "ingenio": 2
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "constituci\u00f3n": 15
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Botas del Cazador",
+                    "tipo": "Botas",
+                    "nivel": 13,
+                    "peso": 2.37,
+                    "valor": 34487,
+                    "rareza": "M\u00edtica",
+                    "armadura fisica": 81,
+                    "armadura_magica": 18,
+                    "descripcion": "Las botas del cazador otorgan agilidad y velocidad al portador. Ideales para perseguir a las bestias.",
+                    "efectos": [
+                        {
+                            "fuerza": 2
+                        },
+                        {
+                            "pericia": 1
+                        },
+                        {
+                            "inteligencia": 1
+                        },
+                        {
+                            "constituci\u00f3n": 3
+                        },
+                        {
+                            "memoria": 3
+                        },
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "constituci\u00f3n": 8
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Anillo del Drag\u00f3n de Oro",
+                    "tipo": "Anillo",
+                    "nivel": 22,
+                    "peso": 12.08,
+                    "valor": 34300,
+                    "rareza": "\u00c9pica",
+                    "armadura fisica": 29,
+                    "armadura_magica": 5,
+                    "descripcion": "Este anillo est\u00e1 adornado con una gema que brilla como el oro. Otorga al portador la fuerza de un drag\u00f3n dorado.",
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 1
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 3
+                        },
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "constituci\u00f3n": 20
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "inventario": [
+            {
+                "nombre": "Arco celestial",
+                "arma": "Arco",
+                "tipo": "A distancia",
+                "dano-min": 10,
+                "dano-max": 66,
+                "critico": 206,
+                "puntos_de_accion": 6,
+                "nivel": 43,
+                "peso": 12.24,
+                "valor": 21505,
+                "rareza": "Inusual",
+                "alcance": 2.6,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 7
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "El filo de esta arma parece ser tan afilado como la misma realidad."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b045a7",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "nombre": "Yelmo del Luchador Valiente",
+                "tipo": "Casco",
+                "nivel": 37,
+                "peso": 15.27,
+                "valor": 22910,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 38,
+                "armadura_magica": 81,
+                "descripcion": "El yelmo del luchador valiente es conocido por su resistencia en la arena de combate. Ha sido testigo de innumerables duelos.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 9
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Lanza de la luz",
+                "arma": "Lanza",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 25,
+                "dano-max": 47,
+                "critico": 229,
+                "puntos_de_accion": 2,
+                "nivel": 33,
+                "peso": 15.03,
+                "valor": 30681,
+                "rareza": "M\u00edtica",
+                "alcance": 4.4,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 14
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene un brillo dorado que la hace parecer divina."
+            },
+            {
+                "nombre": "Espada de la realeza",
+                "arma": "Espada",
+                "tipo": "A una mano",
+                "dano-min": 23,
+                "dano-max": 126,
+                "critico": 270,
+                "puntos_de_accion": 4,
+                "nivel": 5,
+                "peso": 8.19,
+                "valor": 10659,
+                "rareza": "Com\u00fan",
+                "alcance": 1.8,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "El filo de esta arma parece ser tan afilado como la misma realidad."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0450c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "nombre": "Collar del Astr\u00f3nomo",
+                "tipo": "Collar",
+                "nivel": 15,
+                "peso": 13.09,
+                "valor": 31387,
+                "rareza": "Rara",
+                "armadura fisica": 18,
+                "armadura_magica": 40,
+                "descripcion": "El collar del astr\u00f3nomo permite al portador explorar el cielo nocturno y entender los secretos de las estrellas.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 8
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04599",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 10
+            },
+            {
+                "nombre": "Cetro m\u00e1gico",
+                "arma": "Vara",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 15,
+                "dano-max": 90,
+                "critico": 352,
+                "puntos_de_accion": 2,
+                "nivel": 12,
+                "peso": 12.74,
+                "valor": 7257,
+                "rareza": "Com\u00fan",
+                "alcance": 5.5,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Una inscripci\u00f3n en una lengua olvidada adorna esta arma."
+            },
+            {
+                "nombre": "Hacha de la muerte",
+                "arma": "Hacha",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 31,
+                "dano-max": 95,
+                "critico": 301,
+                "puntos_de_accion": 2,
+                "nivel": 25,
+                "peso": 15.62,
+                "valor": 24648,
+                "rareza": "Poco com\u00fan",
+                "alcance": 1.8,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 8
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las gemas incrustadas en esta arma centellean con una luz celestial."
+            },
+            {
+                "nombre": "Lanza de la tormenta",
+                "arma": "Lanza",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 7,
+                "dano-max": 57,
+                "critico": 215,
+                "puntos_de_accion": 5,
+                "nivel": 11,
+                "peso": 14.24,
+                "valor": 6997,
+                "rareza": "Inusual",
+                "alcance": 2.1,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 11
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "El sonido met\u00e1lico de esta arma al chocar contra otra es armonioso."
+            },
+            {
+                "nombre": "Lanza sagrada de los dioses",
+                "arma": "Lanza",
+                "tipo": "A dos manos",
+                "dano-min": 28,
+                "dano-max": 96,
+                "critico": 345,
+                "puntos_de_accion": 5,
+                "nivel": 6,
+                "peso": 14.39,
+                "valor": 24664,
+                "rareza": "Poco com\u00fan",
+                "alcance": 0.4,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 9
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Los grabados en esta arma cuentan una historia de h\u00e9roes y leyendas."
+            },
+            {
+                "nombre": "Ballesta de repetici\u00f3n",
+                "arma": "Arco",
+                "tipo": "A distancia",
+                "dano-min": 8,
+                "dano-max": 89,
+                "critico": 264,
+                "puntos_de_accion": 3,
+                "nivel": 25,
+                "peso": 12.96,
+                "valor": 24499,
+                "rareza": "Inusual",
+                "alcance": 5.1,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 11
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene un tono dorado que la hace parecer divina."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0450b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "nombre": "Yelmo del Luchador Valiente",
+                "tipo": "Casco",
+                "nivel": 29,
+                "peso": 4.1,
+                "valor": 30024,
+                "rareza": "M\u00edtica",
+                "armadura fisica": 26,
+                "armadura_magica": 37,
+                "descripcion": "El yelmo del luchador valiente es conocido por su resistencia en la arena de combate. Ha sido testigo de innumerables duelos.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 18
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Pechera de Placas del H\u00e9roe",
+                "tipo": "Pechera",
+                "nivel": 10,
+                "peso": 10.79,
+                "valor": 5184,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 6,
+                "armadura_magica": 2,
+                "descripcion": "Esta pechera de placas ha sido usada por h\u00e9roes legendarios. Quienes la lleven inspirar\u00e1n coraje a sus aliados.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 3
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Botas del Oso",
+                "tipo": "Botas",
+                "nivel": 26,
+                "peso": 8.35,
+                "valor": 2434,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 15,
+                "armadura_magica": 97,
+                "descripcion": "Las botas del oso otorgan al portador la fuerza de un oso. Sus pisadas son temibles.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 19
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0452b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 13
+            },
+            {
+                "nombre": "Guantes de los Vientos",
+                "tipo": "Guantes",
+                "nivel": 8,
+                "peso": 8.22,
+                "valor": 3555,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 52,
+                "armadura_magica": 92,
+                "descripcion": "Estos guantes permiten al portador controlar los vientos y volar brevemente. Ideales para la exploraci\u00f3n a\u00e9rea.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 1
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Collar del Guardian del Templo",
+                "tipo": "Collar",
+                "nivel": 11,
+                "peso": 14.48,
+                "valor": 9557,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 34,
+                "armadura_magica": 54,
+                "descripcion": "El collar del guardi\u00e1n del templo es s\u00edmbolo de protecci\u00f3n y lealtad. Otorga resistencia contra el mal.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 7
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Anillo del Alquimista",
+                "tipo": "Anillo",
+                "nivel": 37,
+                "peso": 5.53,
+                "valor": 23218,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 68,
+                "armadura_magica": 53,
+                "descripcion": "Este anillo otorga al portador el conocimiento de la alquimia y la capacidad de crear pociones m\u00e1gicas.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Hacha de batalla",
+                "arma": "Hacha",
+                "tipo": "A dos manos",
+                "dano-min": 11,
+                "dano-max": 86,
+                "critico": 181,
+                "puntos_de_accion": 5,
+                "nivel": 11,
+                "peso": 13.66,
+                "valor": 12138,
+                "rareza": "Com\u00fan",
+                "alcance": 1.9,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 8
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las hojas de esta arma parecen estar envueltas en llamas constantes."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b044f8",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 1
+            },
+            {
+                "_id": "652dc87611a1afa6a2b045ba",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 28
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045f5",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 2
+            },
+            {
+                "nombre": "Lanza del drag\u00f3n",
+                "arma": "Lanza",
+                "tipo": "A dos manos",
+                "dano-min": 20,
+                "dano-max": 106,
+                "critico": 245,
+                "puntos_de_accion": 4,
+                "nivel": 9,
+                "peso": 10.5,
+                "valor": 12783,
+                "rareza": "Legendaria",
+                "alcance": 0.6,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 14
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene una inscripci\u00f3n en una lengua sagrada que solo los elegidos pueden leer."
+            },
+            {
+                "nombre": "Yelmo de los Antiguos Reyes",
+                "tipo": "Casco",
+                "nivel": 29,
+                "peso": 12.8,
+                "valor": 4765,
+                "rareza": "Rara",
+                "armadura fisica": 7,
+                "armadura_magica": 49,
+                "descripcion": "Este yelmo lleva grabados los nombres de los antiguos reyes. Otorga sabidur\u00eda y coraje a quien lo lleva.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 7
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Yelmo del Lobo",
+                "tipo": "Casco",
+                "nivel": 48,
+                "peso": 10.8,
+                "valor": 12979,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 46,
+                "armadura_magica": 51,
+                "descripcion": "Este yelmo tiene la forma de la cabeza de un lobo y otorga al portador la astucia de este depredador.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 17
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Lanza",
+                "arma": "Lanza",
+                "tipo": "A dos manos",
+                "dano-min": 24,
+                "dano-max": 85,
+                "critico": 301,
+                "puntos_de_accion": 6,
+                "nivel": 51,
+                "peso": 6.61,
+                "valor": 10128,
+                "rareza": "Rara",
+                "alcance": 5.8,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 10
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene una inscripci\u00f3n en una lengua desconocida que nadie parece poder leer."
+            },
+            {
+                "nombre": "Yelmo de los Antiguos Reyes",
+                "tipo": "Casco",
+                "nivel": 6,
+                "peso": 10.7,
+                "valor": 16423,
+                "rareza": "Legendaria",
+                "armadura fisica": 84,
+                "armadura_magica": 67,
+                "descripcion": "Este yelmo lleva grabados los nombres de los antiguos reyes. Otorga sabidur\u00eda y coraje a quien lo lleva.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 5
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b045ce",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 28
+            }
+        ],
+        "misiones": [
+            {
+                "_id": "652dc87811a1afa6a2b045d1",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d2",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d3",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d4",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d5",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d6",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d7",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            }
+        ]
+    },
+    {
+        "nombre": "SamuraiMaster",
+        "nivel": 97,
+        "puntos_vida": 310,
+        "puntos_accion": 4,
+        "atributos": {
+            "fuerza": 41,
+            "pericia": 65,
+            "inteligencia": 34,
+            "constitucion": 1,
+            "memoria": 92,
+            "ingenio": 57,
+            "armadura_fisica": 142,
+            "armadura_magica": 52,
+            "movimiento": 5,
+            "iniciativa": 5,
+            "res-fuego": 58,
+            "res-agua": 97,
+            "res-tierra": 46,
+            "res-aire": 19,
+            "res-veneno": 52
+        },
+        "aptitudes": {
+            "aeroteurgo": 1,
+            "canalla": 15,
+            "cazador": 14,
+            "contienda": 6,
+            "geomante": 16,
+            "hidrosofista": 10,
+            "invocacion": 10,
+            "necromante": 10,
+            "piroquinectico": 11,
+            "polimorfismo": 13
+        },
+        "habilidades": [
+            {
+                "_id": "652dc87611a1afa6a2b0448f",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04490",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04491",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04492",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04493",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04494",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04495",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04496",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04497",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04498",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04499",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0449a",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0449b",
+                "collection": {
+                    "$ref": "Habilidad"
+                }
+            }
+        ],
+        "equipo": {
+            "armas": [
+                {
+                    "nombre": "Daga sombr\u00eda",
+                    "arma": "Cuchillo",
+                    "tipo": "Arma M\u00e1gica",
+                    "dano-min": 6,
+                    "dano-max": 132,
+                    "critico": 285,
+                    "puntos_de_accion": 1,
+                    "nivel": 10,
+                    "peso": 10.24,
+                    "valor": 34531,
+                    "rareza": "Com\u00fan",
+                    "alcance": 5.2,
+                    "efectos": [
+                        {
+                            "fuerza": 2
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 2
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 3
+                        },
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "memoria": 5
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ],
+                    "descripcion": "Esta arma tiene una inscripci\u00f3n en una lengua sagrada que solo los elegidos pueden leer."
+                }
+            ],
+            "equipamiento": [
+                {
+                    "nombre": "Guantes del Ladr\u00f3n Astuto",
+                    "tipo": "Guantes",
+                    "nivel": 11,
+                    "peso": 1.6,
+                    "valor": 10148,
+                    "rareza": "M\u00edtica",
+                    "armadura fisica": 56,
+                    "armadura_magica": 83,
+                    "descripcion": "Estos guantes son perfectos para los ladrones y bandidos. Mejoran la habilidad para abrir cerraduras y deslizarse en las sombras.",
+                    "efectos": [
+                        {
+                            "fuerza": 3
+                        },
+                        {
+                            "pericia": 3
+                        },
+                        {
+                            "inteligencia": 3
+                        },
+                        {
+                            "constituci\u00f3n": 1
+                        },
+                        {
+                            "memoria": 2
+                        },
+                        {
+                            "ingenio": 2
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "fuerza": 15
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Anillo del Drag\u00f3n de Oro",
+                    "tipo": "Anillo",
+                    "nivel": 14,
+                    "peso": 5.31,
+                    "valor": 29656,
+                    "rareza": "M\u00edtica",
+                    "armadura fisica": 58,
+                    "armadura_magica": 35,
+                    "descripcion": "Este anillo est\u00e1 adornado con una gema que brilla como el oro. Otorga al portador la fuerza de un drag\u00f3n dorado.",
+                    "efectos": [
+                        {
+                            "fuerza": 2
+                        },
+                        {
+                            "pericia": 2
+                        },
+                        {
+                            "inteligencia": 1
+                        },
+                        {
+                            "constituci\u00f3n": 1
+                        },
+                        {
+                            "memoria": 1
+                        },
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "ingenio": 1
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04490",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        },
+                        {
+                            "_id": "652dc87611a1afa6a2b04491",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Yelmo del Luchador Valiente",
+                    "tipo": "Casco",
+                    "nivel": 8,
+                    "peso": 0.76,
+                    "valor": 22122,
+                    "rareza": "Poco com\u00fan",
+                    "armadura fisica": 65,
+                    "armadura_magica": 10,
+                    "descripcion": "El yelmo del luchador valiente es conocido por su resistencia en la arena de combate. Ha sido testigo de innumerables duelos.",
+                    "efectos": [
+                        {
+                            "fuerza": 2
+                        },
+                        {
+                            "pericia": 1
+                        },
+                        {
+                            "inteligencia": 3
+                        },
+                        {
+                            "constituci\u00f3n": 2
+                        },
+                        {
+                            "memoria": 1
+                        },
+                        {
+                            "ingenio": 2
+                        }
+                    ],
+                    "requerimiento": [
+                        {
+                            "fuerza": 3
+                        }
+                    ],
+                    "habilidad": [
+                        {
+                            "_id": "652dc87611a1afa6a2b0448f",
+                            "collection": {
+                                "$ref": "Habilidad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "inventario": [
+            {
+                "_id": "652dc87611a1afa6a2b045b0",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 2
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04505",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 28
+            },
+            {
+                "nombre": "Pechera de Placas de Titanio",
+                "tipo": "Pechera",
+                "nivel": 19,
+                "peso": 5.38,
+                "valor": 11322,
+                "rareza": "Legendaria",
+                "armadura fisica": 47,
+                "armadura_magica": 94,
+                "descripcion": "Esta pechera de placas hecha de titanio es extremadamente resistente y ligera. Ideal para la movilidad en el campo de batalla.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 11
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b044d3",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "nombre": "Anillo del Sabio",
+                "tipo": "Anillo",
+                "nivel": 18,
+                "peso": 3.22,
+                "valor": 574,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 31,
+                "armadura_magica": 41,
+                "descripcion": "Este anillo otorga conocimiento y sabidur\u00eda a quien lo lleva. Sus decisiones ser\u00e1n siempre las m\u00e1s acertadas.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 17
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04596",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 25
+            },
+            {
+                "nombre": "Daga del asesino silencioso",
+                "arma": "Cuchillo",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 29,
+                "dano-max": 122,
+                "critico": 237,
+                "puntos_de_accion": 1,
+                "nivel": 23,
+                "peso": 1.97,
+                "valor": 28339,
+                "rareza": "Com\u00fan",
+                "alcance": 1.0,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 13
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las hojas de esta arma parecen estar envueltas en llamas constantes."
+            },
+            {
+                "nombre": "Anillo del Sabio",
+                "tipo": "Anillo",
+                "nivel": 39,
+                "peso": 15.88,
+                "valor": 31602,
+                "rareza": "M\u00edtica",
+                "armadura fisica": 5,
+                "armadura_magica": 52,
+                "descripcion": "Este anillo otorga conocimiento y sabidur\u00eda a quien lo lleva. Sus decisiones ser\u00e1n siempre las m\u00e1s acertadas.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 19
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045ef",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 26
+            },
+            {
+                "nombre": "Daga de las sombras",
+                "arma": "Cuchillo",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 11,
+                "dano-max": 96,
+                "critico": 350,
+                "puntos_de_accion": 6,
+                "nivel": 42,
+                "peso": 9.65,
+                "valor": 24905,
+                "rareza": "Poco com\u00fan",
+                "alcance": 2.2,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Un aura de tranquilidad rodea esta arma."
+            },
+            {
+                "nombre": "Botas del N\u00f3mada",
+                "tipo": "Botas",
+                "nivel": 14,
+                "peso": 1.78,
+                "valor": 30742,
+                "rareza": "Poco com\u00fan",
+                "armadura fisica": 60,
+                "armadura_magica": 22,
+                "descripcion": "Las botas del n\u00f3mada son ideales para viajar largas distancias en terrenos diversos. Son resistentes y c\u00f3modas.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 4
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Collar de las Estrellas",
+                "tipo": "Collar",
+                "nivel": 7,
+                "peso": 14.69,
+                "valor": 3701,
+                "rareza": "Legendaria",
+                "armadura fisica": 90,
+                "armadura_magica": 9,
+                "descripcion": "El collar de las estrellas brilla en la oscuridad y permite al portador navegar por la noche con facilidad.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 14
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Hacha del lord vampiro",
+                "arma": "Hacha",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 42,
+                "dano-max": 63,
+                "critico": 246,
+                "puntos_de_accion": 4,
+                "nivel": 3,
+                "peso": 14.32,
+                "valor": 11469,
+                "rareza": "Poco com\u00fan",
+                "alcance": 4.8,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene un tono dorado que la hace parecer divina."
+            },
+            {
+                "nombre": "Cetro de mago supremo",
+                "arma": "Vara",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 25,
+                "dano-max": 88,
+                "critico": 201,
+                "puntos_de_accion": 2,
+                "nivel": 31,
+                "peso": 15.49,
+                "valor": 10645,
+                "rareza": "Poco com\u00fan",
+                "alcance": 5.3,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 7
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene un tono dorado que la hace parecer divina."
+            },
+            {
+                "nombre": "Anillo del Alquimista",
+                "tipo": "Anillo",
+                "nivel": 4,
+                "peso": 6.72,
+                "valor": 18887,
+                "rareza": "Rara",
+                "armadura fisica": 95,
+                "armadura_magica": 56,
+                "descripcion": "Este anillo otorga al portador el conocimiento de la alquimia y la capacidad de crear pociones m\u00e1gicas.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 14
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b044c2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 6
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04557",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 14
+            },
+            {
+                "nombre": "Botas del Sigilo",
+                "tipo": "Botas",
+                "nivel": 51,
+                "peso": 15.12,
+                "valor": 6313,
+                "rareza": "Rara",
+                "armadura fisica": 46,
+                "armadura_magica": 83,
+                "descripcion": "Las botas del sigilo permiten al portador moverse en silencio y pasar desapercibido en la oscuridad.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 13
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Anillo de la Armon\u00eda",
+                "tipo": "Anillo",
+                "nivel": 45,
+                "peso": 7.45,
+                "valor": 15038,
+                "rareza": "Poco com\u00fan",
+                "armadura fisica": 73,
+                "armadura_magica": 9,
+                "descripcion": "Este anillo otorga paz y armon\u00eda a su portador. Las emociones y el estr\u00e9s desaparecen.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 18
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04595",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 15
+            },
+            {
+                "nombre": "Pechera de Placas del H\u00e9roe",
+                "tipo": "Pechera",
+                "nivel": 27,
+                "peso": 15.05,
+                "valor": 29337,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 29,
+                "armadura_magica": 38,
+                "descripcion": "Esta pechera de placas ha sido usada por h\u00e9roes legendarios. Quienes la lleven inspirar\u00e1n coraje a sus aliados.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 21
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Pechera de Placas del Cazador",
+                "tipo": "Pechera",
+                "nivel": 35,
+                "peso": 2.87,
+                "valor": 3997,
+                "rareza": "Legendaria",
+                "armadura fisica": 52,
+                "armadura_magica": 90,
+                "descripcion": "La pechera del cazador est\u00e1 dise\u00f1ada para acechar a las bestias salvajes. Quien la lleve tendr\u00e1 \u00e9xito en la caza.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 18
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Daga de hielo eterno",
+                "arma": "Cuchillo",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 42,
+                "dano-max": 107,
+                "critico": 195,
+                "puntos_de_accion": 4,
+                "nivel": 5,
+                "peso": 14.82,
+                "valor": 4310,
+                "rareza": "Rara",
+                "alcance": 2.4,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "El metal de esta arma parece enfriarse en presencia de la magia."
+            },
+            {
+                "nombre": "Arco de los susurros",
+                "arma": "Arco",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 43,
+                "dano-max": 134,
+                "critico": 258,
+                "puntos_de_accion": 6,
+                "nivel": 41,
+                "peso": 5.03,
+                "valor": 17981,
+                "rareza": "Legendaria",
+                "alcance": 6.0,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Los grabados en esta arma cuentan una historia de h\u00e9roes y leyendas."
+            },
+            {
+                "nombre": "Guantes de Fuego",
+                "tipo": "Guantes",
+                "nivel": 34,
+                "peso": 10.74,
+                "valor": 1755,
+                "rareza": "Legendaria",
+                "armadura fisica": 47,
+                "armadura_magica": 39,
+                "descripcion": "Estos guantes est\u00e1n imbuidos con el poder del fuego. Permiten al portador lanzar bolas de fuego a sus enemigos.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 4
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04544",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 25
+            },
+            {
+                "nombre": "Espada de la realeza",
+                "arma": "Espada",
+                "tipo": "A una mano",
+                "dano-min": 35,
+                "dano-max": 125,
+                "critico": 198,
+                "puntos_de_accion": 6,
+                "nivel": 51,
+                "peso": 7.04,
+                "valor": 13681,
+                "rareza": "Inusual",
+                "alcance": 0.8,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 4
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las gemas incrustadas en esta arma centellean con un resplandor misterioso."
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045f6",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 22
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0453b",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 3
+            },
+            {
+                "nombre": "Lanza de los elementales",
+                "arma": "Lanza",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 10,
+                "dano-max": 60,
+                "critico": 288,
+                "puntos_de_accion": 4,
+                "nivel": 27,
+                "peso": 8.09,
+                "valor": 11628,
+                "rareza": "M\u00edtica",
+                "alcance": 6.8,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 19
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las marcas de fuego cubren esta arma, dando la impresi\u00f3n de haber sido templada en el fragor de la batalla."
+            },
+            {
+                "nombre": "Collar del Bosque Encantado",
+                "tipo": "Collar",
+                "nivel": 8,
+                "peso": 13.17,
+                "valor": 1937,
+                "rareza": "Rara",
+                "armadura fisica": 11,
+                "armadura_magica": 25,
+                "descripcion": "El collar del bosque encantado permite al portador comunicarse con las criaturas del bosque y ganarse su ayuda.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 13
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Hacha del condenado",
+                "arma": "Hacha",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 37,
+                "dano-max": 150,
+                "critico": 204,
+                "puntos_de_accion": 3,
+                "nivel": 20,
+                "peso": 15.84,
+                "valor": 28665,
+                "rareza": "Com\u00fan",
+                "alcance": 4.2,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 5
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma tiene un tono dorado que la hace parecer divina."
+            },
+            {
+                "nombre": "Collar de Protecci\u00f3n Divina",
+                "tipo": "Collar",
+                "nivel": 20,
+                "peso": 6.36,
+                "valor": 17511,
+                "rareza": "\u00c9pica",
+                "armadura fisica": 65,
+                "armadura_magica": 16,
+                "descripcion": "Este collar bendecido por los dioses otorga protecci\u00f3n contra el mal y maldiciones. Es una joya sagrada.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 16
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04573",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 25
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0451c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0455c",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 4
+            },
+            {
+                "nombre": "Daga et\u00e9rea",
+                "arma": "Cuchillo",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 32,
+                "dano-max": 113,
+                "critico": 194,
+                "puntos_de_accion": 6,
+                "nivel": 35,
+                "peso": 8.97,
+                "valor": 14958,
+                "rareza": "Poco com\u00fan",
+                "alcance": 5.6,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 2
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "pericia": 6
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "La empu\u00f1adura de esta arma est\u00e1 envuelta en plumas de \u00e1ngel."
+            },
+            {
+                "nombre": "Anillo del Alquimista",
+                "tipo": "Anillo",
+                "nivel": 48,
+                "peso": 8.49,
+                "valor": 1236,
+                "rareza": "Inusual",
+                "armadura fisica": 4,
+                "armadura_magica": 43,
+                "descripcion": "Este anillo otorga al portador el conocimiento de la alquimia y la capacidad de crear pociones m\u00e1gicas.",
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 5
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87611a1afa6a2b044b2",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 16
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04525",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 5
+            },
+            {
+                "nombre": "Collar del Guardian del Templo",
+                "tipo": "Collar",
+                "nivel": 30,
+                "peso": 15.87,
+                "valor": 33424,
+                "rareza": "M\u00edtica",
+                "armadura fisica": 54,
+                "armadura_magica": 81,
+                "descripcion": "El collar del guardi\u00e1n del templo es s\u00edmbolo de protecci\u00f3n y lealtad. Otorga resistencia contra el mal.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 3
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045e6",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 8
+            },
+            {
+                "nombre": "Yelmo de los Antiguos Reyes",
+                "tipo": "Casco",
+                "nivel": 13,
+                "peso": 2.1,
+                "valor": 5680,
+                "rareza": "Inusual",
+                "armadura fisica": 13,
+                "armadura_magica": 75,
+                "descripcion": "Este yelmo lleva grabados los nombres de los antiguos reyes. Otorga sabidur\u00eda y coraje a quien lo lleva.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 15
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Bomba alqu\u00edmica",
+                "arma": "Explosivo",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 43,
+                "dano-max": 132,
+                "critico": 321,
+                "puntos_de_accion": 5,
+                "nivel": 6,
+                "peso": 14.36,
+                "valor": 26514,
+                "rareza": "Com\u00fan",
+                "alcance": 0.2,
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 16
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "La hoja de esta arma est\u00e1 forjada con acero de alta calidad."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04554",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 9
+            },
+            {
+                "_id": "652dc87611a1afa6a2b0455d",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 25
+            },
+            {
+                "nombre": "Vara de sabidur\u00eda",
+                "arma": "Vara",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 5,
+                "dano-max": 64,
+                "critico": 269,
+                "puntos_de_accion": 3,
+                "nivel": 36,
+                "peso": 2.43,
+                "valor": 10859,
+                "rareza": "Legendaria",
+                "alcance": 3.1,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "ingenio": 20
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Esta arma brilla intensamente en la oscuridad."
+            },
+            {
+                "nombre": "Arco del cazador",
+                "arma": "Arco",
+                "tipo": "A distancia",
+                "dano-min": 43,
+                "dano-max": 138,
+                "critico": 199,
+                "puntos_de_accion": 1,
+                "nivel": 39,
+                "peso": 7.88,
+                "valor": 12025,
+                "rareza": "Inusual",
+                "alcance": 4.2,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 3
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 3
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Las runas talladas en la empu\u00f1adura de esta arma otorgan poderes m\u00e1gicos."
+            },
+            {
+                "nombre": "Hacha de tormenta",
+                "arma": "Hacha",
+                "tipo": "A dos manos",
+                "dano-min": 32,
+                "dano-max": 142,
+                "critico": 331,
+                "puntos_de_accion": 2,
+                "nivel": 28,
+                "peso": 10.24,
+                "valor": 2182,
+                "rareza": "Rara",
+                "alcance": 5.0,
+                "efectos": [
+                    {
+                        "fuerza": 2
+                    },
+                    {
+                        "pericia": 2
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 14
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "El filo de esta arma es tan afilado que parece cortar la realidad misma."
+            },
+            {
+                "_id": "652dc87611a1afa6a2b04561",
+                "collection": {
+                    "$ref": "Consumible"
+                },
+                "cantidad": 23
+            },
+            {
+                "nombre": "Guantes del Hechicero",
+                "tipo": "Guantes",
+                "nivel": 8,
+                "peso": 13.47,
+                "valor": 5475,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 69,
+                "armadura_magica": 65,
+                "descripcion": "Estos guantes est\u00e1n tejidos con hilos m\u00e1gicos que mejoran la capacidad del portador para lanzar hechizos.",
+                "efectos": [
+                    {
+                        "fuerza": 3
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 2
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "inteligencia": 12
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Anillo de la Llama Eterna",
+                "tipo": "Anillo",
+                "nivel": 6,
+                "peso": 15.42,
+                "valor": 24918,
+                "rareza": "Rara",
+                "armadura fisica": 99,
+                "armadura_magica": 35,
+                "descripcion": "Este anillo est\u00e1 imbuido con el poder de una llama que nunca se apaga. Permite al portador lanzar llamas con un gesto.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 1
+                    },
+                    {
+                        "memoria": 1
+                    },
+                    {
+                        "ingenio": 2
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "constituci\u00f3n": 12
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Pechera de Placas del Caballero",
+                "tipo": "Pechera",
+                "nivel": 15,
+                "peso": 13.16,
+                "valor": 20848,
+                "rareza": "Com\u00fan",
+                "armadura fisica": 19,
+                "armadura_magica": 72,
+                "descripcion": "La pechera de placas del caballero es conocida por su resistencia y nobleza en el campo de batalla.",
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 3
+                    },
+                    {
+                        "inteligencia": 1
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 1
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "memoria": 11
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "Maza sagrada",
+                "arma": "Maza",
+                "tipo": "Arma M\u00e1gica",
+                "dano-min": 11,
+                "dano-max": 82,
+                "critico": 311,
+                "puntos_de_accion": 1,
+                "nivel": 42,
+                "peso": 1.98,
+                "valor": 32978,
+                "rareza": "Poco com\u00fan",
+                "alcance": 4.6,
+                "efectos": [
+                    {
+                        "fuerza": 1
+                    },
+                    {
+                        "pericia": 1
+                    },
+                    {
+                        "inteligencia": 3
+                    },
+                    {
+                        "constituci\u00f3n": 3
+                    },
+                    {
+                        "memoria": 2
+                    },
+                    {
+                        "ingenio": 3
+                    }
+                ],
+                "requerimiento": [
+                    {
+                        "fuerza": 2
+                    }
+                ],
+                "habilidad": [
+                    {
+                        "_id": "652dc87611a1afa6a2b0448f",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04490",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    },
+                    {
+                        "_id": "652dc87611a1afa6a2b04491",
+                        "collection": {
+                            "$ref": "Habilidad"
+                        }
+                    }
+                ],
+                "descripcion": "Una inscripci\u00f3n en una lengua olvidada adorna esta arma."
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045e9",
+                "collection": {
+                    "$ref": "Objeto_Clave"
+                },
+                "cantidad": 19
+            }
+        ],
+        "misiones": [
+            {
+                "_id": "652dc87811a1afa6a2b045d1",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            },
+            {
+                "_id": "652dc87811a1afa6a2b045d2",
+                "collection": {
+                    "$ref": "Mision"
+                }
+            }
+        ]
+    }
+]

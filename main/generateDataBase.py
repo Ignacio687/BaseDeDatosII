@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from main import  SkillsGenerator, ConsumiblesGenerator, KeyObjectsGenerator, MisionesGenerator
+from main import  SkillsGenerator, ConsumiblesGenerator, KeyObjectsGenerator, MisionesGenerator, GeneratorPersonaje
 
 class DataBaseGenerator():
     def __init__(self,
@@ -22,7 +22,7 @@ class DataBaseGenerator():
 
     def generateJsonData(self, collectionName:str, data_base):
         generators = {}
-        generatorsList = [("habilidad", SkillsGenerator), ("consumible", ConsumiblesGenerator), ("objeto_clave", KeyObjectsGenerator), ("mision", MisionesGenerator)]
+        generatorsList = [("habilidad", SkillsGenerator), ("consumible", ConsumiblesGenerator), ("objeto_clave", KeyObjectsGenerator), ("mision", MisionesGenerator), ("personaje", GeneratorPersonaje)]
         for name, classVar in generatorsList:
             instance = classVar()
             generators[name] = instance
