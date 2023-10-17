@@ -1,7 +1,8 @@
-import random, json
+import random, json, multiprocessing
 from bson import ObjectId
 from typing import Any
 from . import GeneratorABC, EquipmentGenerator
+from pymongo import MongoClient
 
 class MisionesGenerator(GeneratorABC):
     def __init__(self) -> None:
@@ -151,7 +152,9 @@ class MisionesGenerator(GeneratorABC):
             objectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
         return objectsIDs
 
-    def generateJsonObj(self, nombre:str, objectsIDs: list, data_base) -> dict[str, Any]:
+    def generateJsonObj(self, nombre:str, objectsIDs: list, db_host, db_name) -> dict[str, Any]:
+        cliente = MongoClient(db_host)
+        data_base = cliente[db_name]
         equipmentGenerator = EquipmentGenerator()
         etapas_unicas = random.sample(self.etapas_de_mision, 6)
         etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
@@ -185,9 +188,12 @@ class MisionesGenerator(GeneratorABC):
             archivo_json.write(registros_json)
 
 
-    def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
+    def generateData(self, name:str, data_base, db_host, db_name, cantObj: int=10) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
-        registros = [self.generateJsonObj(nombre, objectsIDs, data_base) for nombre in self.nombres_de_misiones]
+        pool = multiprocessing.Pool()
+        registros = pool.starmap(self.generateJsonObj, [(nombre, objectsIDs, db_host, db_name) for nombre in self.nombres_de_misiones])
+        pool.close()
+        pool.join()
         #self.generateJsonFile(registros, name)
         return registros
     

@@ -40,13 +40,13 @@ class DataBaseGenerator():
         for name, classVar in generatorsList:
             instance = classVar()
             generators[name] = instance
-        try:
-            if collectionName.lower() == "personaje":
-                return generators['personaje'].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
-            else:
-                return generators[collectionName.lower()].generateData(collectionName, data_base)
-        except KeyError as e:
-            return [{"ERROR": "No existe un generador para esta coleccion", "_err": f'{e.args}'}]
+        # try:
+        if collectionName.lower() in ["personaje", "mision"]:
+            return generators[collectionName.lower()].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
+        else:
+            return generators[collectionName.lower()].generateData(collectionName, data_base)
+        # except KeyError as e:
+        #     return [{"ERROR": "No existe un generador para esta coleccion"}]
 
     def generateDB(self):
         cliente = MongoClient(self.db_host)
@@ -60,15 +60,14 @@ class DataBaseGenerator():
             for collection in self.db_collections:
                 print(f"Borrando coleccion {collection}")
                 db[collection].drop()
+        else:
+             db = cliente[self.db_name]
         for collection in self.db_collections:
             if collection == 'Personaje':
                 print(f"Generando colección {collection}")
+                datetime.time()
                 totalTimeList = self.generateJsonData(collection, db)
-                totalTime = 0
-                for time1 in totalTimeList:
-                    totalTime += time1
-                print(f"Tiempo promedio de creacion de usuario:  {round(totalTime/self.cantPersonajes, 2)} s")
-                print(f"Tiempo total: {datetime.timedelta(seconds=round(totalTime, 0))}")
+                print(f"Tiempo total: {datetime.timedelta(seconds=round(totalTimeList, 0))}")
             else:
                 print(f"Generando colección {collection}")
                 db[collection].insert_many(self.generateJsonData(collection, db))
