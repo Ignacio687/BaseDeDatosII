@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from main import  SkillsGenerator, ConsumiblesGenerator, KeyObjectsGenerator, MisionesGenerator, GeneratorPersonaje
-import multiprocessing
+import datetime
 
 class DataBaseGenerator():
     def __init__(self,
@@ -14,9 +14,13 @@ class DataBaseGenerator():
         self.db_collections = db_collections
         self.deleteDBFlag = False
         self.cantPersonajes = cantPersonajes
+        self.deleteColectionFlag = False
 
     def setcantPersonajes(self, cantPersonajes):
         self.cantPersonajes = cantPersonajes
+
+    def setDeleteColectionFlag(self, conditional: bool=False):
+        self.deleteColectionFlag = conditional
 
     def setDeleteDBFlag(self, conditional: bool=False):
         self.deleteDBFlag = conditional
@@ -38,20 +42,11 @@ class DataBaseGenerator():
             generators[name] = instance
         try:
             if collectionName.lower() == "personaje":
-                # pool = multiprocessing.Pool()
-                # totalTimeList = pool.imap_unordered(self.uploadPersonajeData, generators['personaje'].generateData(collectionName, data_base, self.cantPersonajes))
-                # totalTime = 0
-                # for time in totalTimeList:
-                #     totalTime += time
-                # print(f"Tiempo promedio de creacion de usuario:  {round(totalTime/self.cantPersonajes, 2)} s")
-                # print(f"Tiempo total: {totalTime}")
-                # pool.close()
-                # pool.join()
-                return generators['personaje'].generateData(collectionName, data_base, self.cantPersonajes)
+                return generators['personaje'].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
             else:
                 return generators[collectionName.lower()].generateData(collectionName, data_base)
-        except KeyError:
-            return [{"ERROR": "No existe un generador para esta coleccion"}]
+        except KeyError as e:
+            return [{"ERROR": "No existe un generador para esta coleccion", "_err": f'{e.args}'}]
 
     def generateDB(self):
         cliente = MongoClient(self.db_host)
@@ -59,21 +54,23 @@ class DataBaseGenerator():
             print('Borrando DB')
             cliente.drop_database(self.db_name)
             print('DB Borrada')
-        db = cliente[self.db_name]
+            db = cliente[self.db_name]
+        elif self.deleteColectionFlag:
+            db = cliente[self.db_name]
+            for collection in self.db_collections:
+                print(f"Borrando coleccion {collection}")
+                db[collection].drop()
         for collection in self.db_collections:
             if collection == 'Personaje':
                 print(f"Generando colección {collection}")
+                totalTimeList = self.generateJsonData(collection, db)
                 totalTime = 0
-                for personajeObj in self.generateJsonData(collection, db):
-                    totalTime += personajeObj[1]
+                for time1 in totalTimeList:
+                    totalTime += time1
                 print(f"Tiempo promedio de creacion de usuario:  {round(totalTime/self.cantPersonajes, 2)} s")
-                print(f"Tiempo total: {totalTime}")
+                print(f"Tiempo total: {datetime.timedelta(seconds=round(totalTime, 0))}")
             else:
                 print(f"Generando colección {collection}")
                 db[collection].insert_many(self.generateJsonData(collection, db))
         cliente.close()
         print("Proceso Finalizado")
-        
-    def uploadPersonajeData(self, jsonObj):
-        #db.Personaje.insert_one(jsonObj[0])
-        return jsonObj[1]
