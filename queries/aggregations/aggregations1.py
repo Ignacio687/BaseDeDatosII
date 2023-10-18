@@ -48,6 +48,64 @@ class AggregationsService(object):
             }
         ])
 
+    def getHabilidadesForUser(self, collection_name: str, user_id: str):
+        self.data_base[collection_name].aggregate(
+            [
+                {
+                    '$match': {
+                        '_id': ObjectId(user_id)
+                    }
+                }, {
+                    '$unwind': {
+                        'path': '$habilidades', 
+                        'preserveNullAndEmptyArrays': True
+                    }
+                }, {
+                    '$unwind': {
+                        'path': '$equipo.armas', 
+                        'preserveNullAndEmptyArrays': True
+                    }
+                }, {
+                    '$unwind': {
+                        'path': '$equipo.armas.habilidad', 
+                        'preserveNullAndEmptyArrays': True
+                    }
+                }, {
+                    '$unwind': {
+                        'path': '$equipo.equipamiento', 
+                        'preserveNullAndEmptyArrays': True
+                    }
+                }, {
+                    '$unwind': {
+                        'path': '$equipo.equipamiento.habilidad', 
+                        'preserveNullAndEmptyArrays': True
+                    }
+                }, {
+                    '$group': {
+                        '_id': None, 
+                        'habilidades_totales': {
+                            '$addToSet': '$habilidades'
+                        }, 
+                        'habilidades_armas': {
+                            '$addToSet': '$equipo.armas.habilidad'
+                        }, 
+                        'habilidad_equipo': {
+                            '$addToSet': '$equipo.equipamiento.habilidad'
+                        }
+                    }
+                }, {
+                    '$project': {
+                        '_id': 0, 
+                        'habilidades_totales': {
+                            '$concatArrays': [
+                                '$habilidades_totales', '$habilidades_armas', '$habilidad_equipo'
+                            ]
+                        }
+                    }
+                }
+            ]
+        )
+
 if __name__ == "__main__":
     service = AggregationsService("mongodb+srv://Cluster18604:mati2002@cluster0.zale6eu.mongodb.net/", "MMO_RPG1")
     service.getAllEmbeddedObjects("Personaje", "652ed7e8fa9783ea7729bd81")
