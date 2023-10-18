@@ -210,7 +210,8 @@ class EquipmentGenerator():
         ]
 
     def generateWeaponJsonObj(self, habilidadesIDs) -> dict[str, Any]:
-        habilidades = [{"_id": habilidadesIDs[counter][1], "collection": {"$ref": habilidadesIDs[counter][0]}} for counter in range(0, random.randint(1, 3))]
+        habilidades_unicas = random.sample(habilidadesIDs, min(4, len(habilidadesIDs)))        
+        habilidades = [{"_id": habilidades_unicas[element][1], "collection": {"$ref": habilidades_unicas[element][0]}} for element in [random.randint(0, len(habilidades_unicas)-1) for counter in range(random.randint(0, len(habilidades_unicas)-1))]]
         rarezas = ["Poco común", "Común", "Inusual", "Rara", "Épica", "Legendaria", "Mítica"]
         requerimientos = ["fuerza", "pericia", "inteligencia", "constitución", "memoria", "ingenio"]
         weapon = random.choice(self.weapons)
@@ -239,7 +240,8 @@ class EquipmentGenerator():
         return weaponObj
     
     def generateEquipmentJsonObj(self, habilidadesIDs) -> dict[str, Any]:
-        habilidades = [{"_id": habilidadesIDs[counter][1], "collection": {"$ref": habilidadesIDs[counter][0]}} for counter in range(0, random.randint(1, 3))]
+        habilidades_unicas = random.sample(habilidadesIDs, min(4, len(habilidadesIDs)))        
+        habilidades = [{"_id": habilidades_unicas[element][1], "collection": {"$ref": habilidades_unicas[element][0]}} for element in [random.randint(0, len(habilidades_unicas)-1) for counter in range(random.randint(0, len(habilidades_unicas)-1))]]
         rarezas = ["Poco común", "Común", "Inusual", "Rara", "Épica", "Legendaria", "Mítica"]
         requerimientos = ["fuerza", "pericia", "inteligencia", "constitución", "memoria", "ingenio"]
         equipment = random.choice(self.equipment)

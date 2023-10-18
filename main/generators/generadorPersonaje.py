@@ -137,13 +137,17 @@ class GeneratorPersonaje(GeneratorABC):
         inventario_unicas = random.sample(objectsIDs[1], min(50, len(objectsIDs[1])))
         for counter in range(0, random.randint(1, len(inventario_unicas))):
             optionPick = random.randint(0, 2)
+            elementPick = random.randint(0, len(inventario_unicas)-1)
             if optionPick == 0:
-                inventario.append({"_id": inventario_unicas[counter][1], "collection": {"$ref": inventario_unicas[counter][0]}, "cantidad": random.randint(1, 30)})
+                inventario.append({"_id": inventario_unicas[elementPick][1], "collection": {"$ref": inventario_unicas[elementPick][0]}, "cantidad": random.randint(1, 30)})
             elif optionPick == 1:
                 inventario.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]))
             else:
                 inventario.append(equipmentGenerator.generateWeaponJsonObj(objectsIDs[3]))
-        habilidades = [{"_id": objectsIDs[2][counter][1], "collection": {"$ref": objectsIDs[2][counter][0]}} for counter in range(0, random.randint(1, 20))]
+        habilidades_unicas = random.sample(objectsIDs[2], min(20, len(objectsIDs[2])))        
+        habilidades = [{"_id": habilidades_unicas[element][1], "collection": {"$ref": habilidades_unicas[element][0]}} for element in [random.randint(0, len(habilidades_unicas)-1) for counter in range(random.randint(0, len(habilidades_unicas)-1))]]
+        misiones_unicas = random.sample(objectsIDs[0], min(20, len(objectsIDs[0])))       
+        misiones = [{"_id": misiones_unicas[element][1], "collection": {"$ref": misiones_unicas[element][0]}} for element in [random.randint(0, len(misiones_unicas)-1) for counter in range(random.randint(0, len(misiones_unicas)-1))]]
         personajeObj = {
             "nombre": f'{random.choice(self.nombrePersonaje)}{counterName}',
             "nivel": random.randint(1, 100),
@@ -187,7 +191,7 @@ class GeneratorPersonaje(GeneratorABC):
                 "equipamiento": [equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]) for counter in range(0, random.randint(1, 9))],
             },
             "inventario": inventario,
-            "misiones": [{"_id": objectsIDs[0][counter][1], "collection": {"$ref": objectsIDs[0][counter][0]}} for counter in range(0, random.randint(1, 10))]
+            "misiones": misiones
         }
         print(counterName)
         return personajeObj

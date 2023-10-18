@@ -156,13 +156,14 @@ class MisionesGenerator(GeneratorABC):
     def generateJsonObj(self, nombre:str, objectsIDs: list) -> dict[str, Any]:
         equipmentGenerator = EquipmentGenerator()
         etapas_unicas = random.sample(self.etapas_de_mision, 6)
-        etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
+        etapas = [etapas_unicas[element] for element in [random.randint(0, len(etapas_unicas)-1) for counter in range(random.randint(0, len(etapas_unicas)-1))]]
         recompensas_unicas = random.sample(objectsIDs[0], 15)
         recompensas = []
         for counter in range(0, random.randint(1, 15)):
             optionPick = random.randint(0, 2)
+            elementPick = random.randint(0, len(recompensas_unicas)-1)
             if optionPick == 0:
-                recompensas.append({"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)})
+                recompensas.append({"_id": recompensas_unicas[elementPick][1], "collection": {"$ref": recompensas_unicas[elementPick][0]}, "cantidad": random.randint(1, 15)})
             elif optionPick == 1:
                 recompensas.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[1]))
             else:
