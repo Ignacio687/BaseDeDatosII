@@ -30,8 +30,7 @@ class AggregationsService(object):
         obj_id = ObjectId(obj_id)
         jsonObj = self.data_base[collection_name].find_one(obj_id)
         
-
-
+        
         self.data_base[collection_name].aggregate([
             {
                 "$lookup": {

@@ -1,7 +1,7 @@
 from main.generateDataBase import DataBaseGenerator
 
 if __name__ == "__main__":
-    app = DataBaseGenerator("mongodb+srv://Cluster18604:mati2002@cluster0.zale6eu.mongodb.net/")
+    app = DataBaseGenerator("mongodb+srv://Cluster18604:mati2002@cluster0.zale6eu.mongodb.net/")#('mongodb://localhost:27017')
     colecciones = ['Habilidad', 'Consumible', 'Objeto_Clave', 'Mision', 'Personaje']
     lista_numerada = [f'{index + 1} - {elemento}' for index, elemento in enumerate(colecciones)]
     userInput = input('Desea eliminar la base de datos existente?(y/n)')
@@ -18,7 +18,7 @@ if __name__ == "__main__":
         if userInput == "0":
             app.setDBCollections(colecciones)
             break
-        
+
         elif userInput in ['1', '2', '3', '4', '5']:
             app.setDBCollections([colecciones[int(userInput) - 1]])
             break
@@ -27,5 +27,5 @@ if __name__ == "__main__":
         if userInput.isdigit():
             app.setcantPersonajes(int(userInput))
             break
-    app.setDBName("MMO_RPG2")
+    app.setDBName("MMO_RPG")
     app.generateDB()
