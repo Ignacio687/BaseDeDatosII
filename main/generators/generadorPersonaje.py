@@ -126,10 +126,9 @@ class GeneratorPersonaje(GeneratorABC):
         inventarioObjectsIDs = []
         for collection in ['Consumible', 'Objeto_Clave']:
             inventarioObjectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
-        misionesObjectsIDs = ([("Mision", doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
+        misionesObjectsIDs = ([("Mision", doc['_id']) for doc in data_base.Mision.find({}, projection=["_id"])])
         habilidadesObjectsIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
-        habilidadesIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
-        return (misionesObjectsIDs, inventarioObjectsIDs, habilidadesObjectsIDs, habilidadesIDs)
+        return (misionesObjectsIDs, inventarioObjectsIDs, habilidadesObjectsIDs)
 
     def generateJsonObj(self, objectsIDs: list, counterName) -> dict[str, Any]:
         equipmentGenerator = EquipmentGenerator()
@@ -141,9 +140,9 @@ class GeneratorPersonaje(GeneratorABC):
             if optionPick == 0:
                 inventario.append({"_id": inventario_unicas[elementPick][1], "collection": {"$ref": inventario_unicas[elementPick][0]}, "cantidad": random.randint(1, 30)})
             elif optionPick == 1:
-                inventario.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]))
+                inventario.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[2]))
             else:
-                inventario.append(equipmentGenerator.generateWeaponJsonObj(objectsIDs[3]))
+                inventario.append(equipmentGenerator.generateWeaponJsonObj(objectsIDs[2]))
         habilidades_unicas = random.sample(objectsIDs[2], min(20, len(objectsIDs[2])))        
         habilidades = [{"_id": habilidades_unicas[element][1], "collection": {"$ref": habilidades_unicas[element][0]}} for element in [random.randint(0, len(habilidades_unicas)-1) for counter in range(random.randint(0, len(habilidades_unicas)-1))]]
         misiones_unicas = random.sample(objectsIDs[0], min(20, len(objectsIDs[0])))       
@@ -187,8 +186,8 @@ class GeneratorPersonaje(GeneratorABC):
             },
             "habilidades": habilidades,
             "equipo": {
-                "armas": [equipmentGenerator.generateWeaponJsonObj(objectsIDs[3]) for counter in range(0, random.randint(1, 2))],
-                "equipamiento": [equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]) for counter in range(0, random.randint(1, 9))],
+                "armas": [equipmentGenerator.generateWeaponJsonObj(objectsIDs[2]) for counter in range(0, random.randint(1, 2))],
+                "equipamiento": [equipmentGenerator.generateEquipmentJsonObj(objectsIDs[2]) for counter in range(0, random.randint(1, 9))],
             },
             "inventario": inventario,
             "misiones": misiones

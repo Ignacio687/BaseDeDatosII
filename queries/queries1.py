@@ -137,14 +137,14 @@ class QueriesService(object):
         resultado = self.data_base.Objeto_Clave.find(
            {
             'valor': {
-            '$gt': 200, 
-            '$lt': 650
+            '$gt': min_val, 
+            '$lt': max_val
                     }
             } 
         )
         return resultado
     
-    def quertMatyCagon(self):
+    def getAllEmbeddedObjects(self):
             [
                 {
                     $match: {
