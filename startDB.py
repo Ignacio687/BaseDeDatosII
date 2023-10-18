@@ -18,6 +18,7 @@ if __name__ == "__main__":
         if userInput == "0":
             app.setDBCollections(colecciones)
             break
+        
         elif userInput in ['1', '2', '3', '4', '5']:
             app.setDBCollections([colecciones[int(userInput) - 1]])
             break
@@ -26,5 +27,5 @@ if __name__ == "__main__":
         if userInput.isdigit():
             app.setcantPersonajes(int(userInput))
             break
-    app.setDBName("MMO_RPG1")
+    app.setDBName("MMO_RPG2")
     app.generateDB()

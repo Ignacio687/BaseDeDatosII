@@ -150,24 +150,23 @@ class MisionesGenerator(GeneratorABC):
         objectsIDs = []
         for collection in ['Consumible', 'Objeto_Clave']:
             objectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
-        return objectsIDs
+        habilidadesIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
+        return (objectsIDs, habilidadesIDs)
 
-    def generateJsonObj(self, nombre:str, objectsIDs: list, db_host, db_name) -> dict[str, Any]:
-        cliente = MongoClient(db_host)
-        data_base = cliente[db_name]
+    def generateJsonObj(self, nombre:str, objectsIDs: list) -> dict[str, Any]:
         equipmentGenerator = EquipmentGenerator()
         etapas_unicas = random.sample(self.etapas_de_mision, 6)
         etapas = [etapas_unicas[index] for index in range(0, random.randint(1,6))]
-        recompensas_unicas = random.sample(objectsIDs, 15)
+        recompensas_unicas = random.sample(objectsIDs[0], 15)
         recompensas = []
         for counter in range(0, random.randint(1, 15)):
             optionPick = random.randint(0, 2)
             if optionPick == 0:
                 recompensas.append({"_id": recompensas_unicas[counter][1], "collection": {"$ref": recompensas_unicas[counter][0]}, "cantidad": random.randint(1, 15)})
             elif optionPick == 1:
-                recompensas.append(equipmentGenerator.generateEquipmentJsonObj(data_base))
+                recompensas.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[1]))
             else:
-                recompensas.append(equipmentGenerator.generateWeaponJsonObj(data_base))
+                recompensas.append(equipmentGenerator.generateWeaponJsonObj(objectsIDs[1]))
         
         return {
             "nombre": nombre,
@@ -188,10 +187,10 @@ class MisionesGenerator(GeneratorABC):
             archivo_json.write(registros_json)
 
 
-    def generateData(self, name:str, data_base, db_host, db_name, cantObj: int=10) -> list[dict[str, Any]]:
+    def generateData(self, name:str, data_base) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
         pool = multiprocessing.Pool()
-        registros = pool.starmap(self.generateJsonObj, [(nombre, objectsIDs, db_host, db_name) for nombre in self.nombres_de_misiones])
+        registros = pool.starmap(self.generateJsonObj, [(nombre, objectsIDs) for nombre in self.nombres_de_misiones])
         pool.close()
         pool.join()
         #self.generateJsonFile(registros, name)

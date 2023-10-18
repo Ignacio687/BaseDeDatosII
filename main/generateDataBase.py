@@ -41,10 +41,9 @@ class DataBaseGenerator():
             instance = classVar()
             generators[name] = instance
         try:
-            if collectionName.lower() in ["personaje", "mision"]:
-                return generators[collectionName.lower()].generateData(collectionName, data_base, self.db_host, self.db_name, self.cantPersonajes)
-            else:
-                return generators[collectionName.lower()].generateData(collectionName, data_base)
+            if collectionName.lower() == "personaje":
+                return generators[collectionName.lower()].generateData(collectionName, data_base, self.cantPersonajes)
+            return generators[collectionName.lower()].generateData(collectionName, data_base)
         except KeyError as e:
             return [{"ERROR": "No existe un generador para esta coleccion"}]
 
@@ -63,13 +62,8 @@ class DataBaseGenerator():
         else:
              db = cliente[self.db_name]
         for collection in self.db_collections:
-            if collection == 'Personaje':
-                print(f"Generando colección {collection}")
-                datetime.time()
-                totalTimeList = self.generateJsonData(collection, db)
-                print(f"Tiempo total: {datetime.timedelta(seconds=round(totalTimeList, 0))}")
-            else:
-                print(f"Generando colección {collection}")
-                db[collection].insert_many(self.generateJsonData(collection, db))
+            print(f"Generando colección {collection}")
+            files = self.generateJsonData(collection, db)
+            db[collection].insert_many(files)
         cliente.close()
         print("Proceso Finalizado")

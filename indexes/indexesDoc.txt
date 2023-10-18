@@ -1,0 +1,1 @@
+personaje: nombre // para cuando consultamos para ver si el nombre de personaje ya esta en uso, igualmente no creo que tenga demasiada carga

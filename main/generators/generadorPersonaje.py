@@ -130,27 +130,22 @@ class GeneratorPersonaje(GeneratorABC):
             inventarioObjectsIDs.extend([(collection, doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
         misionesObjectsIDs = ([("Mision", doc['_id']) for doc in data_base[collection].find({}, projection=["_id"])])
         habilidadesObjectsIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
-        return (misionesObjectsIDs, inventarioObjectsIDs, habilidadesObjectsIDs)
+        habilidadesIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
+        return (misionesObjectsIDs, inventarioObjectsIDs, habilidadesObjectsIDs, habilidadesIDs)
 
-    def uploadPersonajeData(self, jsonObj, data_base, counterName):
-        with self.lock:
-            data_base.Personaje.insert_one(jsonObj)
-
-    def generateJsonObj(self, objectsIDs: list, counterName, db_host, db_name) -> dict[str, Any]:
+    def generateJsonObj(self, objectsIDs: list, counterName) -> dict[str, Any]:
         inicio = time.time()
-        cliente = MongoClient(db_host)
-        data_base = cliente[db_name]
         equipmentGenerator = EquipmentGenerator()
         inventario = []
-        inventario_unicas = random.sample(objectsIDs[1], 50)
-        for counter in range(0, random.randint(1, 50)):
+        inventario_unicas = random.sample(objectsIDs[1], min(50, len(objectsIDs[1])))
+        for counter in range(0, random.randint(1, len(inventario_unicas))):
             optionPick = random.randint(0, 2)
             if optionPick == 0:
                 inventario.append({"_id": inventario_unicas[counter][1], "collection": {"$ref": inventario_unicas[counter][0]}, "cantidad": random.randint(1, 30)})
             elif optionPick == 1:
-                inventario.append(equipmentGenerator.generateEquipmentJsonObj(data_base))
+                inventario.append(equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]))
             else:
-                inventario.append(equipmentGenerator.generateWeaponJsonObj(data_base))
+                inventario.append(equipmentGenerator.generateWeaponJsonObj(objectsIDs[3]))
         habilidades = [{"_id": objectsIDs[2][counter][1], "collection": {"$ref": objectsIDs[2][counter][0]}} for counter in range(0, random.randint(1, 20))]
         personajeObj = {
             "nombre": f'{random.choice(self.nombrePersonaje)}{counterName}',
@@ -191,23 +186,22 @@ class GeneratorPersonaje(GeneratorABC):
             },
             "habilidades": habilidades,
             "equipo": {
-                "armas": [equipmentGenerator.generateWeaponJsonObj(data_base) for counter in range(0, random.randint(1, 2))],
-                "equipamiento": [equipmentGenerator.generateEquipmentJsonObj(data_base) for counter in range(0, random.randint(1, 9))],
+                "armas": [equipmentGenerator.generateWeaponJsonObj(objectsIDs[3]) for counter in range(0, random.randint(1, 2))],
+                "equipamiento": [equipmentGenerator.generateEquipmentJsonObj(objectsIDs[3]) for counter in range(0, random.randint(1, 9))],
             },
             "inventario": inventario,
             "misiones": [{"_id": objectsIDs[0][counter][1], "collection": {"$ref": objectsIDs[0][counter][0]}} for counter in range(0, random.randint(1, 10))]
         }
         fin = time.time()
-        tiempo_transcurrido_generacion = fin - inicio
-        timeValues = list(self.queue.get())
-        timeValues[1] += 1
-        timeValues[0] += tiempo_transcurrido_generacion
-        print(f"Tiempo promedio generacion de Personaje: {round(timeValues[0]/timeValues[1], 2)} s")
-        print(f"Tiempo estimado restante: {datetime.timedelta(seconds=round(((timeValues[0]/timeValues[1])*(timeValues[2]-timeValues[1]))/(os.cpu_count() if os.cpu_count() else 4), 0))} s")
-        self.queue.put(tuple(timeValues))
-        self.uploadPersonajeData(personajeObj, data_base, counterName)
-        cliente.close()
-        return None
+        # tiempo_transcurrido_generacion = fin - inicio
+        # timeValues = list(self.queue.get())
+        # timeValues[1] += 1
+        # timeValues[0] += tiempo_transcurrido_generacion
+        # print(f"Tiempo promedio generacion de Personaje: {round(timeValues[0]/timeValues[1], 6)} s")
+        # print(f"Tiempo estimado restante: {datetime.timedelta(seconds=round(((timeValues[0]/timeValues[1])*(timeValues[2]-timeValues[1]))/(os.cpu_count() if os.cpu_count() else 4), 0))} s")
+        # self.queue.put(tuple(timeValues))
+        print(counterName)
+        return personajeObj
 
     def generateJsonFile(self, registros: dict[str, Any], name:str) -> None:
         def convertir_object_id(obj):
@@ -219,8 +213,7 @@ class GeneratorPersonaje(GeneratorABC):
         with open(f'data/{name.lower()}.json', 'w') as archivo_json:
             archivo_json.write(registros_json)
 
-    def generateData(self, name:str, data_base, db_host, db_name, cantObj: int=10) -> list[dict[str, Any]]:
-        inicioTime = time.time()
+    def generateData(self, name:str, data_base, cantObj: int=10) -> list[dict[str, Any]]:
         objectsIDs = self.getObjectsIds(data_base)
         #self.generateJsonFile(registros, name)
         pool = multiprocessing.Pool()
@@ -228,10 +221,8 @@ class GeneratorPersonaje(GeneratorABC):
         self.lock = manager.Lock()
         self.queue = manager.Queue()
         self.queue.put((0, 0, cantObj))
-        totalTimeList = pool.starmap(self.generateJsonObj, [(objectsIDs, counter, db_host, db_name) for counter in range(cantObj)])
+        personajesObjs = pool.starmap(self.generateJsonObj, [(objectsIDs, counter) for counter in range(cantObj)])
         pool.close()
         pool.join() 
-        finTime = time.time()
-        tiempo_transcurrido_total = finTime - inicioTime
-        return tiempo_transcurrido_total
+        return personajesObjs
         

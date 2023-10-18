@@ -209,8 +209,7 @@ class EquipmentGenerator():
             ("Collar de la Serpiente de Jade", "Collar", "El collar de la serpiente de jade otorga al portador la sabiduría de las serpientes y la capacidad de hablar con ellas."),
         ]
 
-    def generateWeaponJsonObj(self, data_base) -> dict[str, Any]:
-        habilidadesIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
+    def generateWeaponJsonObj(self, habilidadesIDs) -> dict[str, Any]:
         habilidades = [{"_id": habilidadesIDs[counter][1], "collection": {"$ref": habilidadesIDs[counter][0]}} for counter in range(0, random.randint(1, 3))]
         rarezas = ["Poco común", "Común", "Inusual", "Rara", "Épica", "Legendaria", "Mítica"]
         requerimientos = ["fuerza", "pericia", "inteligencia", "constitución", "memoria", "ingenio"]
@@ -239,8 +238,7 @@ class EquipmentGenerator():
         }
         return weaponObj
     
-    def generateEquipmentJsonObj(self, data_base) -> dict[str, Any]:
-        habilidadesIDs = [("Habilidad", doc['_id']) for doc in data_base.Habilidad.find({}, projection=["_id"])]
+    def generateEquipmentJsonObj(self, habilidadesIDs) -> dict[str, Any]:
         habilidades = [{"_id": habilidadesIDs[counter][1], "collection": {"$ref": habilidadesIDs[counter][0]}} for counter in range(0, random.randint(1, 3))]
         rarezas = ["Poco común", "Común", "Inusual", "Rara", "Épica", "Legendaria", "Mítica"]
         requerimientos = ["fuerza", "pericia", "inteligencia", "constitución", "memoria", "ingenio"]
