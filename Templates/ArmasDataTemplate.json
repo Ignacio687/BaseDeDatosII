@@ -1,30 +1,70 @@
 {
-    "nombre": "Martillo de Guerra",
-    "arma": "Maza a dos manos",
-    "tipo": "Arma cuerpo a cuerpo",
-    "dano-min": 25,
-    "dano-max": 27,
-    "critico": 165,
-    "puntos_de_accion": 2,
-    "nivel": 8,
-    "peso": 6,
-    "valor": 170,
-    "rareza": "Poco comun",
-    "alcance": 1.5,
-    "efectos": [
-        {
-            "pg": 34
-        }
-    ],
-    "requerimiento": [
-        {
-            "fuerza": 12
-        }
-    ],
-    "habilidad": [
-        {
-            "_id": ObjectId("4_p0r-T0d45")
-        }
-    ],
-    "descripcion": "A juzgar por la cantidad de sangre reseca que subre la empunadura, parece que esta arma ha visto mas de un combate en un pasado no muy lejano."
+  "_id": null,
+  "misiones": [
+    [
+      {
+        "_id": {
+          "$oid": "6530028148b48ffdd9e8f1e5"
+        },
+        "nombre": "La venganza del caballero renegado",
+        "recompensa_xp": 2850,
+        "recompensa_oro": 390,
+        "recompensa_obj": [
+          {
+            "nombre": "Anillo del Sabio",
+            "tipo": "Anillo",
+            "nivel": 34,
+            "peso": 10.89,
+            "valor": 22121,
+            "rareza": "Inusual",
+            "armadura fisica": 45,
+            "armadura_magica": 64,
+            "descripcion": "Este anillo otorga conocimiento y sabiduría a quien lo lleva. Sus decisiones serán siempre las más acertadas.",
+            "efectos": [
+              {
+                "fuerza": 1
+              },
+              {
+                "pericia": 2
+              },
+              {
+                "inteligencia": 3
+              },
+              {
+                "constitución": 3
+              },
+              {
+                "memoria": 2
+              },
+              {
+                "ingenio": 2
+              }
+            ],
+            "requerimiento": [
+              {
+                "pericia": 9
+              }
+            ],
+            "habilidad": [
+              {
+                "_id": {
+                  "$oid": "6530027d48b48ffdd9e8f074"
+                },
+                "collection": {
+                  "$ref": "Habilidad"
+                }
+              },
+              {
+                "_id": {
+                  "$oid": "6530027d48b48ffdd9e8f062"
+                },
+                "collection": {
+                  "$ref": "Habilidad"
+                }
+              }
+            ]
+          }
+      }
+    ]
+  ]
 }
