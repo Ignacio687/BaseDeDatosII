@@ -4,9 +4,9 @@ db.Consumible.updateOne(
     $set: {
       "tipo": "pocion",
       "nombre": "poderoso pocion",
-      "peso": 10.57,
-      "valor": 166,
-      "descripcion": "Este/a pocion fue conseguido tras derramar mucha sangre y es misterioso.",
+      "peso": 0.57,
+      "valor": 66,
+      "descripcion": "Esta pocion fue conseguido tras derramar mucha sangre y es misterioso.",
       "efectos.0.Percepcion": 9,
       "efectos.1.Voluntad": 10,
       "efectos.2.Agilidad": 7,
