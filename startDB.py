@@ -1,7 +1,7 @@
 from main.generateDataBase import DataBaseGenerator
 
 if __name__ == "__main__":
-    app = DataBaseGenerator("mongodb://127.0.0.1:27017/")#('mongodb://localhost:27017')
+    app = DataBaseGenerator("mongodb://127.0.0.1:27017/")#('mongodb+srv://Cluster18604:mati2002@cluster0.zale6eu.mongodb.net/')
     colecciones = ['Habilidad', 'Consumible', 'Objeto_Clave', 'Mision', 'Personaje']
     lista_numerada = [f'{index + 1} - {elemento}' for index, elemento in enumerate(colecciones)]
     userInput = input('Desea eliminar la base de datos existente?(y/n)')
