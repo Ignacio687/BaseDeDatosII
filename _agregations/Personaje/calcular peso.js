@@ -1,4 +1,4 @@
-[
+db.Personaje.aggregate([
     {
       $match:
         /**
@@ -88,4 +88,4 @@
         },
       },
     },
-  ]
+  ]);
