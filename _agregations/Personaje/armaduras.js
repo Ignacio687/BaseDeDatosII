@@ -24,4 +24,4 @@ db.Personaje.aggregate([
           "$equipo.equipamiento.habilidad.nombre",
       },
     },
-  ])
+  ])  

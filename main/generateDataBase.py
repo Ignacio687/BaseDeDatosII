@@ -4,7 +4,7 @@ import datetime
 
 class DataBaseGenerator():
     def __init__(self,
-                 db_host = str,
+                 db_host: str,
                  db_name: str = 'exampleDB', 
                  db_collections: list[str] = ['exampleCollection'],
                  cantPersonajes: int = 0,

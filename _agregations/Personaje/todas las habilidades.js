@@ -1,55 +1,79 @@
 db.Personaje.aggregate([
-    {
-      $match: {
-        _id: ObjectId("6530028a48b48ffdd9e8f1f1"),
+  {
+    $match: {
+      _id: ObjectId("6530028a48b48ffdd9e8f1f1"),
+    },
+  },
+  {
+    $project: {
+      habilidades: 1,
+      "equipo.armas.habilidad": 1,
+      "equipo.equipamiento.habilidad": 1,
+    },
+  },
+  {
+    $unwind: {
+      path: "$habilidades",
+      preserveNullAndEmptyArrays: true,
+    },
+  },
+  {
+    $unwind: {
+      path: "$equipo.armas",
+      preserveNullAndEmptyArrays: true,
+    },
+  },
+  {
+    $unwind: {
+      path: "$equipo.armas.habilidad",
+      preserveNullAndEmptyArrays: true,
+    },
+  },
+  {
+    $unwind: {
+      path: "$equipo.equipamiento",
+      preserveNullAndEmptyArrays: true,
+    },
+  },
+  {
+    $unwind: {
+      path: "$equipo.equipamiento.habilidad",
+      preserveNullAndEmptyArrays: true,
+    },
+  },
+  {
+    $group: {
+      _id: null,
+      habilidades_totales: {
+        $addToSet: "$habilidades",
+      },
+      habilidades_armas: {
+        $addToSet: "$equipo.armas.habilidad",
+      },
+      habilidad_equipo: {
+        $addToSet:
+          "$equipo.equipamiento.habilidad",
       },
     },
-    {
-      $unwind: "$habilidades",
-    },
-    {
-      $lookup: {
-        from: "Habilidad",
-        localField: "habilidades._id",
-        foreignField: "_id",
-        as: "habilidades_info",
+  },
+  {
+    $project: {
+      _id: 0,
+      habilidades_totales: {
+        $concatArrays: [
+          "$habilidades_totales",
+          "$habilidades_armas",
+          "$habilidad_equipo",
+        ],
       },
     },
-    {
-      $project: {
-        _id: 0,
-        nombre_habilidad: {
-          $arrayElemAt: [
-            "$habilidades_info.nombre_habilidad",
-            0,
-          ],
-        },
-        detalle: {
-          $arrayElemAt: [
-            "$habilidades_info.detalle",
-            0,
-          ],
-        },
-        efecto: {
-          $arrayElemAt: [
-            "$habilidades_info.efecto",
-            0,
-          ],
-        },
-        requerimientos: {
-          $arrayElemAt: [
-            "$habilidades_info.requerimiento",
-            0,
-          ],
-        },
-      },
+  },
+  {
+    $lookup: {
+      from: "Habilidad",
+      localField: "habilidades_totales._id",
+      foreignField: "_id",
+      as: "habilidades_totales",
     },
-    // {
-    //   $group: {
-    //     _id: null,
-    //     habilidades: {
-    //       $push: "$habilidades",
-    //     },
-    //   },
-    // }
-  ]);
+  },
+]);
